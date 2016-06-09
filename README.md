@@ -18,7 +18,7 @@
 
 <p>Statement of Purpose for this OASIS Open Repository (legaldocml-akomantoso) as <a href="https://lists.oasis-open.org/archives/legaldocml/201605/msg00014.html">proposed</a> and <a href="https://www.oasis-open.org/committees/download.php/58161/LegalDocML-TC-2016-05-12v1.odt">approved</a> by the TC:</p>
 
-<p>The LegalDocML AKN OASIS Open repository will contain schema files, examples, exemplificative implementations and libraries, and documents related to developing a specification for Akoma Ntoso.</p>
+<p>The LegalDocML AKN OASIS Open Repository will contain schema files, examples, exemplificative implementations and libraries, and documents related to developing a specification for Akoma Ntoso.</p>
 
 <p>These files will be set up to be as useful as possible for people who want to use them (<i>e.g.</i>, developers) and contribute to improve them (<i>e.g.</i>, comment, customization, restriction, extension).</p>
 

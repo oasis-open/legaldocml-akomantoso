@@ -14,6 +14,11 @@
 </div>
 
 <div>
+<h2><a id="distinctLicenses">Licensing Distinct from OASIS IPR Policy</a></h2>
+<p>Because different licenses apply to the OASIS TC's specification work, and this Open Repository, there is no guarantee that the licensure of specific repository material will be compatible with licensing requirements of an implementation of a TC's specification.  Please refer to the <a href="https://github.com/oasis-open/legaldocml-akomantoso/blob/master/LICENSE">LICENSE file</a> for the terms of this material, and to the OASIS IPR Policy for <a href="https://www.oasis-open.org/policies-guidelines/ipr#RF-on-Limited-Mode">the terms applicable to the TC's specifications</a>, including any applicable <a href="https://www.oasis-open.org/committees/legaldocml/ipr.php">declarations</a>.</p>
+</div>
+
+<div>
 <h2><a id="contributionDefined">Contributions Subject to Individual CLA</a></h2>
 
 <p>Formally, <a id="openRepoContribution">"contribution"</a> to this Open Repository refers to content merged into the "Code" repository (repository changes represented by code commits), following the GitHub definition of <i><a href="https://help.github.com/articles/github-glossary/#contributor">contributor</a></i>: "someone who has contributed to a project by having a pull request merged but does not have collaborator [<i>i.e.</i>, direct write] access."  Anyone who signs the Open Repository <a href="https://www.oasis-open.org/resources/open-repositories/cla/individual-cla">Individual Contributor License Agreement (CLA)</a>, signifying agreement with the licensing requirement, may contribute substantive content &mdash; subject to evaluation of a GitHub pull request.  The main web page for this repository, as with any GitHub public repository, displays a link to a document listing contributions to the repository's default branch (filtered by Commits, Additions, and Deletions).</p>

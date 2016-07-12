@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--Akoma_Ntoso document-->
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:mods="http://www.loc.gov/standards/mods/v3/mods-3-6.xsd">
+	<!-- Level 5 of compliance -->
+	<act contains="originalVersion" name="publicLaw">
+		<meta>
+			<identification source="#palmirani">
+<FRBRWork>
+					<FRBRthis value="/akn/us/act/2011-11-29/112-61/!main"/>
+					<FRBRuri value="/akn/us/act/2011-11-29/112-61"/>
+					<FRBRalias value="/eli/us/xxx" name=""/>
+					<FRBRdate date="2011-11-29" name="Generation"/>
+					<FRBRauthor href="#congress" as="#author"/>
+					<FRBRcountry value="us"/>
+					<FRBRnumber value="112-61"/>
+					<FRBRname value="publicLaw"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="true"/>
+					</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/us/act/2011-11-29/112-61/eng@/!main"/>
+					<FRBRuri value="/akn/us/act/2011-11-29/112-61/eng@"/>
+					<FRBRdate date="2012-05-09" name="Generation"/>
+					<FRBRauthor href="#palmirani" as="#editor"/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/us/act/2011-11-29/112-61/eng@/!main.xml"/>
+					<FRBRuri value="/akn/us/act/2011-11-29/112-61/eng@.akn"/>
+					<FRBRdate date="2012-05-09" name="Generation"/>
+					<FRBRauthor href="#palmirani" as="#editor"/><preservation>
+						<mods:physicalDescription xmlns:exslt="http://exslt.org/common">
+							<mods:note type="source content type">deposited</mods:note>
+							<mods:digitalOrigin>born digital</mods:digitalOrigin>
+							<mods:extent>3 p.</mods:extent>
+						</mods:physicalDescription>
+					</preservation>
+					<FRBRformat value="xml"/>
+				</FRBRManifestation>
+			</identification>
+			<publication name="gpo" date="2011-11-29" showAs="GPO" number="125 STAT."/>
+			<classification source="#palmirani">
+				<keyword value="maritimeLaw" showAs="Maritime Law" dictionary="US"/>
+			</classification>
+			<lifecycle source="#palmirani">
+				<eventRef eId="eref_1" date="2011-11-29" source="#ro1" type="generation" refersTo="#enterInForce"/>
+			</lifecycle>
+			<references source="#palmirani">
+				<original eId="ro1" href="/akn/us/act/2003-12-10/8/eng@/!main" showAs="Original"/>
+				<activeRef eId="ra1" href="/akn/us/act/1997-08-22/3/!main" showAs="Act on ALFA"/>
+				<activeRef eId="ra2" href="/akn/us/act/2002-12-12/5/!main" showAs="Act on BETA"/>
+				<TLCPerson eId="palmirani" href="/ontology/person/akn/palmirani" showAs="Palmirani"/>
+				<TLCOrganization eId="congress" href="/ontology/organization/akn/usa.parliament" showAs="Congress of USA"/>
+				<TLCRole eId="editor" href="/ontology/role/editor" showAs="Editor"/>
+				<TLCRole eId="author" href="/ontology/role/author" showAs="Author"/>
+				<TLCConcept eId="commencement" href="/ontology/concept/commencement" showAs="Date of Commencement"/>
+				<TLCConcept eId="enactingFormula" href="/ontology/concept/enactingFormula" showAs="Enacting Formula"/>
+				<TLCConcept eId="americanCup" href="/ontology/concept/americanCup" showAs="34 American'sCup"/>
+				<TLCConcept eId="americanCupRaceManagement" href="/ontology/concept/americanCupRaceManagement" showAs="American Cup Race Management"/>
+				<TLCConcept eId="eligibilityCertification" href="/ontology/concept/eligibilityCertification" showAs="Eligibility Certification"/>
+				<TLCConcept eId="eligibleVessel" href="/ontology/concept/eligibleVessel" showAs="Eligible Vessel"/>
+				<TLCConcept eId="statutePublicationRef" href="/ontology/concept/statutePublicationRef" showAs="United States Statutes at Large"/>
+
+			</references>
+		</meta>
+		<preface>
+			<p>
+				<legislature>112th Congress</legislature>
+				<docType>Public Law</docType> 61</p>
+			<p>
+				<docDate date="2011-11-29">NOV. 29, 2011</docDate>
+			</p>
+			<p class="page"><docketNumber refersTo="#statutePublicationRef">125 STAT. 753</docketNumber>
+Public Law <docNumber>112-61</docNumber>
+			</p>
+			<p>
+				<legislature>112th Congress</legislature>
+			</p>
+			<p> An <docType>Act</docType>
+				<docTitle>To facilitate the hosting in the United States of the 34th America's Cup 
+  by authorizing certain eligible vessels to participate in activities 
+  related to the competition, and for other purposes.</docTitle>
+				<authorialNote eId="authorialNote_1" placement="side">
+					<p>NOTE: Nov. 29, 2011 -  [H.R. 3321] 
+</p>
+				</authorialNote>
+			</p>
+		</preface>
+		<preamble>
+			<formula eId="formula" name="enactingFormula">
+				<p>Be it enacted by the Senate and House of Representatives of the 
+United States of America in Congress assembled, </p>
+			</formula>
+		</preamble>
+		<body>
+			<section eId="sec_1">
+				<num>SECTION 1. </num>
+				<heading eId="sec_1__heading">SHORT TITLE.<authorialNote eId="authorialNote_2" placement="side">
+						<p> America's Cup Act of 2011.</p>
+					</authorialNote>
+				</heading>
+				<content eId="sec_1_content">
+					<p>This Act may be cited as the ``<shortTitle>America's Cup Act of 2011</shortTitle> ''.</p>
+				</content>
+			</section>
+			<section eId="sec_2">
+				<num> SEC. 2. </num>
+				<heading eId="sec_2__heading">DEFINITIONS.	</heading>
+				<list eId="sec_2__list_1">
+					<intro eId="sec_2__intro">
+						<p> In this Act:</p>
+					</intro>
+					<point eId="sec_2__list_1__point_1">
+						<num>(1) </num>
+						<intro eId="sec_2__list_1__point_1__intro">
+							<p>
+								<def refersTo="#americaCup" class="definition">34th america's cup.</def>--The term ``34th America's Cup''--</p>
+						</intro>
+						<list eId="sec_2__list_1__point_1__list_1">
+							<point eId="sec_2__list_1__point_1_list_1__point_a">
+								<num>(A) </num>
+								<content eId="sec_2__list_1__point_1_list_1__point_a__content">
+									<p>means the sailing competitions, commencing in 
+                2011, to be held in the United States in response to the 
+                challenge to the defending team from the United States, 
+                in accordance with the terms of the America's Cup 
+                governing Deed of Gift, dated October 24, 1887; and
+</p>
+								</content>
+							</point>
+							<point eId="sec_2__list_1__point_1_list_1__point_b">
+								<num>(B)</num>
+								<content eId="sec_2__list_1__point_1_list_1__point_b__content">
+									<p> if a United States yacht club successfully 
+                defends the America's Cup, includes additional sailing 
+                competitions conducted by America's Cup Race Management 
+                during the 1-year period beginning on the last date of 
+                such defense.
+
+</p>
+								</content>
+							</point>
+						</list>
+					</point>
+					<point eId="sec_2__list_1__point_2">
+						<num>(2) </num>
+						<content eId="sec_2__list_1__point_2__content">
+							<p>
+								<def refersTo="americaCupRaceManagement" class="definition">America's cup race management.</def>--The term ``America's Cup 
+        Race Management'' means the entity established to provide for 
+        independent, professional, and neutral race management of the 
+        America's Cup sailing competitions.
+</p>
+						</content>
+					</point>
+					<point eId="sec_2__list_1__point_3">
+						<num>(3) </num>
+						<content eId="sec_2__list_1__point_3__content">
+							<p>
+								<def refersTo="eligibilityCertification" class="definition">Eligibility certification.</def>--The term ``Eligibility 
+        Certification'' means a certification issued under section 4.</p>
+						</content>
+					</point>
+					<point eId="sec_2__list_1__point_4">
+						<num>(4) </num>
+						<list eId="sec_2__list_1__point_4__list_1">
+							<intro eId="sec_2__list_1__point_4__list_1__intro">
+								<p>
+									<def refersTo="eligibleVessel" class="definition">Eligible vessel.</def>--The term ``eligible vessel'' means a 
+        competing vessel or supporting vessel of any registry that--
+        </p>
+							</intro>
+							<point eId="sec_2__list_1__point_4__list_1__point_a">
+								<num>(A) </num>
+								<content eId="sec_2__list_1__point_4__list_1__point_a__content">
+									<p>is recognized by America's Cup Race Management 
+                as an official competing vessel, or supporting vessel 
+                of, the 34th America's Cup, as evidenced in writing to 
+                the Administrator of the Maritime Administration of the 
+                Department of Transportation;	</p>
+								</content>
+							</point>
+							<point eId="sec_2__list_1__point_4__list_1__point_b">
+								<num>(B) </num>
+								<content eId="sec_2__list_1__point_4__list_1__point_b__content">
+									<p>transports not more than 25 individuals, in 
+                addition to the crew;</p>
+								</content>
+							</point>
+							<point eId="sec_2__list_1__point_4__list_1__point_c">
+								<num>(C) </num>
+								<content eId="sec_2__list_1__point_4__list_1__point_c__content">
+									<p>is not a ferry (as defined under section 
+                2101(10b) of title 46, United States Code);</p>
+								</content>
+							</point>
+							<point eId="sec_2__list_1__point_4__list_1__point_d">
+								<num>(D) </num>
+								<content eId="sec_2__list_1__point_4__list_1__point_d__content">
+									<p>does not transport individuals in point-to-point 
+                service for hire; and</p>
+								</content>
+							</point>
+							<point eId="sec_2__list_1__point_4__list_1__point_e">
+								<num>(E) </num>
+								<content eId="sec_2__list_1__point_4__list_1__point_e__content">
+									<p>does not transport merchandise between ports in 
+                the United States.</p>
+								</content>
+							</point>
+						</list>
+					</point>
+				</list>
+			</section>
+			<section eId="page" status="editorial">
+				<content eId="page_content">
+					<p>Page 125 STAT. 754<omissis/>
+					</p>
+				</content>
+			</section>
+			<section eId="sec_3">
+				<num> SEC. 3 .</num>
+				<heading eId="sec_3__heading">AUTHORIZATION OF ELIGIBLE VESSELS.</heading>
+				<content eId="sec_3__content">
+					<p>Notwithstanding <mref eId="mref_1">
+							<ref eId="mref_1__ref_1" href="/akn/us/usc/eng/main#title46-55102">sections 55102</ref>, <ref eId="mref_1__ref_2" href="/akn/us/usc/eng/main#title46-55103">55103</ref>, and <ref eId="mref1-ref3" href="/akn/us/usc/eng/main#title46-55111">55111</ref> of title 46, United States Code</mref>, an eligible vessel, operating only in preparation for, or  in connection with, the 34th America's Cup competition, may position  competing vessels and may transport individuals and equipment and supplies utilized for the staging, operations, or broadcast of the competition from and around the ports in the United States.</p>
+				</content>
+			</section>
+			<section eId="sec_4">
+				<num> SEC. 4 .</num>
+				<heading eId="sec_4__heading">CERTIFICATION.</heading>
+				<list eId="sec_4__list_1">
+					<point eId="sec_4__point_a">
+						<num>(a) </num>
+						<content eId="sec_4__point_a__content">
+							<p>Requirement.--A vessel may not operate under section 3 unless 
+the vessel has received an Eligibility Certification.
+</p>
+						</content>
+					</point>
+					<point eId="sec_4__point_b">
+						<num> (b) </num>
+						<content eId="sec_4__point_b__content">
+							<p>  Issuance.--The Administrator of the Maritime Administration of 
+the Department of Transportation is authorized to issue an Eligibility 
+Certification with respect to any vessel that the Administrator 
+determines, in his or her sole discretion, meets the requirements set 
+forth in section 2(4).</p>
+						</content>
+					</point>
+				</list>
+			</section>
+			<section eId="sec_5">
+				<num> SEC. 5 .</num>
+				<heading eId="sec_5__heading">ENFORCEMENT.</heading>
+				<content eId="sec_5__content">
+					<p>Notwithstanding <mref eId="mref_2">
+							<ref eId="mref_2__ref_1" href="/akn/us/usc/eng/main#title46-55102">sections 55102</ref>, <ref eId="mref_2__ref_2" href="/akn/us/usc/eng/main#title46-55103">55103</ref>, and <ref eId="mref2-ref3" href="/akn/us/usc/eng/main#title46-55111">55111</ref> of title 46, United States Code</mref>, an Eligibility Certification shall be conclusive evidence 
+to the Secretary of the Department of Homeland Security of the 
+qualification of the vessel for which it has been issued to participate 
+in the 34th America's Cup as a competing vessel or a supporting vessel.</p>
+				</content>
+			</section>
+			<section eId="sec_6">
+				<num> SEC. 6 .</num>
+				<heading eId="sec_6__heading">PENALTY.</heading>
+				<content eId="sec_6__content">
+					<p>Any vessel participating in the 34th America's Cup as a competing 
+vessel or supporting vessel that has not received an Eligibility 
+Certification or is not in compliance with section 12112 of title 46, 
+United States Code, shall be subject to the applicable penalties 
+provided in chapters 121 and 551 of title 46, United States Code.</p>
+				</content>
+			</section>
+			<!-- omissis -->
+		</body>
+		<conclusions>
+			<formula eId="formula_2" class="finalFormula" name="closingFormula">
+				<p>Approved <date date="2011-11-29">November 29, 2011</date>.</p>
+			</formula>
+			<p>
+				<authorialNote eId="authorialNote_3">
+					<p>
+LEGISLATIVE HISTORY--H.R. 3321 (S. 1759):</p>
+					<p>---------------------------------------------------------------------------</p>
+					<p>CONGRESSIONAL RECORD, Vol. 157 (2011):</p>
+					<p>   Nov. 4, considered and passed House.</p>
+					<p>   Nov. 17, considered and passed Senate, amended.</p>
+					<p>   Nov. 18, House concurred in Senate amendment.</p>
+				</authorialNote>
+			</p>
+		</conclusions>
+	</act>
+</akomaNtoso>

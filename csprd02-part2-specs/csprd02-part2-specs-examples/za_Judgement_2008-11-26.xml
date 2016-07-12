@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" >
+	<!-- Task funded by UN/DESA. Analysis and markup performed by Monica Palmirani, CIRSFID, University of Bologna -->
+		<!-- Level 5 of compliance -->
+
+	<judgment name="decision">
+		<meta>
+			<identification source="#somebody">
+				<FRBRWork>
+					<FRBRthis value="/akn/za/judgement/2008-11-26/653-07/!main"/>
+					<FRBRuri value="/akn/za/judgement/2008-11-26/653-07"/>
+					<FRBRdate date="2008-11-05" name="Hearing"/>
+					<FRBRauthor href="#Scoa" as="#Author"/>
+					<FRBRcountry value="za"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/za/judgement/2008-11-26/653-07/eng@/!main"/>
+					<FRBRuri value="/akn/za/judgement/2008-11-26/653-07/eng@"/>
+					<FRBRdate date="2008-11-26" name="Delivery"/>
+					<FRBRauthor href="#somebody" as="#Editor"/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/za/judgement/2008-11-26/653-07/eng@/!main.xml"/>
+					<FRBRuri value="/akn/za/judgement/2008-11-26/653-07/eng@.akn"/>
+					<FRBRdate date="2012-10-09" name="XMLConversion"/>
+					<FRBRauthor href="#somebody" as="#Editor"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2008-11-30" name="Law Report" showAs="Law Report Office Journal" number="555"/>
+			<classification source="#somebody">
+				<keyword eId="delict" value="Delict" showAs="Delict" dictionary="Africa"/>
+				<keyword eId="pel" value="pure economic loss" showAs="pure economic loss" dictionary="Africa"/>
+				<keyword eId="mo" value="meaning of" showAs="meaning of" dictionary="Africa"/>
+				<keyword eId="pcrdw" value="policy considerations relevant in determining wrongfulness" showAs="policy considerations relevant in determining wrongfulness" dictionary="Africa"/>
+				<keyword eId="rd" value="remoteness of damage" showAs="remoteness of damage" dictionary="Africa"/>
+				<keyword eId="aft" value="application of flexible test" showAs="application of flexible test" dictionary="Africa"/>
+			</classification>
+			<lifecycle source="#somebody">
+				<eventRef date="2008-11-26" eId="eventRef_1" source="ro1" type="generation"/>
+			</lifecycle>
+			<workflow source="#somebody">
+				<step date="2007-08-23" eId="step_1" outcome="#prc1" by="#somebody"/>
+				<step date="2008-11-05" eId="step_2" outcome="#prc2" by="#somebody"/>
+			</workflow>
+			<analysis source="#somebody">
+				<judicial>
+					<result type="deny"/>
+					<applies eId="applies_1">
+						<source href="#ref_11"/>
+						<destination href="/akn/za/judgment/SA491/eng@/!main.xml"/>
+					</applies>
+					<supports eId="supports_1">
+						<source href="#ref_12"/>
+						<destination href="/akn/za/judgment/SA490/eng@/!main.xml#par12"/>
+					</supports>
+				</judicial>
+			</analysis>
+			<references source="#somebody">
+				<original eId="ro1" href="/akn/za/judgement/2008-11-26/653-07/eng@" showAs="Original"/>
+				<TLCOrganization eId="Scoa" href="/ontology/organization/za.SoupremeCourt" showAs="THE SUPREME COURT OF APPEAL REPUBLIC OF SOUTH AFRICA"/>
+				<TLCOrganization eId="Hcp" href="/ontology/organization/za.HighCourtPretoria" showAs="High Court, Pretoria"/>
+				<TLCOrganization eId="fhs" href="/ontology/organization/za.FourwayHaulage" showAs="FOURWAY HAULAGE SA (PTY) LTD"/>
+				<TLCOrganization eId="snra" href="/ontology/organization/za.NationalRoadAgency" showAs="SA NATIONAL ROADS AGENCY LTD"/>
+				<TLCPerson eId="Scott" href="/ontology/person/judges/za.scott" showAs="SCOTT"/>
+				<TLCPerson eId="Farlam" href="/ontology/person/judges/za.farlam" showAs="FARLAM"/>
+				<TLCPerson eId="Brand" href="/ontology/person/judges/za.brand" showAs="BRAND"/>
+				<TLCPerson eId="Lewis" href="/ontology/person/judges/za.lewis" showAs="LEWIS"/>
+				<TLCPerson eId="Jafta" href="/ontology/person/judges/za.jafta" showAs="JAFTA"/>
+				<TLCPerson eId="Rabie" href="/ontology/person/judges/za.rabie" showAs="Rabie J"/>
+				<TLCPerson eId="Dreyer" href="/ontology/person/lawyer/za.dreyer" showAs="DREYER"/>
+				<TLCPerson eId="Plessis" href="/ontology/person/lawyer/za.plessis" showAs="PLESISS"/>
+				<TLCPerson eId="Kruger" href="/ontology/person/lawyer/za.kruger" showAs="KRUGER"/>
+				<TLCPerson eId="somebody" href="/ontology/person/editor/za.somebody" showAs="somebody"/>
+				<TLCRole eId="Author" href="/ontology/role/author" showAs="Author of Document"/>
+				<TLCRole eId="Editor" href="/ontology/role/editor" showAs="Editor of Document"/>
+				<TLCRole eId="Co-Editor" href="/ontology/role/coEditor" showAs="Co-Editor of Document"/>
+				<TLCRole eId="Appellant" href="/ontology/role/appellant" showAs="Appellant"/>
+				<TLCRole eId="Respondent" href="/ontology/role/respondent" showAs="Respondent"/>
+				<TLCRole eId="Prosecutor" href="/ontology/role/prosecutor" showAs="Prosecutor"/>
+				<TLCRole eId="jja" href="/ontology/role/judgeofappeal" showAs="jja"/>
+				<TLCProcess eId="prc1" href="/ontology/process/firstHearing" showAs="First Hearing"/>
+				<TLCProcess eId="prc2" href="/ontology/process/secondHeariring" showAs="Second Hearing"/>
+			</references>
+			<notes source="#somebody">
+				<note eId="not1">
+					<p>
+                        Sections starting at [16] and ending at [35] were deleted in order to simplify 
+                        the example. 
+                    </p>
+				</note>
+			</notes>
+		</meta>
+		<header>
+			<p>
+				<b>
+					<docProponent refersTo="#Scoa"> SUPREME COURT OF APPEAL REPUBLIC OF SOUTH AFRICA</docProponent>
+				</b>
+			</p>
+			<p class="judgementNumber">Case number: <docNumber eId="judgmentNumber">653/07</docNumber>
+			</p>
+			<p>In the matter between</p>
+			<p class="parties">
+				<party eId="party_1" refersTo="#fhs" as="#Appellant">FOURWAY HAULAGE SA (PTY) LTD</party>
+				<b>APPELLANT</b>
+				<eol/>
+				<b>and</b>
+				<party eId="party_2" refersTo="#snra" as="#Respondent">SA NATIONAL ROADS AGENCY LTD</party>
+				<b>RESPONDENT</b>
+			</p>
+			<p class="judgementNeutralCitation"> Neutral citation: <docTitle eId="docTitle">Fourway Haulage v SA
+                    National Roads Agency (653/07)</docTitle>
+				<neutralCitation> [2008] ZASCA 134</neutralCitation>
+				<docDate date="2008-11-26">(26 November 2008)</docDate>
+			</p>
+			<p class="judges">
+				<b>CORAM:</b>
+				<judge eId="judge_1" refersTo="#Scott">SCOTT</judge>, <judge eId="judge_2" refersTo="#Farlam">FARLAM</judge>,
+                <judge eId="judge_3" refersTo="#Brand">BRAND</judge>, <judge eId="judge_4" refersTo="#Lewis">LEWIS</judge> ET
+                    <judge eId="judge_5" refersTo="#Jafta" as="#jja">JAFTA</judge> JJA </p>
+			<p class="hearingDate" refersTo="#step_2">
+				<b>HEARD: 5 November 2008</b>
+			</p>
+			<p class="judgementDate">
+				<b>DELIVERED:</b>
+				<docDate eId="docDate" date="2008-11-26">26 November 2008</docDate>
+			</p>
+			<p>
+				<b>CORRECTED:</b>
+			</p>
+			<p class="summary">
+				<b>SUMMARY:</b>
+				<span refersTo="#delict">Delict</span> – <span refersTo="#pel">pure economic
+                    loss</span> – <span refersTo="#mo">meaning of</span> – <span refersTo="#pcrdw">policy considerations relevant in determining wrongfulness</span> – <span refersTo="#rd">remoteness of damage</span> – <span refersTo="#aft">application of
+                    flexible test</span>
+			</p>
+			<p class="order" refersTo="#step_1"> ORDER
+                <b>On appeal from</b>: <organization refersTo="#Hcp" eId="org1">High Court, Pretoria  </organization>(Rabie J sitting as court of first
+                instance)  The appeal is dismissed with costs </p>
+			<p class="judgment"> JUDGMENT
+       <judge eId="jud06" refersTo="#Brand" as="#Editor">BRAND JA</judge> (<judge eId="jud07" refersTo="#Scott" as="#Co-Editor">Scott</judge>, <judge eId="jud09" refersTo="#Farlam" as="#Co-Editor">Farlam</judge>,
+           <judge eId="jud08" refersTo="#Lewis" as="#Co-Editor">Lewis </judge>et <judge eId="jud10" refersTo="#Jafta" as="#Co-Editor">Jafta JJA</judge>
+				<opinion type="agreeing">concurring</opinion>)
+       </p>
+		</header>
+		<judgmentBody>
+			<background>
+				<blockList eId="background__list_1">
+					<item eId="background__list_1__item_1">
+						<num>[1]</num>
+						<p> The appellant ('Fourway') is a long distance haulier. The respondent
+                            ('the Agency') owes its existence to the <ref eId="ref_01" href="/akn/za/act/1998-03-31/7">South African National Roads Agency
+                                Limited and National Roads Act 7 of 1998</ref> ('the Act'). The
+                            dispute between them originates from an accident which occurred in the
+                            early evening of 26 September 2003 on the N1 national road between
+                            Polokwane and Mokopane in the Limpopo province. The two vehicles
+                            involved were an articulated truck and a light delivery van. The
+                            articulated truck was driven at the time by an employee of Fourway who
+                            was acting in the course and scope of his employment. </p>
+					</item>
+					<item eId="background__list_1__item_2">
+						<num>[2]</num>
+						<p> The articulated truck was on its way from an asbestos mine in Zimbabwe
+                            to Durban harbour carrying about 34 tonnes of chrysolite asbestos,
+                            destined for export. As a result of the collision, the truck overturned
+                            and spilled its cargo onto practically the entire surface of a portion
+                            of the national road and its surroundings. Because of the hazardous
+                            nature of asbestos powder, the spillage required an extensive
+                            cleaning-up and decontamination operation. </p>
+					</item>
+					<item eId="background__list_1__item_3">
+						<num>[3]</num>
+						<p> To facilitate the cleaning-up and decontamination process, the traffic
+                            authorities closed the section of the national road involved and
+                            diverted the traffic in both directions onto an alternative road. This
+                            lasted for about 24 hours. The section of the national road which was
+                            closed forms part of a toll road. The alternative route was not subject
+                            to toll. As a result of the closure, two toll plazas – as defined in the
+                            Act – could not collect toll fees. Based on these facts, the agency as
+                            the entity authorised by <ref eId="ref_03" href="/akn/za/act/1998-03-31/7/eng@/!main.xml#sec27">s 27</ref> of the
+                            Act to levy and collect toll fees on toll roads, instituted an action in
+                            delict against Fourway for the damages it allegedly suffered in the form
+                            of loss of toll revenue in an amount of <span class="damageAmount">R105 996.67. </span>
+						</p>
+					</item>
+				</blockList>
+			</background>
+			<introduction>
+				<blockList eId="introduction__list_1">
+					<item eId="introduction__list_1__item_4">
+						<num>[4]</num>
+						<p> At the commencement of the trial, the parties asked the court a quo
+                                (<span refersTo="#Rabie">Rabie J</span>) to order a separation of
+                            issues. In terms of the separation order, the issues relating to the
+                            liability of Fourway were to be decided first, while the quantum of the
+                            Agency's alleged damages stood over for later determination. The
+                            preliminary issues were decided in favour of the agency. Hence the court
+                            declared Fourway liable for such damages as the Agency may prove in
+                            respect of the lost revenue it would have collected at the two toll
+                            plazas involved, but for the closure of the road. It also ordered
+                            Fourway to pay the costs of the preliminary proceedings. Fourway's
+                            appeal against that judgment is with the leave of the court a quo. </p>
+					</item>
+					<item eId="introduction__list_1__item_5">
+						<num>[5]</num>
+						<p> Part of the controversy on appeal was brought about by a shift in the
+                            focus of the defence advanced by Fourway and the resulting mutation of
+                            the issues involved. A convenient starting point for an account of the
+                            mutation is the opening address by counsel for the Agency, as plaintiff,
+                            at the beginning of the trial. With reference to the pleadings, counsel
+                            at that stage defined the issues between the parties as follows: 
+                        </p>
+						<blockList eId="introduction__list_1__item_5_list_1">
+							<item eId="introduction__list_1__item_5_list_1__item_a">
+								<num>(a)</num>
+								<p> Whether or not the respondent had the necessary authority to
+                                    collect toll fees on that portion of the toll road which was
+                                    closed as a result of the collision. </p>
+							</item>
+							<item eId="introduction__list_1__item_5_list_1__item_b">
+								<num>(b)</num>
+								<p> Whether the collision occurred as a result of the negligence of
+                                    the driver employed by Fourway. </p>
+							</item>
+							<item eId="introduction__list_1__item_5_list_1__item_c">
+								<num>(c)</num>
+								<p> Whether the occurrence of the collision necessitated the
+                                    decontamination operation and the closure of the road. </p>
+							</item>
+						</blockList>
+					</item>
+					<item eId="introduction__list_1__item_6">
+						<num>[6]</num>
+						<p>
+							<!-- the citation to an internal part of the act or of the judgment is a ref -->
+
+                            Counsel for Fourway did not react to this definition of the issues. 
+                            During the trial, Fourway formally conceded the issue referred to in 
+                            <ref eId="ref_1" href="#int-list1-ite2-lis1-ite1">(a)</ref> and the evidence led by the parties therefore 
+                            dealt exclusively with the issues in <ref eId="ref_2" href="#introduction__list_1__item_5_list_1__item_b">(b)</ref> and 
+                            <ref eId="ref_3" href="#introduction__list_1__item_5_list_1__item_c">(c)</ref>. 
+                            But in argument at the end of the trial, Fourway's counsel, for the first time, raised two
+                            further contentions. First he submitted that the Agency's claim was for the recovery of 
+                            pure economic loss which required the existence of a legal duty on the part of Fourway and
+                            that the Agency had failed to plead or establish the existence of such a legal duty. 
+                            Secondly he submitted that the Agency had failed to establish the requirement of legal 
+                            causation with reference to the loss which formed the basis of its claim. 
+                        </p>
+					</item>
+					<item eId="introduction__list_1__item_7">
+						<num>[7]</num>
+						<p> 
+                            As we know from the result, the court a quo dismissed all defences relied on by 
+                            Fourway, including those originally raised under what I categorised as 
+                            <ref eId="ref_4" href="#introduction__list_1__item_5_list_1__item_b">(b)</ref> and 
+                            <ref eId="ref_5" href="#introduction__list_1__item_5_list_1__item_c">(c)</ref>, 
+                            as well as the two new ones advanced for the first time in argument at the end of 
+                            the trial. As to <ref eId="ref_6" href="#introduction__list_1__item_5_list_1__item_b">(b)</ref> and 
+                            <ref eId="ref_7" href="#introduction__list_1__item_5_list_1__item_c">(c)</ref> the court found on the evidence 
+                            presented that the negligence of Fourway's employee was the cause of the collision 
+                            which necessitated both the decontamination process and the closure of the road. 
+                            With regard to the defence based on the concept of pure economic loss, the court 
+                            essentially held that the damage suffered by the agency did not amount to pure 
+                            economic loss and that the question regarding the existence of a legal duty 
+                            therefore did not arise. Finally the court held that the damages claimed could not 
+                            be classified as too remote and that the requirement of legal causation had thus 
+                            been satisfied.
+                        </p>
+					</item>
+					<item eId="introduction__list_1__item_8">
+						<num>[8]</num>
+						<p> 
+                            On appeal, it was conceded on behalf of Fourway that the court a quo was correct 
+                            in deciding the issues under  <ref eId="ref_8" href="#introduction__list_1__item_5_list_1__item_b">(b)</ref> and 
+                            <ref eId="ref_9" href="#introduction__list_1__item_5_list_1__item_c">(c)</ref> against it. In consequence, the only 
+                            issues on appeal turned on the contentions that were raised for the first time in 
+                            argument at the end of the trial. They can be summarised thus:
+                        </p>
+						<blockList eId="introduction__list_1__item_8_list_1">
+							<item eId="introduction__list_1__item_8_list_1__item_a">
+								<num>(a)</num>
+								<p>
+                                    Whether the court a quo correctly came to the conclusion that the Agency's 
+                                    claim is not a claim for pure economic loss.
+                                </p>
+							</item>
+							<item eId="introduction__list_1__item_8_list_1__item_b">
+								<num>(b)</num>
+								<p>
+                                    If not, how the issue of wrongfulness should have been dealt with in the 
+                                    light of the fact that it was not pertinently raised in the pleadings.
+                                </p>
+							</item>
+							<item eId="introduction__list_1__item_8_list_1__item_c">
+								<num>(c)</num>
+								<p>
+                                    Whether the court a quo correctly came to the conclusion that the damages 
+                                    claim by the Agency cannot be regarded as too remote.
+                                </p>
+							</item>
+						</blockList>
+					</item>
+					<item eId="introduction__list_1__item_9">
+						<num>[9]</num>
+						<p>
+                            The court a quo's finding that the damages claimed did not result from pure 
+                            economic loss clearly emanated from its understanding of that concept. 
+                            That understanding appears from the following statements in the judgment:
+                            <span class="citation">
+                                'The economic loss in this sense comprises patrimonial loss that does not 
+                                result from a direct invasion of a subjective right of the person who 
+                                suffered the loss.'
+                            </span>
+							 
+                            And that  
+							<span class="citation">
+                                'the aforesaid rights of the plaintiff. . . 
+                                [ie the Agency's statutory rights to operate a toll road and to collect toll 
+                                fees] were clearly subjective rights worthy of protection and which the 
+                                plaintiff could enforce against other people.'
+                            </span>
+							 
+                            And that  
+							<span class="citation">
+                                '[c]onsequently, the loss suffered by the plaintiff is not a so-called 
+                                pure economic loss, but the direct result of a direct infringement of 
+                                subjective rights which was as such unlawful.'
+                            </span>
+						</p>
+					</item>
+				</blockList>
+			</introduction>
+			<motivation>
+				<blockList eId="motivation__list_1">
+					<item eId="motivation__list_1_item_10">
+						<num>[10]</num>
+						<p>
+                            I do not share the court a quo's understanding of what is meant by 
+                            'pure economic loss' in the present context.
+                            I believe its meaning to be far less metaphysical. As explained by Harms JA in 
+                            <ref href="/akn/za/judgment/SA491/eng@/!main.xml#" eId="ref_11">Telematrix (Pty) Ltd v Advertising Standards Authority SA 2006 (1) SA 461 (SCA) </ref>
+                            para 1, it means simply this:
+                            <span class="citation">
+                                '"Pure economic loss" in this context connotes loss 
+                                that does not arise directly from damage to the plaintiff's person or property 
+                                but rather in consequence of the negligent act itself, such as loss of profit, 
+                                being put to extra expenses or the diminution in the value of property.'
+                            </span>
+                            (See also <ref href="/akn/za/judgment/SA475A/eng@/!main.xml#" eId="ref_12">
+								<i>Lillicrap, Wassenaar and Partners v Pilkington Brothers (SA) 
+                                (Pty) Ltd </i>1985 (1) SA 475 (A) 497I-498H</ref>; Trustees, 
+                          <ref href="/akn/za/judgment/SA138SCA /eng@/!main.xml#" eId="ref_13">
+								<i>Two Oceans Aquarium Trust v Kantey &amp; Templer (Pty) Ltd</i> 2006 (3) SA 138 (SCA) para 14</ref>; 
+                            <ref href="/akn/za/judgment/SA138SCA /eng@/!main.xml#" eId="ref_14">
+								<i>Wille's Principles of South African Law</i> 9 ed, (General editor: 
+                            Francois du Bois) sv 'Delict' by Daniel Visser, 1105</ref>; 
+                          <ref href="/akn/za/law/5 /eng@/!main.xml#" eId="ref_15">  Neethling, Potgieter &amp; Visser, <i>Law of Delict</i>, 5 ed 268 et seq).</ref>
+						</p>
+					</item>
+					<item eId="motivation__list_1_item_11">
+						<num>[11]</num>
+						<p> 
+                            Thus understood, the Agency's claim, in my view, falls squarely within the ambit of 
+                            pure economic loss. As formulated, its claim was for loss of revenue in the form of 
+                            toll fees resulting from the closure of the road. The Agency did not allege, 
+                            nor did it set out to prove in evidence, that it was the owner of the road; 
+                            that the road was physically damaged by the collision; or that the closure of the road 
+                            resulted from any physical damage to the road. The Agency's argument on appeal, 
+                            that in terms of <ref eId="ref_16" href="/akn/za/act/1998-03-31/7/eng@/!main.xml#sec27">s 7</ref> of 
+                            the Act it was in fact the owner of the road on which the 
+                            collision occurred, is of no consequence and misses the point. For present purposes 
+                            the question is not whether the Agency is in fact the owner of the road. 
+                            The point is that it did not rely on such ownership to support its claim.
+                        </p>
+					</item>
+					<item eId="motivation__list_1_item_12">
+						<num>[12]</num>
+						<p>
+                            Recognition that we are dealing with a claim for pure economic loss brings in its 
+                            wake a different approach to the element of wrongfulness. 
+                            This results from the principles which have been formulated by this court so many 
+                            times in the recent past that I believe they can by now be regarded as trite. 
+                            These principles proceed from the premise that negligent conduct which manifests 
+                            itself in the form of a positive act causing physical damage to the property or 
+                            person of another is prima facie wrongful. By contrast, negligent causation of 
+                            pure economic loss is not regarded as prima facie wrongful. 
+                            Its wrongfulness depends on the existence of a legal duty. 
+                            The imposition of this legal duty is a matter for judicial determination involving 
+                            criteria of public or legal policy consistent with constitutional norms. 
+                            In the result, conduct causing pure economic loss will only be regarded as wrongful
+                            and therefore actionable if public or legal policy considerations require that such
+                            conduct, if negligent, should attract legal liability for the resulting damages 
+                            (see eg <ref href="/akn/za/judgment/ 20026SA431SCA/eng@/!main.xml#par12" eId="ref_17">
+								<i>Minister of Safety and Security v Van Duivenboden</i> 2002 (6) SA 431 (SCA) 
+                            paras 12 and 22</ref>; <i>Gouda Boerdery BK v Transnet</i>
+							<ref href="/akn/za/judgment/SA490/eng@/!main.xml#par12" eId="ref_18"> 2005 (5) SA 490 (SCA) para 12</ref>; 
+                            <i>Telematrix (supra)</i> paras 13-14; <i>Trustees, Two Oceans Aquarium Trust (supra)</i> 
+                            paras 10-12).
+                        </p>
+					</item>
+					<item eId="motivation__list_1_item_13">
+						<num>[13]</num>
+						<p>
+                            In this light, so Fourway contended on appeal, the Agency was obliged to allege 
+                            in its pleadings not only that the negligent conduct relied upon was wrongful, 
+                            but that it also had to allege and prove the facts relied upon to substantiate 
+                            the considerations of policy giving rise to a legal duty on the part of Fourway's 
+                            employee. As a result of the Agency's failure to adhere to these rules of 
+                            litigation, so the argument went, neither the policy considerations relevant 
+                            to the question of wrongfulness, nor the factual basis underlying such policy 
+                            considerations, were identified and investigated during the trial. 
+                            In consequence, so the argument concluded, it would be prejudiced if the issue of 
+                            wrongfulness were to be summarily disposed of at the appeal. 
+                            Fourway therefore suggested that, unless this court upholds its contention that 
+                            the damages claimed are too remote – to which I shall presently return – the 
+                            issue of wrongfulness should be postponed and decided with the rest of the issues 
+                            concerning the quantum of the Agency's damages, which are standing over in any 
+                            event.  
+                        </p>
+					</item>
+					<item eId="motivation__list_1_item_14">
+						<num>[14]</num>
+						<p> 
+                            The proposition that a plaintiff claiming pure economic loss must allege 
+                            wrongfulness, and plead the facts relied upon to support that essential allegation,
+                            is in principle well founded. In fact, the absence of such allegations may render 
+                            the particulars of claim exipiable on the basis that no cause of action had been 
+                            disclosed (see eg <i>Trope v SA Reserve Bank</i> 1992 (3) SA 208 (T) at 214A-G; 
+                            <i>Indac Electronics (Pty) Ltd v Volkskas Bank Ltd</i> 1992 (1) SA 783 (A) 797E; 
+                            <i>Telematrix (supra)</i> para 2). But, as we know, Fourway did not file an 
+                            exception. The trial proceeded without any objection on its part. 
+                            In the circumstances it would be futile to investigate whether an exception, 
+                            if properly and timeously taken, would have been successful. 
+                            As I see it, the question is rather whether, despite the lack of necessary 
+                            allegations in the Agency's pleadings, Fourway had sufficient opportunity 
+                            to produce the facts it would seek to rely on for the determination of the policy 
+                            considerations pertaining to wrongfulness in its favour. Conversely stated, 
+                            the question is whether Fourway has shown prejudice, in the sense that it would 
+                            have conducted its case in a materially different way if the Agency's claim for 
+                            pure economic loss had been properly pleaded. 
+                            (See eg <i>Shill v Milner</i> 1937 AD 101 at 105; 
+                            <i>Robinson v Randfontein Estates GM Co Ltd</i> 1925 AD 173 at 198; 
+                            <i>Collen v Rietfontein Engineering Works</i> 1948 (1) SA 413 (A) at 433; 
+                            <i>Stead v Conradie</i> 1995 (2) SA 111 (A) at 122A-H.)
+                        </p>
+					</item>
+					<item eId="motivation__list_1_item_15">
+						<num>[15]</num>
+						<p>
+                            As I see it, the proposal by Fourway that the issue of wrongfulness be referred back 
+                            for determination by the trial court therefore depends on the outcome of two discrete 
+                            enquiries. First, can this court, on the basis of the facts available, decide that, 
+                            as a matter of policy, Fourway should be held liable for the loss of revenue claimed 
+                            by the Agency? If not, that would be the end of the matter. 
+                            The Agency would have failed to make out a case. A decision on the other hand that 
+                            the issue of wrongfulness should on the facts available be determined in favour of 
+                            the Agency will lead to the next enquiry. The question is: can it be said that, 
+                            if the issue of wrongfulness had been properly pleaded by the Agency, 
+                            Fourway would have conducted its case any differently? If not, the Agency is entitled 
+                            to succeed. It is therefore only a finding of potential prejudice on the part of 
+                            Fourway that can justify a referral back to the trial court.
+                        </p>
+					</item>
+				</blockList>
+				<p>
+					<noteRef href="#not1" marker="1"/>
+					<omissis>...</omissis>
+				</p>
+			</motivation>
+			<decision>
+				<blockList eId="decision__list_1">
+					<item eId="decision__list_1__item_36">
+						<num>[36]</num>
+						<p> 
+                            For these reasons the appeal is dismissed with costs, 
+                            including the costs of two counsel.
+                        </p>
+					</item>
+				</blockList>
+			</decision>
+		</judgmentBody>
+		<conclusions>
+			<p class="signature">
+				<judge eId="judge_11" refersTo="#Brand">F D J BRAND</judge>
+                JUDGE OF APPEAL
+            </p>
+			<p class="appearances">
+                APPEARANCES: 
+                FOR APPELLANT: <lawyer eId="lawyer_1" refersTo="#Dreyer" for="#Appellant" empoweredBy="#Kruger" as="#Prosecutor"> H DREYER SC</lawyer>
+				<lawyer eId="lawyer_2" refersTo="#Plessis" for="#Appellant" empoweredBy="#Kruger" as="#Prosecutor">A DU PLESSIS </lawyer>
+				 
+                INSTRUCTED BY:	
+                <lawyer eId="lawyer_3" refersTo="#Kruger" for="#Appellant" as="#Prosecutor">MACGREGOR STANFORD KRUGER INC, PRETORIA </lawyer>
+			</p>
+		</conclusions>
+	</judgment>
+</akomaNtoso>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" >
+	<!-- Level 5 of compliance -->
+	<!--  Analysis and markup performed by Monica Palmirani, CIRSFID, University of Bologna -->
+	<debate name="hansard">
+		<!-- example of check of quorum, voting and recount of voting-->
+		<meta>
+			<identification source="#palmirani">
+				<FRBRWork>
+					<FRBRthis value="/akn/ke/debaterecord/2011-06-10/!main"/>
+					<FRBRuri value="/akn/ke/debaterecord/2011-06-10"/>
+					<FRBRdate date="2011-06-10" name="generation"/>
+					<FRBRauthor href="#parliament" as="#author"/>
+					<FRBRcountry value="ak"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/ke/minutes/2011-06-10/eng@/!main"/>
+					<FRBRuri value="/akn/ke/minutes/2011-06-10/eng@"/>
+					<FRBRdate date="2011-06-25" name="markup"/>
+					<FRBRauthor href="#palmirani" as="#editor"/>
+					<FRBRlanguage language="eng"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/ke/minutes/2011-06-10/eng@/!main.xml"/>
+					<FRBRuri value="/akn/ke/minutes/2011-06-10/eng@.akn"/>
+					<FRBRdate date="2011-06-25" name="publication"/>
+					<FRBRauthor href="#palmirani" as="#editor"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2011-06-10" name="internal" showAs="Internal Use Only" number="333"/>
+			<analysis source="#palmirani">
+				<parliamentary>
+					<voting eId="vot1" href="#summary_1" refersTo="#dbsect_2" outcome="#approved">
+						<!-- href is where the voting is done in the text, refersTo is the fragment of the text subject of the voting, outcome is the result of the voting-->
+						<quorum eId="vot1-quo1" refersTo="#majority" value="80"/>
+						<count eId="vot1-cnt2" refersTo="#ayes" href="#quantity_1" value="72"/>
+						<count eId="vot1-cnt3" refersTo="#noes" href="#quantity_2" value="34"/>
+					</voting>
+					<recount eId="rct1" href="#sub2-spe02" refersTo="#dbsect_2" outcome="#approved">
+						<!-- href is where the recount is done in the text, refersTo is the fragment of the text subject of the recount of voting, outcome is the result of the voting-->
+						<count eId="vot-cnt1" refersTo="#ayes" href="#quantity_3" value="76"/>
+					</recount>
+				</parliamentary>
+			</analysis>
+			<references source="#palmirani">
+				<TLCOrganization eId="parliament" href="/ontology/organization/akn/parliament" showAs="Parliament"/>
+				<TLCRole eId="author" href="/ontology/role/akn/author" showAs="Author of Document"/>
+				<TLCRole eId="editor" href="/ontology/role/akn/editor" showAs="Editor of Document"/>
+				<TLCRole eId="speaker" href="/ontology/role/akn/speaker" showAs="Mr. Speaker"/>
+				<TLCRole eId="ministerEducation" href="/ontology/role/akn/mes" showAs="Minister for Education and Sports"/>
+				<TLCRole eId="ministerInterior" href="/ontology/role/akn/ministerInterior" showAs="Minister for Interior"/>
+				<TLCPerson eId="palmirani" href="/ontology/person/ita/editors/palmirani" showAs="palmirani"/>
+				<TLCProcess eId="approved" href="/ontology/process/ita/editors/approved" showAs="Approved"/>
+				<TLCPerson eId="alfa" href="/ontology/person/akn/parliament/alfa" showAs="Mr. Alfa"/>
+				<TLCPerson eId="beta" href="/ontology/person/akn/parliament/beta" showAs="Mr. Beta"/>
+				<TLCPerson eId="gamma" href="/ontology/person/akn/parliament/gamma" showAs="Mr. Gamma"/>
+				<TLCPerson eId="delta" href="/ontology/person/akn/parliament/delta" showAs="Mr. Delta"/>
+				<TLCPerson eId="epsilon" href="/ontology/person/akn/parliament/eta" showAs="Mr. epsilon"/>
+				<TLCPerson eId="kappa" href="/ontology/person/akn/parliament/kappa" showAs="Mr. Kappa"/>
+				<TLCPerson eId="eta" href="/ontology/person/akn/parliament/eta" showAs="Mr. Eta"/>
+				<TLCPerson eId="zeta" href="/ontology/person/akn/parliament/zeta" showAs="Mr. zeta"/>
+				<TLCConcept eId="majority" href="/ontology/concept/akn/majority" showAs="Quorum Majority"/>
+				<TLCConcept eId="ayes" href="/ontology/concept/akn/ayes" showAs="AYES"/>
+				<TLCConcept eId="noes" href="/ontology/concept/akn/noes" showAs="NOES"/>
+			</references>
+			<notes source="#palmirani">
+				<note eId="not01">
+					<p>BES: definition of Educational System</p>
+				</note>
+			</notes>
+		</meta>
+		<preface>
+			<p class="heading">THE <docProponent>PARLIAMENT OF THE REPUBLIC OF BUNGENI</docProponent>
+			</p>
+			<p>
+				<docTitle>SECOND MEETING, 2011</docTitle>
+			</p>
+			<p>Friday, <docDate date="2011-06-10">10th June 2011</docDate>
+			</p>
+		</preface>
+		<debateBody>
+			<debateSection name="opening" eId="dbsect_0">
+				<!-- example of recordedTime -->
+				<p>The House met at <recordedTime time="2011-06-10T10:02:00+02:00"> 10.02 a.m.</recordedTime>
+				</p>
+				<!-- example of scene -->
+				<narrative>[MR. SPEAKER IN THE CHAIR]</narrative>
+			</debateSection>
+			<!-- example of prayers -->
+			<prayers eId="prayers_1">
+				<heading>PRAYERS</heading>
+			</prayers>
+			<debateSection eId="dbsect_1" name="motions">
+				<!-- example of motions section -->
+				<heading>MOTIONS	</heading>
+				<debateSection eId="dbsect_1__dbsect_1" name="motion">
+					<speech by="#alfa">
+						<from>Mr. Alfa:</from>
+						<p>Mr. Deputy Speaker, I beg to move to the following Motion-</p>
+						<p>THAT this House do grant leave to introduce a Bill for.....(30 pages of dabate)</p>
+					</speech>
+				</debateSection>
+			</debateSection>
+			<debateSection eId="dbsect_2" name="quorum">
+				<!-- example of quorum section -->
+				<heading>QUORUM
+			</heading>
+				<debateSection eId="dbsect_2__dbsect_1" name="quorum">
+					<speech by="#epsilon">
+						<from>
+Mr. Epsilon: </from>
+						<p>On a point of order,  Mr. Speaker, Sir. We are discussing the President's Speech. The mere fact that we do not have enough hon. Members might mean that it is not a popular Speech. There is no quorum in this House and could you ensure that there is quorum and then we can continue in order to show that themPresident's Speech is popular and he is also a popular President as well?</p>
+					</speech>
+					<speech by="#speaker">
+						<from>The  Speaker:</from>
+						<p>Hon. Members, yes, I have checked and apparently the House lacks quorum at the moment. Ring the Division Bell.</p>
+					</speech>
+					<summary>(The Division Bell was rung)</summary>
+					<!-- example of Division Bell Ring -->
+					<speech by="#speaker">
+						<from>The Speaker:</from>
+						<p>
+ Order, hon. Members! We have a quorum now. Please, proceed with the Division!</p>
+					</speech>
+				</debateSection>
+			</debateSection>
+			<debateSection eId="dbsect_3" name="division">
+				<!-- example of Division Section -->
+				<heading>DIVISION</heading>
+				<summary>(Question put and the House divided)</summary>
+				<debateSection eId="dbsect_3__dbsect_1" name="division">
+					<speech by="#speaker">
+						<from>Mr. Speaker:</from>
+						<p>Order! Order! 15 minutes are now over and those who wish to vote must be in the lobbies. If you are not wihtin the lobbies, you will not allowd to vote any more</p>
+					</speech>
+					<scene>(Loud consultation)</scene>
+					<speech by="#speaker">
+						<from>Mr. Speaker:</from>
+						<p>Order! Order! The Division is now over and it is time to receive the results</p>
+					</speech>
+					<summary eId="summary_1">(Question carried by <quantity eId="quantity_1" normalized="72" refersTo="#ayes">72</quantity> to <quantity normalized="56" eId="quantity_2" refersTo="#noes"> 56</quantity> votes)</summary>
+				</debateSection>
+				<debateSection eId="dbsect_3__dbsect_2" name="AYES">
+					<p>AYES: <person eId="person_3321" refersTo="#alfa">Mr. Alfa,</person>
+						<person eId="person_3322" refersTo="#beta">Mr. Beta,</person>
+						<person eId="person_3323" refersTo="#delta">Mr. Delta</person>, etc.</p>
+				</debateSection>
+				<debateSection eId="dbsect_3__dbsect_3" name="NOES">
+					<p>NOES: <person eId="person_3331" refersTo="#gamma">Mr. Gamma,</person>
+						<person eId="person_3332" refersTo="#epsilon"> Mr. Epsilon,</person>
+						<person eId="person_3333" refersTo="#zeta">Mr. Zeta, etc.</person>
+					</p>
+				</debateSection>
+			</debateSection>
+			<debateSection name="corrections" eId="dbsect_4">
+				<!-- example of Recount of Votes -->
+				<heading>RECOUT OF VOTES </heading>
+				<speech eId="dbsect_4__speech_1" by="#alfa" as="speaker">
+					<from>Mr. Speaker</from>
+					<p>Order! Order! Hon. Members, Mr. Theta is entitled to recount the votes.</p>
+				</speech>
+				<!-- example of summary -->
+				<summary eId="summary_2">(Proceed with the recount.)</summary>
+				<!-- example of correction of quorum connected with the analysis block -->
+				<speech eId="dbsect_4__speech_2" by="#beta">
+					<from>Mr. Beta</from>
+					<p>Mr. Speaker, we made an error in the vote numbers: we have
+					AYES <quantity eId="quantity_3" normalized="76" refersTo="#ayes">76</quantity> instead of <quantity eId="quantity_4" normalized="72" refersTo="#ayes">72</quantity>. 
+					</p>
+				</speech>
+				<scene>(Applause)</scene>
+			</debateSection>
+			<!-- example of complex oralStatements -->
+			<debateSection name="statement" eId="dbsect_5">
+				<debateSection eId="dbsect_5__dbsect_1" name="recorderdTime">
+					<p>
+						<recordedTime time="2011-06-10T10:30:00+02:00">10.30 a.m.</recordedTime>
+					</p>
+				</debateSection>
+				<debateSection eId="bsect_5__dbsect_2" name="speech">
+					<heading>STATEMENTS</heading>
+					<oralStatements eId="bsect_5__dbsect_3">
+						<heading>Flood into the Republic of BUNGENI</heading>
+						<speech refersTo="#ministerInterior" by="#gamma">
+							<from>Minister for the Interior (Mr Iota): </from>
+							<p>Mr. Speaker, in a report from the BUNGENI Immigration Service dated 6th May, 2011, 
+							addressed to the Ministry of the Interior, covering the period, 15th April to 5th May, 2011, 
+							it was reported that following the flood in the Northern Region on March 18 and April 21, 2011, 
+							calm has returned to the district.</p>
+						</speech>
+					</oralStatements>
+				</debateSection>
+			</debateSection>
+			<!-- example of oral answers to questions -->
+			<debateSection name="questionAnswer" eId="dbsect_6">
+				<heading>ORAL ANSWERS TO QUESTIONS</heading>
+				<debateSection name="minedu" eId="dbsect_6__dbsect_1">
+					<heading>MINISTRY OF EDUCATION AND SPORTS</heading>
+					<debateSection name="questionAnswer" eId="dbsect_6__dbsect_1__dbsect_1">
+						<heading>Professional Training in the Republic of BUNGENI</heading>
+						<question eId="dbsect_6__dbsect_1__dbsect_1__question_1" by="#kappa" to="#ministerEducation">
+							<from>Mr. Kappa</from>
+							<p>asked the Minister for Education and
+                                Sports the organic relations between the BUNGENI National Association
+                                of Teachers (BNAT) and the International Association of Graduate Teachers
+                                (IAGRAT) in pursuance of the professional and trade union rights of
+                                teachers in the country and trade union rights of teachers in the
+                                country, because the two are not the same. And in his Answer, he
+                                referred to professional rights of both members. Does it mean that
+                                the IAGRAT has no trade union rights as his Answer states? Because,
+                                the two are not the same. Professional rights are different from
+                                trade</p>
+						</question>
+						<answer by="#eta" as="#ministerEducation" eId="dbsect_6__dbsect_1__dbsect_1__answer_1">
+							<from>Mr. Eta</from>
+							<p>Mr. Speaker, BNAT was the only umbrella professional body for
+                                teachers in the country until when some graduate teachers started
+                                agitation for recognition and finally broke away and formed the
+                                National Association of Graduate Teachers (NAGRAT). </p>
+							<p> Currently, there are two (2) associations serving the interest of
+                                teachers in the BES<noteRef href="#not01" marker="1"/>. 
+                                Whereas members of IAGRAT consist of a section
+                                of graduate teachers, BNATcovers nongraduates as well as graduate teachers.</p>
+							<p> The professional rights of both members of BNAT and IAGRAT are
+                                assured as outlined in the Conditions and Scheme of Service for
+                                teachers. In the event, where a member of the Service has a problem,
+                                he approaches the association to which he belongs and that
+                                association handles the problem with BES in the light of the
+                                Conditions of Service.</p>
+							<p> In the area of professional development, BNAT organizes in-service
+                                training for its members.</p>
+							<p> Mr. Speaker, BNAT joins the ‘FORUM’ comprising the Judicial Service
+                                Staff Association of BUNGENI (JUSSAB), the Registered Nurses
+                                Association (BRNA) and the Civil Servants Association (CSA) for the
+                                negotiation of salaries for all teachers.</p>
+						</answer>
+					</debateSection>
+				</debateSection>
+			</debateSection>
+			<debateSection name="omissis" eId="dbsect_7">
+				<scene>(Applause)</scene>
+			</debateSection>
+			<adjournment eId="adjournment_1">
+				<!-- example of adjournment -->
+				<heading> ADJOURNMENT</heading>
+				<p>The House was  at <recordedTime time="2011-06-10T02:07:00+02:00">2.07 p.m. </recordedTime> till <date date="2011-06-11">11th June, 2011</date>  at <recordedTime time="2011-06-11T10:00:00+02:00">10.00 a.m. </recordedTime>
+				</p>
+			</adjournment>
+		</debateBody>
+		<conclusions>
+			<p><date date="2011-06-11">Date, 10th June, 2011</date></p>
+		</conclusions>
+	</debate>
+</akomaNtoso>

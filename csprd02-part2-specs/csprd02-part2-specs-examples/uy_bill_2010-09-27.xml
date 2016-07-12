@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd " xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xmlns:uy="http://uruguay/propetary.xsd">
+	<documentCollection name="collection">
+		<!-- Example of Uruguay Bill - Document coming from the Committee, Asunto: 105027;  Carpeta:395-2010; Repartido:379-2010. The folder is numbered with the "repartido" 379-2010
+The document is a "documentCollection" type and it includes two documents: proyecto de ley and motivos.
+
+Legal Analysis and Marked up by Monica Palmirani - University of Bologna
+Refined by Alejandro Silvera - University of Republica de Uruguay
+Level of compliance 5
+		-->
+		<meta>
+			<identification source="#palmirani">
+				<FRBRWork>
+					<FRBRthis value="/akn/uy/collection/camera/2010-09-27/repartido379-2010/!main"/>
+					<FRBRuri value="/akn/uy/collection/camera/2010-09-27/repartido379-2010"/>
+					<FRBRdate date="2010-09-27" name="Enactment"/>
+					<FRBRauthor href="#cameraCommittee" as="#author"/>
+					<FRBRcountry value="uy"/>
+					<FRBRnumber value="379-2010"/>
+					<FRBRprescriptive value="true"/>
+					<FRBRauthoritative value="true"/>
+				</FRBRWork>
+				<FRBRExpression>
+					<FRBRthis value="/akn/uy/collection/camera/2010-09-27/repartido379-2010/esp@/!main"/>
+					<FRBRuri value="/akn/uy/collection/camera/2010-09-27/repartido379-2010/esp@"/>
+					<FRBRdate date="2010-09-27" name="Expression"/>
+					<FRBRauthor href="#cameraCommittee" as="#editor"/>
+					<FRBRlanguage language="esp"/>
+				</FRBRExpression>
+				<FRBRManifestation>
+					<FRBRthis value="/akn/uy/collection/camera/2010-09-27/repartido379-2010/esp@/!main.xml"/>
+					<FRBRuri value="/akn/uy/collection/camera/2010-09-27/repartido379-2010/esp@/.akn"/>
+					<FRBRdate date="2013-08-28" name="XMLConversion"/>
+					<FRBRauthor href="#palmirani" as="#editor"/>
+				</FRBRManifestation>
+			</identification>
+			<publication date="2010-09-27" name="bill" showAs="Journal Web" number="999"/>
+			<references source="#palmirani">
+				<original eId="ro0" href="/akn/uy/collection/camera/2010-09-27/repartido379-2010/esp@" showAs="original"/>
+				<TLCOrganization eId="cameraCommittee" href="/ontology/organizations/akn/uy/committee" showAs="Comisión de Constitución, Códigos, Legislación General y Administración"/>
+				<TLCOrganization eId="crr" href="/ontology/organizations/akn/uy/crr" showAs="Camara de Representantes"/>
+				<TLCPerson eId="palmirani" href="/ontology/person/akn/uy/monica.palmirani.1966-02-28" showAs="Palmirani"/>
+				<TLCRole eId="author" href="/ontology/roles/akn/uy/author" showAs="Author of Document"/>
+				<TLCRole eId="editor" href="/ontology/roles/akn/uy/editor" showAs="Editor of Document"/>
+				<TLCConcept eId="repartido" href="/ontology/concepts/akn/uy/repartido" showAs="Repartido"/>
+				<TLCConcept eId="carpeta" href="/ontology/concepts/akn/uy/carpeta" showAs="Carpeta"/>
+				<TLCConcept eId="asunto" href="/ontology/concepts/akn/uy/asunto" showAs="Asunto"/>
+			</references>
+			<proprietary source="#crr">
+				<uy:carpeta refersTo="#carpeta">395-2010</uy:carpeta>
+				<uy:asunto refersTo="#asunto">105027</uy:asunto>
+				<uy:repartido refersTo="#asunto">379</uy:repartido>
+				<uy:cuerpo refersTo="#crr">camera de deputados</uy:cuerpo>
+			</proprietary>
+		</meta>
+		<preface>
+			<container eId="preface__container_1" name="preface1" class="left">
+				<p>
+					<docCommittee refersTo="#cameraCommittee">Comisión de Constitución, Códigos,
+					Legislación General y Administración</docCommittee>
+				</p>
+				<p>
+					<docketNumber refersTo="#carpeta">Carpeta Nº 395 de 2010</docketNumber>
+				</p>
+			</container>
+			<container eId="preface__container_2" name="preface1" class="right">
+				<p>
+					Repartido<docNumber refersTo="#repartido"> Nº 379</docNumber>
+					<docDate date="2010-09-27">Setiembre de 2010</docDate>
+				</p>
+			</container>
+			<container eId="preface__container_3" name="title" class="center">
+				<p>
+					<docTitle>ARTÍCULOS 1º, 3º Y 4º DE LA LEY Nº 15.848, DE CADUCIDAD
+					DE LA PRETENSIÓN PUNITIVA DEL ESTADO</docTitle>
+				</p>
+			</container>
+		</preface>
+		<preamble>
+			<p>Se declara como interpretación obligatoria que los mismos son violatorios
+				de la Constitución de la República y se interpreta la misma en forma
+				auténtica en cuanto a la incorporación al ordenamiento jurídico
+				nacional de las normas internacionales en materia
+				de derechos humanos ratificadas
+				por la República</p>
+		</preamble>
+		<collectionBody>
+			<!-- The bill is numberd with Carpeta: 395-2010 -->
+			<component eId="cmp_1">
+				<documentRef eId="dref_1" href="#cmpnts__cmp_1" showAs="Proyecto de Ley"/>
+			</component>
+			<!-- An Informative part of the document-->
+			<component eId="cmp_2">
+				<documentRef eId="dref_2" href="#cmpnts__cmp_2" showAs="Motivos"/>
+			</component>
+		</collectionBody>
+	</documentCollection>
+	<components eId="cmpnts">
+		<component eId="cmpnts__cmp_1">
+			<bill name="proyectoDeLey">
+				<meta>
+					<identification source="#cmpnts__cmp_1__palmirani">
+						<FRBRWork>
+							<FRBRthis value="/akn/uy/bill/camera/2010-09-27/carpeta395-2010/!main"/>
+							<FRBRuri value="/akn/uy/bill/camera/2010-09-27/asunto105027"/>
+							<FRBRuri value="/akn/uy/bill/camera/2010-09-27/carpeta395-2010"/>
+							<FRBRdate date="2010-09-27" name="Enactment"/>
+							<FRBRauthor href="#cmpnts__cmp_1__cameraCommittee" as="#cmp_1__author"/>
+							<FRBRcountry value="uy"/>
+							<FRBRnumber value="105027"/>
+							<FRBRname value="proyecto de ley"/>
+							<FRBRprescriptive value="true"/>
+							<FRBRauthoritative value="true"/>
+						</FRBRWork>
+						<FRBRExpression>
+							<FRBRthis value="/akn/uy/bill/camera/2010-09-27/carpeta395-2010/esp@/!main"/>
+							<FRBRuri value="/akn/uy/bill/camera/2010-09-27/carpeta395-2010/esp@"/>
+							<FRBRdate date="2010-09-27" name="Expression"/>
+							<FRBRauthor href="#cmpnts__cmp_1__cameraCommittee" as="#cmp_1__editor"/>
+							<FRBRlanguage language="esp"/>
+						</FRBRExpression>
+						<FRBRManifestation>
+							<FRBRthis value="/akn/uy/bill/camera/2010-09-27/carpeta395-2010/esp@/!main.xml"/>
+							<FRBRuri value="/akn/uy/bill/camera/2010-09-27/carpeta395-2010/esp@/.akn"/>
+							<FRBRdate date="2013-08-28" name="XMLConversion"/>
+							<FRBRauthor href="#cmpnts__cmp_1__palmirani" as="#cmp_1__editor"/>
+						</FRBRManifestation>
+					</identification>
+					<!-- classification example -->
+					<classification source="#cmp_1__palmirani">
+						<keyword value="derechoVida" showAs="derecho a la vida" dictionary="/eurovoc/passo1/passo2/voce4"/>
+					</classification>
+					<lifecycle source="#cmpnts__cmp_1__palmirani">
+						<eventRef date="2010-09-27" eId="e1" source="#cmpnts__cmp_1__ro_1" type="generation"/>
+					</lifecycle>
+					<analysis source="#cmpnts__cmp_1__palmirani">
+						<!-- modification annotation example -->
+						<activeModifications>
+							<meaningMod eId="cmpnts__cmp_1__meaningMod_1" type="authenticInterpretation">
+								<source href="#cmpnts__cmp_1__mod_1"/>
+								<destination href="/akn/uy/act/1967/Constitucion/!main#art_72"/>
+							</meaningMod>
+							<forceMod eId="cmpnts__cmp_1__meaningMod_2" type="unconstitutionality">
+								<source href="#cmp_1__mod_2"/>
+								<destination href="/akn/uy/act/1986-12-22/15848/!main#art_1"/>
+								<destination href="/akn/uy/act/1986-12-22/15848/!main#art_3"/>
+								<destination href="/akn/uy/act/1986-12-22/15848/!main#art_4"/>
+							</forceMod>
+							<efficacyMod eId="cmpnts__cmp_1__meaningMod_3" type="inapplication">
+								<source href="#cmpnts__cmp_1__mod_2"/>
+								<destination href="/akn/uy/act/1986-12-22/15848/!main#art_1"/>
+								<destination href="/akn/uy/act/1986-12-22/15848/!main#art_3"/>
+								<destination href="/akn/uy/act/1986-12-22/15848/!main#art_4"/>
+							</efficacyMod>
+						</activeModifications>
+					</analysis>
+					<references source="#cmpnts__cmp_1__palmirani">
+						<original eId="cmpnts__cmp_1__ro_1" href="/akn/uy/bill/camera/2010-09-27/carpeta395-2010/esp@" showAs="Bill"/>
+						<activeRef eId="cmpnts__cmp_1__ra_1" href="/akn/uy/act/1986-12-22/15848/!main" showAs="FUNCIONARIOS MILITARES Y POLICIALES"/>
+						<activeRef eId="cmpnts__cmp_1__ra_2" href="/akn/uy/act/1967/Constitucion/!main" showAs="Constitución de la República de Uruguay"/>
+						<TLCPerson eId="cmpnts__cmp_1__palmirani" href="/ontology/person/akn/uy/monica.palmirani.1966-02-28" showAs="Palmirani"/>
+						<TLCRole eId="cmpnts__cmp_1__author" href="/ontology/roles/akn/uy/author" showAs="Author of Document"/>
+						<TLCRole eId="cmpnts__cmp_1__editor" href="/ontology/roles/akn/uy/editor" showAs="Editor of Document"/>
+						<TLCOrganization eId="cmpnts__cmp_1__cameraCommittee" href="/ontology/organizations/akn/uy/committee" showAs="Comisión de Constitución, Códigos, Legislación General y Administración"/>
+						<TLCLocation eId="cmpnts__cmp_1__montevideo" href="/ontology/cities/akn/uy/montevideo" showAs="Montevideo"/>
+						<TLCPerson eId="cmpnts__cmp_1__rarregui" href="/ontology/person/akn/uy/roque.arregui.1946-02-28" showAs="ROQUE ARREGUI"/>
+						<TLCPerson eId="cmpnts__cmp_1__aasti" href="/ontology/person/akn/uy/alfredo.asti.1946-02-28" showAs="ALFREDO ASTI"/>
+						<TLCPerson eId="cmpnts__cmp_1__jbango" href="/ontology/person/akn/uy/julio.bango.1946-02-28" showAs="JULIO BANGO"/>
+						<TLCPerson eId="cmpnts__cmp_1__jbattistoni" href="/ontology/person/akn/uy/julio.battistoni.1946-02-28" showAs="JULIO BATTISTONI"/>
+						<TLCPerson eId="cmpnts__cmp_1__jbayardi" href="/ontology/person/akn/uy/jose.bayardi.1946-02-28" showAs="JOSÉ BAYARDI"/>
+						<TLCPerson eId="cmpnts__cmp_1__gbernini" href="/ontology/person/akn/uy/gustavo.bernini.1946-02-28" showAs="GUSTAVO BERNINI"/>
+						<TLCPerson eId="cmpnts__cmp_1__gcaceres" href="/ontology/person/akn/uy/graciela.caceres.1946-02-28" showAs="GRACIELA CÁCERES"/>
+						<TLCPerson eId="cmpnts__cmp_1__fcarballo" href="/ontology/person/akn/uy/felipe.carballo.1946-02-28" showAs="FELIPE CARBALLO"/>
+						<TLCPerson eId="cmpnts__cmp_1__hdavila" href="/ontology/person/akn/uy/hugo.davila.1946-02-28" showAs="HUGO DÁVILA"/>
+						<TLCPerson eId="cmpnts__cmp_1__wdeleon" href="/ontology/person/akn/uy/walter.de.leon.1946-02-28" showAs="WALTER DE LEÓN"/>
+						<TLCPerson eId="cmpnts__cmp_1__gdetoro" href="/ontology/person/akn/uy/gonzalo.de.toro.1946-02-28" showAs="GONZALO DE TORO"/>
+						<TLCPerson eId="cmpnts__cmp_1__rfrachia" href="/ontology/person/akn/uy/roberto.frachia.1946-02-28" showAs="ROBERTO FRACHIA"/>
+						<TLCPerson eId="cmpnts__cmp_1__jcfernandez" href="/ontology/person/akn/uy/julio.cesar.fernandez.1946-02-28" showAs="JULIO CÉSAR FERNÁNDEZ"/>
+						<TLCPerson eId="cmpnts__cmp_1__cgamou" href="/ontology/person/akn/uy/carlos.gamou.1946-02-28" showAs="CARLOS GAMOU"/>
+						<TLCPerson eId="cmpnts__cmp_1__ogroba" href="/ontology/person/akn/uy/oscar.groba.1946-02-28" showAs="OSCAR GROBA"/>
+						<TLCPerson eId="cmpnts__cmp_1__djibarra" href="/ontology/person/akn/uy/doreen.javier.ibarra.1946-02-28" showAs="DOREEN JAVIER IBARRA"/>
+						<TLCPerson eId="cmpnts__cmp_1__melaurnaga" href="/ontology/person/akn/uy/maria.elena.laurnaga.1946-02-28" showAs="MARÍA ELENA LAURNAGA"/>
+						<TLCPerson eId="cmpnts__cmp_1__alima" href="/ontology/person/akn/uy/andres.lima.1946-02-28" showAs="ANDRÉS LIMA"/>
+						<TLCPerson eId="cmpnts__cmp_1__jcmahia" href="/ontology/person/akn/uy/jose.carlos.mahia.1946-02-28" showAs="JOSÉ CARLOS MAHÍA"/>
+						<TLCPerson eId="cmpnts__cmp_1__rmhuelmo" href="/ontology/person/akn/uy/ruben.martinez.huelmo.1946-02-28" showAs="RUBÉN MARTÍNEZ HUELMO"/>
+						<TLCPerson eId="cmpnts__cmp_1__fmichelini" href="/ontology/person/akn/uy/felipe.michelini.1946-02-28" showAs="FELIPE MICHELINI"/>
+						<TLCPerson eId="cmpnts__cmp_1__gmujica" href="/ontology/person/akn/uy/gonzalo.mujica.1946-02-28" showAs="GONZALO MUJICA"/>
+						<TLCPerson eId="cmpnts__cmp_1__rolivera" href="/ontology/person/akn/uy/raul.olivera.1946-02-28" showAs="RAÚL OLIVERA"/>
+						<TLCPerson eId="cmpnts__cmp_1__jorrico" href="/ontology/person/akn/uy/jorge.orrico.1946-02-28" showAs="JORGE ORRICO"/>
+						<TLCPerson eId="cmpnts__cmp_1__ypardinas" href="/ontology/person/akn/uy/yeru.pardinas.1946-02-28" showAs="YERÚ PARDIÑAS"/>
+						<TLCPerson eId="cmpnts__cmp_1__ipassada" href="/ontology/person/akn/uy/ovonne.passada.1946-02-28" showAs="IVONNE PASSADA"/>
+						<TLCPerson eId="cmpnts__cmp_1__dpaysse" href="/ontology/person/akn/uy/daniela.paysse.1946-02-28" showAs="DANIELA PAYSSÉ"/>
+						<TLCPerson eId="cmpnts__cmp_1__gpedreira" href="/ontology/person/akn/uy/guzman.pedreira.1946-02-28" showAs="GUZMÁN PEDREIRA"/>
+						<TLCPerson eId="cmpnts__cmp_1__apereyra" href="/ontology/person/akn/uy/anibal pereyra.1946-02-28" showAs="ANÍBAL PEREYRA"/>
+						<TLCPerson eId="cmpnts__cmp_1__dpbrito" href="/ontology/person/akn/uy/dario.perez.brito.1946-02-28" showAs="DARÍO PÉREZ BRITO"/>
+						<TLCPerson eId="cmpnts__cmp_1__eperez" href="/ontology/person/akn/uy/estaban.perez.1946-02-28" showAs="ESTEBAN PÉREZ"/>
+						<TLCPerson eId="cmpnts__cmp_1__ppgonzales" href="/ontology/person/akn/uy/pablo.perez.gonzalez.1946-02-28" showAs="PABLO PÉREZ GONZÁLEZ"/>
+						<TLCPerson eId="cmpnts__cmp_1__mperrachon" href="/ontology/person/akn/uy/mario.perrachon.1946-02-28" showAs="MARIO PERRACHÓN"/>
+						<TLCPerson eId="cmpnts__cmp_1__jpozzi" href="/ontology/person/akn/uy/jorge.pozzi.1946-02-28" showAs="JORGE POZZI"/>
+						<TLCPerson eId="cmpnts__cmp_1__lpuig" href="/ontology/person/akn/uy/luis.puig.1946-02-28" showAs="LUIS PUIG"/>
+						<TLCPerson eId="cmpnts__cmp_1__erodriguez" href="/ontology/person/akn/uy/eduardo.rodriguez.1946-02-28" showAs="EDGARDO RODRÍGUEZ"/>
+						<TLCPerson eId="cmpnts__cmp_1__grombys" href="/ontology/person/akn/uy/gustavo.robys.1946-02-28" showAs="GUSTAVO ROMBYS"/>
+						<TLCPerson eId="cmpnts__cmp_1__ssabini" href="/ontology/person/akn/uy/sebastian.sabini.1946-02-28" showAs="SEBASTIÁN SABINI"/>
+						<TLCPerson eId="cmpnts__cmp_1__asanchez" href="/ontology/person/akn/uy/alejandro.sanchez.1946-02-28" showAs="ALEJANDRO SÁNCHEZ"/>
+						<TLCPerson eId="cmpnts__cmp_1__bsanseverino" href="/ontology/person/akn/uy/berta.sanseverino.1946-02-28" showAs="BERTA SANSEVERINO"/>
+						<TLCPerson eId="cmpnts__cmp_1__vsemproni" href="/ontology/person/akn/uy/victor.semproni.1946-02-28" showAs="VÍCTOR SEMPRONI"/>
+						<TLCPerson eId="cmpnts__cmp_1__jcsouza" href="/ontology/person/akn/uy/juan.c.souza.1946-02-28" showAs="JUAN C. SOUZA"/>
+						<TLCPerson eId="cmpnts__cmp_1__mtierno" href="/ontology/person/akn/uy/martin.tierno.1946-02-28" showAs="MARTÍN TIERNO"/>
+						<TLCPerson eId="cmpnts__cmp_1__htantunez" href="/ontology/person/akn/uy/hermes.toledo.antunez.1946-02-28" showAs="HERMES TOLEDO ANTÚNEZ"/>
+						<TLCPerson eId="cmpnts__cmp_1__dtourne" href="/ontology/person/akn/uy/daisy.tourne.1946-02-28" showAs="DAISY TOURNÉ"/>
+						<TLCPerson eId="cmpnts__cmp_1__cvnestier" href="/ontology/person/akn/uy/carlos.varela.nestier.1946-02-28" showAs="CARLOS VARELA NESTIER"/>
+						<TLCPerson eId="cmpnts__cmp_1__avllanes" href="/ontology/person/akn/uy/alvaro.vega.llanes.1946-02-28" showAs="ÁLVARO VEGA LLANES"/>
+						<TLCPerson eId="cmpnts__cmp_1__dvivian" href="/ontology/person/akn/uy/dionisio.vivian.1946-02-28" showAs="DIONISIO VIVIAN"/>
+						<TLCPerson eId="cmpnts__cmp_1__hyanes" href="/ontology/person/akn/uy/horacio.yanes.1946-02-28" showAs="HORACIO YANES"/>
+						<TLCPerson eId="cmpnts__cmp_1__hbousses" href="/ontology/person/akn/uy/heber.bousses.1946-02-28" showAs="HEBER BOUSSES"/>
+						<TLCRole eId="cmpnts__cmp_1__rpar" href="/ontology/roles/akn/uy/representanteArtigas" showAs="Representante por Artigas"/>
+						<TLCRole eId="cmpnts__cmp_1__rpca" href="/ontology/roles/akn/uy/representanteCanelones" showAs="Representante por Canelones"/>
+						<TLCRole eId="cmpnts__cmp_1__rpcl" href="/ontology/roles/akn/uy/representanteCerroLargo" showAs="Representante por Cerro Largo"/>
+						<TLCRole eId="cmpnts__cmp_1__rpco" href="/ontology/roles/akn/uy/representanteColonia" showAs="Representante por Colonia"/>
+						<TLCRole eId="cmpnts__cmp_1__rpdu" href="/ontology/roles/akn/uy/representanteDurazno" showAs="Representante por Durazno"/>
+						<TLCRole eId="cmpnts__cmp_1__rpfl" href="/ontology/roles/akn/uy/representanteFlores" showAs="Representante por Flores"/>
+						<TLCRole eId="cmpnts__cmp_1__rpfi" href="/ontology/roles/akn/uy/representanteFloreIda" showAs="Representante por FloreIda"/>
+						<TLCRole eId="cmpnts__cmp_1__rpma" href="/ontology/roles/akn/uy/representanteMaldonado" showAs="Representante por Maldonado"/>
+						<TLCRole eId="cmpnts__cmp_1__rpmo" href="/ontology/roles/akn/uy/representanteMonteveIdeo" showAs="Representante por MonteveIdeo"/>
+						<TLCRole eId="cmpnts__cmp_1__rpla" href="/ontology/roles/akn/uy/representanteLavalleja" showAs="Representante por Lavalleja"/>
+						<TLCRole eId="cmpnts__cmp_1__rppa" href="/ontology/roles/akn/uy/representantePaysandu" showAs="Representante por Paysandú"/>
+						<TLCRole eId="cmpnts__cmp_1__rprn" href="/ontology/roles/akn/uy/representanteRioNegro" showAs="Representante por Río Negro"/>
+						<TLCRole eId="cmpnts__cmp_1__rpri" href="/ontology/roles/akn/uy/representanteRivera" showAs="rpriRepresentante por Rivera"/>
+						<TLCRole eId="cmpnts__cmp_1__rpro" href="/ontology/roles/akn/uy/representanteRocha" showAs="Representante por Rocha"/>
+						<TLCRole eId="cmpnts__cmp_1__rpsa" href="/ontology/roles/akn/uy/representanteSalto" showAs="Representante por Salto"/>
+						<TLCRole eId="cmpnts__cmp_1__rpso" href="/ontology/roles/akn/uy/representanteSoriano" showAs="Representante por Soriano"/>
+						<TLCRole eId="cmpnts__cmp_1__rpsj" href="/ontology/roles/akn/uy/representanteSanJose" showAs="Representante por San José"/>
+						<TLCRole eId="cmpnts__cmp_1__rpta" href="/ontology/roles/akn/uy/representanteTacuarembo" showAs="Representante por Tacuarembó"/>
+						<TLCRole eId="cmpnts__cmp_1__rptt" href="/ontology/roles/akn/uy/representanteTreintaYTres" showAs="Representante por Treinta y Tres"/>
+					</references>
+				</meta>
+				<preface>
+					<container eId="cmpnts__cmp_1__preface__container_1" name="title" class="center">
+						<p>
+							<docTitle>PROYECTO DE LEY</docTitle>
+						</p>
+					</container>
+				</preface>
+				<body>
+					<article eId="cmpnts__cmp_1__art_1">
+						<num>Artículo 1º</num>
+						<content eId="cmpnts__cmp_1__art_1__content">
+							<p>- <mod eId="cmpnts__cmp_1__mod_1">Declárese como interpretación auténtica de la 
+							<ref eId="cmpnts__cmp_1__ref_1" href="/akn/uy/act/1967/Constitucion/!main#art__85__item_20">Constitución de la República (artículo 85, numeral 20),</ref>
+												que el derecho de todo ser humano a la vida, a su integridad personal, a no ser desaparecido, ni torturado,
+												así como los derechos y obligaciones que regulan el acceso a la justicia, investigación, persecución, 
+												juzgamiento, cooperación y castigo de las violaciones de los mismos y de los crímenes de lesa humanidad, 
+												establecidos en las normas de Derecho Internacional ratificadas por la República y por las normas de ius
+												cogens, están incorporadas a la Constitución de la República por la vía del 
+												<ref eId="cmpnts__cmp_1__ref_2" href="/akn/uy/act/1967/Constitucion/!main#art_72">artículo 72</ref>
+									de ésta y se deberán aplicar directamente por los tribunales de la República.</mod>
+							</p>
+						</content>
+					</article>
+					<article eId="cmpnts__cmp_1__art_2">
+						<num>Artículo 2º.</num>
+						<content eId="cmpnts__cmp_1__art_2__content">
+							<p>- Declárase como <mod eId="cmpnts__cmp_1__mod_2">interpretación obligatoria (<ref eId="cmpnts__cmp_1__ref_3" href="/akn/uy/act/1985-10-10/codicoCivil/!main#art_12">Código Civil, artículo 12</ref>) que los 
+									<mref eId="cmpnts__cmp_1__mref__1">
+										<ref eId="cmpnts__cmp_1__mref_1__ref_1" href="/akn/uy/act/1986-12-22/15848/!main#art_1">artículos 1º</ref>, 
+										<ref eId="cmpnts__cmp_1__mref_1__ref_2" href="/akn/uy/act/1986-12-22/15848/!main#art_3">3º</ref> y 
+										<ref eId="cmpnts__cmp_1__mref_1__ref_3" href="/akn/uy/act/1986-12-22/15848/!main#art_4">4º de la Ley Nº 15.848, de 22 de diciembre de 1986</ref> 
+									</mref>, violan los 
+									<mref eId="cmpnts__cmp_1__mref__2">
+										<ref eId="cmpnts__cmp_1__mref_2__ref_1" href="/akn/uy/act/1967/Constitucion/!main#art_4">artículos 4º</ref>,
+										<ref eId="cmpnts__cmp_1__mref_2__ref_2" href="/akn/uy/act/1967/Constitucion/!main#art_72">72</ref>, 
+										<ref eId="cmpnts__cmp_1__mref_2__ref_3" href="/akn/uy/act/1967/Constitucion/!main#art_83">83</ref>, y 
+										<ref eId="cmpnts__cmp_1__mref_2__ref_4" href="/akn/uy/act/1967/Constitucion/!main#art_233">233</ref> de la Constitución de la República
+									</mref>, siendo en consecuencia inaplicables.</mod>
+							</p>
+						</content>
+					</article>
+					<article eId="cmpnts__cmp_1__art_3">
+						<num>Artículo 3º.</num>
+						<content eId="cmpnts__cmp_1__art_3__content">
+							<blockList eId="cmpnts__cmp_1__art_3__content__lst_1">
+								<listIntroduction>- En virtud de lo dispuesto en los artículos 1º y 2º de la presente ley:</listIntroduction>
+								<item eId="cmpnts__cmp_1__art_3__content__lst_1__item_a">
+									<num>A)</num>
+									<p>Toda intervención judicial que haya sido interrumpida, suspendida y/o archivada por aplicación de la
+									
+									<ref eId="cmpnts__cmp_1__ref_4" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848, de 22 de diciembre de 1986</ref>,    
+									
+									continuará de oficio, por la mera solicitud del interesado o 
+									del Ministerio Público y no se podrá invocar la validez de dicha ley ni de actos administrativos que se
+									hubieran dictado en su aplicación, con el fin de obstaculizar, impedir o archivar, o mantener suspendidas
+									y/o archivadas, indagatorias o acciones penales.</p>
+								</item>
+								<item eId="cmpnts__cmp_1__art_3__content__lst_1__item_b">
+									<num>B)</num>
+									<p> Sin perjuicio de los delitos imprescriptibles, cuando se tratara de delitos de naturaleza prescriptibles,
+									hayan o no sido incluidos en la caducidad establecida en el 
+									<ref eId="cmpnts__cmp_1__ref_5" href="/akn/uy/act/1986-12-22/15848/!main#art_1">artículos 1º
+									de la Ley Nº 15.848, de 22 de diciembre de 1986</ref>, 							
+									no se computará en ningún caso para el término de prescripción, el comprendido entre el 22 de diciembre de 1986 
+									y la fecha de promulgación de la presente ley.</p>
+								</item>
+							</blockList>
+						</content>
+					</article>
+				</body>
+				<conclusions eId="cmpnts__cmp_1__conclusions">
+					<p>
+						<location eId="cmpnts__cmp_1__location_1" refersTo="#cmp_1__montevideo">Montevideo</location>, <docDate eId="cmpnts__cmp_1__data_1" date="2010-09-27">27 de setiembre de 2010</docDate>.
+						<signature>
+							<person eId="cmpnts__cmp_1__person_1" as="#cmp_1__rpso" refersTo="#cmp_1__rarregui">ROQUE ARREGUI</person>
+							<role eId="cmpnts__cmp_1__role_1" refersTo="#cmp_1__rpso">Representante por Soriano</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_2" refersTo="#cmp_1__aasti">ALFREDO ASTI</person>
+							<role eId="cmpnts__cmp_1__role_2" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_3" refersTo="#cmp_1__jbango">JULIO BANGO</person>
+							<role eId="cmpnts__cmp_1__role_3" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_4" refersTo="#cmp_1__jbattistoni">JULIO BATTISTONI</person>
+							<role eId="cmpnts__cmp_1__role_4" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_5" refersTo="#cmp_1__jbayardi">JOSÉ BAYARDI</person>
+							<role eId="cmpnts__cmp_1__role_5" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_6" refersTo="#cmp_1__gbernini">GUSTAVO BERNINI</person>
+							<role eId="cmpnts__cmp_1__role_6" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_7" refersTo="#cmp_1__gcaceres">GRACIELA CÁCERES</person>
+							<role eId="cmpnts__cmp_1__role_7" refersTo="#cmp_1__rprn">Representante por Río Negro</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_8" refersTo="#cmp_1__fcarballo">FELIPE CARBALLO</person>
+							<role eId="cmpnts__cmp_1__role_8" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_9" refersTo="#cmp_1__hdavila">HUGO DÁVILA</person>
+							<role eId="cmpnts__cmp_1__role_9" refersTo="#cmp_1__rpar">Representante por Artigas</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_10" refersTo="#cmp_1__wdeleon">WALTER DE LEÓN</person>
+							<role eId="role10" refersTo="#cmp_1__rpsj">Representante por San Jose</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_11" refersTo="#cmp_1__gdetoro">GONZALO DE TORO</person>
+							<role eId="cmpnts__cmp_1__role_11" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_12" refersTo="#cmp_1__rfrachia">ROBERTO FRACHIA</person>
+							<role eId="cmpnts__cmp_1__role_12" refersTo="#cmp_1__rpla">Representante por Lavalleja</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_13" refersTo="#cmp_1__jcfernandez">JULIO CÉSAR FERNÁNDEZ</person>
+							<role eId="cmpnts__cmp_1__role_13" refersTo="#cmp_1__rpri">Representante por Rivera</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_14" refersTo="#cmp_1__cgamou">CARLOS GAMOU</person>
+							<role eId="cmpnts__cmp_1__role_14" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_15" refersTo="#cmp_1__ogroba">OSCAR GROBA</person>
+							<role eId="role15" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_16" refersTo="#cmp_1__djibarra">DOREEN JAVIER IBARRA</person>
+							<role eId="cmpnts__cmp_1__role_16" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_17" refersTo="#cmp_1__melaurnaga">MARÍA ELENA LAURNAGA</person>
+							<role eId="cmpnts__cmp_1__role_17" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_18" refersTo="#cmp_1__alima">ANDRÉS LIMA</person>
+							<role eId="cmpnts__cmp_1__role_18" refersTo="#cmp_1__rpsa">Representante por San Jose</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_19" refersTo="#cmp_1__jcmahia">JOSÉ CARLOS MAHÍA</person>
+							<role eId="cmpnts__cmp_1__role_19" refersTo="#cmp_1__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_20" refersTo="#cmp_1__rmhuelmo">RUBÉN MARTÍNEZ HUELMO</person>
+							<role eId="cmpnts__cmp_1__role_20" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_21" refersTo="#cmp_1__fmichelini">FELIPE MICHELINI</person>
+							<role eId="cmpnts__cmp_1__role_21" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_22" refersTo="#cmp_1__gmujica">GONZALO MUJICA</person>
+							<role eId="cmpnts__cmp_1__role_22" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_23" refersTo="#cmp_1__rolivera">RAÚL OLIVERA</person>
+							<role eId="cmpnts__cmp_1__role_23" refersTo="#rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_24" refersTo="#cmp_1__jorrico">JORGE ORRICO</person>
+							<role eId="cmpnts__cmp_1__role_24" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_25" refersTo="#cmp_1__ypardinas">YERÚ PARDIÑAS</person>
+							<role eId="cmpnts__cmp_1__role_25" refersTo="#cmp_1__rpcl">Representante por Cerro Largo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_26" refersTo="#cmp_1__ipassada">IVONNE PASSADA</person>
+							<role eId="cmpnts__cmp_1__role_26" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_27" refersTo="#cmp_1__dpaysse">DANIELA PAYSSÉ</person>
+							<role eId="cmpnts__cmp_1__role_27" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_28" refersTo="#cmp_1__gpedreira">GUZMÁN PEDREIRA</person>
+							<role eId="cmpnts__cmp_1__role_28" refersTo="#cmp_1__rpfl">Representante por Flores</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_29" refersTo="#cmp_1__apereyra">ANÍBAL PEREYRA</person>
+							<role eId="cmpnts__cmp_1__role_29" refersTo="#cmp_1__rpro">Representante por Rocha</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_30" refersTo="#cmp_1__dpbrito">DARÍO PÉREZ BRITO</person>
+							<role eId="cmpnts__cmp_1__role_30" refersTo="#cmp_1__rpma">Representante por Maldonado</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_31" refersTo="#cmp_1__eperez">ESTEBAN PÉREZ</person>
+							<role eId="cmpnts__cmp_1__role_31" refersTo="#cmp_1__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_32" refersTo="#cmp_1__ppgonzales">PABLO PÉREZ GONZÁLEZ</person>
+							<role eId="cmpnts__cmp_1__role_32" refersTo="#rpma">Representante por Maldonado</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_33" refersTo="#cmp_1__mperrachon">MARIO PERRACHÓN</person>
+							<role eId="cmpnts__cmp_1__role_33" refersTo="#cmp_1__rpco">Representante por Colonia</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_34" refersTo="#cmp_1__jpozzi">JORGE POZZI</person>
+							<role eId="cmpnts__cmp_1__role_34" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_35" refersTo="#cmp_1__lpuig">LUIS PUIG</person>
+							<role eId="cmpnts__cmp_1__role_35" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_36" refersTo="#cmp_1__erodriguez">EDGARDO RODRÍGUEZ</person>
+							<role eId="cmpnts__cmp_1__role_36" refersTo="#cmp_1__rpta">Representante por Tacuarembó</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_37" refersTo="#cmp_1__grombys">GUSTAVO ROMBYS</person>
+							<role eId="cmpnts__cmp_1__role_37" refersTo="#cmp_1__rppa">Representante por Paysandú</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_38" refersTo="#cmp_1__ssabini">SEBASTIÁN SABINI</person>
+							<role eId="cmpnts__cmp_1__role_38" refersTo="#cmp_1__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_39" refersTo="#cmp_1__asanchez">ALEJANDRO SÁNCHEZ</person>
+							<role eId="cmpnts__cmp_1__role_39" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_40" refersTo="#cmp_1__bsanseverino">BERTA SANSEVERINO</person>
+							<role eId="cmpnts__cmp_1__role_40" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_41" refersTo="#cmp_1__vsemproni">VÍCTOR SEMPRONI</person>
+							<role eId="cmpnts__cmp_1__role_41" refersTo="#cmp_1__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_42" refersTo="#cmp_1__jcsouza">JUAN C. SOUZA</person>
+							<role eId="cmpnts__cmp_1__role_42" refersTo="#cmp_1__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_43" refersTo="#cmp_1__mtierno">MARTÍN TIERNO</person>
+							<role eId="cmpnts__cmp_1__role_43" refersTo="#cmp_1__rpdu">Representante por Durazno</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person___44" refersTo="#cmp_1__htantunez">HERMES TOLEDO ANTÚNEZ</person>
+							<role eId="cmpnts__cmp_1__role___44" refersTo="#cmp_1__rptt">Representante por Treinta y Tres</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_45" refersTo="#cmp_1__dtourne">DAISY TOURNÉ</person>
+							<role eId="cmpnts__cmp_1__role_45" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_46" refersTo="#cmp_1__cvnestier">CARLOS VARELA NESTIER</person>
+							<role eId="cmpnts__cmp_1__role_46" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_47" refersTo="#cmp_1__avllanes">ÁLVARO VEGA LLANES</person>
+							<role eId="cmpnts__cmp_1__role_47" refersTo="#cmp_1__rpfi">Representante por Florida</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_48" refersTo="#cmp_1__dvivian">DIONISIO VIVIAN</person>
+							<role eId="cmpnts__cmp_1__role_48" refersTo="#cmp_1__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_49" refersTo="#cmp_1__hyanes">HORACIO YANES</person>
+							<role eId="cmpnts__cmp_1__role_49" refersTo="#cmp_1__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_1__person_50" refersTo="#cmp_1__hbousses">HEBER BOUSSES</person>
+							<role eId="cmpnts__cmp_1__role_50" refersTo="#cmp_1__rpmo">Representante por Montevideo</role>
+						</signature>
+					</p>
+				</conclusions>
+			</bill>
+		</component>
+		<component eId="cmpnts__cmp_2">
+			<doc name="motivos">
+				<!-- The motivation is numberd with Carpeta: 395-2010 and it is an independent document from the bill for permitting the versioning of the bill and of the motivation in separate way -->
+				<meta>
+					<identification source="#cmpnts__cmp_2__palmirani">
+						<FRBRWork>
+							<FRBRthis value="/akn/uy/doc/motivation/camera/2010-09-27/carpeta395-2010/!main"/>
+							<FRBRuri value="/akn/uy/doc/motivation/camera2010-09-27/carpeta395-2010"/>
+							<FRBRdate date="2010-09-27" name="Enactment"/>
+							<FRBRauthor href="#cmpnts__cmp_2__cameraCommittee" as="#cmpnts__cmp_2__author"/>
+							<FRBRcountry value="uy"/>
+						</FRBRWork>
+						<FRBRExpression>
+							<FRBRthis value="/akn/uy/doc/motivation/camera/2010-09-27/carpeta395-2010/esp@/!main"/>
+							<FRBRuri value="/uydoc/motivation/camera/2010-09-27/carpeta395-2010/esp@"/>
+							<FRBRdate date="2010-09-27" name="Expression"/>
+							<FRBRauthor href="#cmpnts__cmp_2__cameraCommittee" as="#cmpnts__cmp_2__author"/>
+							<FRBRlanguage language="esp"/>
+						</FRBRExpression>
+						<FRBRManifestation>
+							<FRBRthis value="/akn/uy/doc/motivation/camera/2010-09-27/carpeta395-2010/esp@/!main.xml"/>
+							<FRBRuri value="/akn/uy/doc/motivation/camera/2010-09-27/carpeta395-2010/esp@/.akn"/>
+							<FRBRdate date="2013-08-28" name="XMLConversion"/>
+							<FRBRauthor href="#cmpnts__cmp_2__palmirani" as="#cmpnts__cmp_2__editor"/>
+						</FRBRManifestation>
+					</identification>
+					<references source="#cmpnts__cmp_2__palmirani">
+						<original eId="cmpnts__cmp_2__ro_1" href="/akn/uy/doc/motivation/camera/2010-09-27/carpeta395-2010/esp@" showAs="Bill"/>
+						<TLCReference eId="cmpnts__cmp_2__refer_1" href="/akn/uy/judgment/sentence2313-95" showAs="Sentencia 2313-95, de 9 de mayo de 1995, 3435/92" name="sentence"/>
+						<TLCReference eId="cmpnts__cmp_2__refer_2" href="/akn/uy/judgment/sentence365-09" showAs="sentencia Nº 365/09" name="sentence"/>
+						<TLCReference eId="cmpnts__cmp_2__refer_3" href="/akn/uy/judgment/sentence365-2009-par6-puntIII.8" showAs="Sentencia Nº 365/2009 SCJ, párrafo 6º, punto III.8" name="sentence"/>
+						<TLCPerson eId="cmpnts__cmp_2__palmirani" href="/ontology/person/akn/uy/monica.palmirani.1966-02-28" showAs="Palmirani"/>
+						<TLCRole eId="cmpnts__cmp_2__author" href="/ontology/roles/akn/uy/author" showAs="Author of Document"/>
+						<TLCRole eId="cmpnts__cmp_2__editor" href="/ontology/roles/akn/uy/editor" showAs="Editor of Document"/>
+						<TLCOrganization eId="cmpnts__cmp_2__cameraCommittee" href="/ontology/organizations/akn/uy/committee" showAs="Comisión de Constitución, Códigos, Legislación General y Administración"/>
+						<TLCLocation eId="cmpnts__cmp_2__montevideo" href="/ontology/cities/akn/uy/montevideo" showAs="Montevideo"/>
+						<TLCPerson eId="cmpnts__cmp_2__rarregui" href="/ontology/person/akn/uy/roque.arregui" showAs="ROQUE ARREGUI"/>
+						<TLCPerson eId="cmpnts__cmp_2__aasti" href="/ontology/person/akn/uy/alfredo.asti" showAs="ALFREDO ASTI"/>
+						<TLCPerson eId="cmpnts__cmp_2__jbango" href="/ontology/person/akn/uy/julio.bango" showAs="JULIO BANGO"/>
+						<TLCPerson eId="cmpnts__cmp_2__jbattistoni" href="/ontology/person/akn/uy/julio.battistoni" showAs="JULIO BATTISTONI"/>
+						<TLCPerson eId="cmpnts__cmp_2__jbayardi" href="/ontology/person/akn/uy/jose.bayardi" showAs="JOSÉ BAYARDI"/>
+						<TLCPerson eId="cmpnts__cmp_2__gbernini" href="/ontology/person/akn/uy/gustavo.bernini" showAs="GUSTAVO BERNINI"/>
+						<TLCPerson eId="cmpnts__cmp_2__gcaceres" href="/ontology/person/akn/uy/graciela.caceres" showAs="GRACIELA CÁCERES"/>
+						<TLCPerson eId="cmpnts__cmp_2__fcarballo" href="/ontology/person/akn/uy/felipe.carballo" showAs="FELIPE CARBALLO"/>
+						<TLCPerson eId="cmpnts__cmp_2__hdavila" href="/ontology/person/akn/uy/hugo.davila" showAs="HUGO DÁVILA"/>
+						<TLCPerson eId="cmpnts__cmp_2__wdeleon" href="/ontology/person/akn/uy/walter.de.leon" showAs="WALTER DE LEÓN"/>
+						<TLCPerson eId="cmpnts__cmp_2__gdetoro" href="/ontology/person/akn/uy/gonzalo.de.toro" showAs="GONZALO DE TORO"/>
+						<TLCPerson eId="cmpnts__cmp_2__rfrachia" href="/ontology/person/akn/uy/roberto.frachia" showAs="ROBERTO FRACHIA"/>
+						<TLCPerson eId="cmpnts__cmp_2__jcfernandez" href="/ontology/person/akn/uy/julio.cesar.fernandez" showAs="JULIO CÉSAR FERNÁNDEZ"/>
+						<TLCPerson eId="cmpnts__cmp_2__cgamou" href="/ontology/person/akn/uy/carlos.gamou" showAs="CARLOS GAMOU"/>
+						<TLCPerson eId="cmpnts__cmp_2__ogroba" href="/ontology/person/akn/uy/oscar.groba" showAs="OSCAR GROBA"/>
+						<TLCPerson eId="cmpnts__cmp_2__djibarra" href="/ontology/person/akn/uy/doreen.javier.ibarra" showAs="DOREEN JAVIER IBARRA"/>
+						<TLCPerson eId="cmpnts__cmp_2__melaurnaga" href="/ontology/person/akn/uy/maria.elena.laurnaga" showAs="MARÍA ELENA LAURNAGA"/>
+						<TLCPerson eId="cmpnts__cmp_2__alima" href="/ontology/person/akn/uy/andres.lima" showAs="ANDRÉS LIMA"/>
+						<TLCPerson eId="cmpnts__cmp_2__jcmahia" href="/ontology/person/akn/uy/jose.carlos.mahia" showAs="JOSÉ CARLOS MAHÍA"/>
+						<TLCPerson eId="cmpnts__cmp_2__rmhuelmo" href="/ontology/person/akn/uy/ruben.martinez.huelmo" showAs="RUBÉN MARTÍNEZ HUELMO"/>
+						<TLCPerson eId="cmpnts__cmp_2__fmichelini" href="/ontology/person/akn/uy/felipe.michelini" showAs="FELIPE MICHELINI"/>
+						<TLCPerson eId="cmpnts__cmp_2__gmujica" href="/ontology/person/akn/uy/gonzalo.mujica" showAs="GONZALO MUJICA"/>
+						<TLCPerson eId="cmpnts__cmp_2__rolivera" href="/ontology/person/akn/uy/raul.olivera" showAs="RAÚL OLIVERA"/>
+						<TLCPerson eId="cmpnts__cmp_2__jorrico" href="/ontology/person/akn/uy/jorge.orrico" showAs="JORGE ORRICO"/>
+						<TLCPerson eId="cmpnts__cmp_2__ypardinas" href="/ontology/person/akn/uy/yeru.pardinas" showAs="YERÚ PARDIÑAS"/>
+						<TLCPerson eId="cmpnts__cmp_2__ipassada" href="/ontology/person/akn/uy/ivonne.passada" showAs="IVONNE PASSADA"/>
+						<TLCPerson eId="cmpnts__cmp_2__dpaysse" href="/ontology/person/akn/uy/daniela.paysse" showAs="DANIELA PAYSSÉ"/>
+						<TLCPerson eId="cmpnts__cmp_2__gpedreira" href="/ontology/person/akn/uy/guzman.pedreira" showAs="GUZMÁN PEDREIRA"/>
+						<TLCPerson eId="cmpnts__cmp_2__apereyra" href="/ontology/person/akn/uy/anibal pereyra" showAs="ANÍBAL PEREYRA"/>
+						<TLCPerson eId="cmpnts__cmp_2__dpbrito" href="/ontology/person/akn/uy/dario.perez.brito" showAs="DARÍO PÉREZ BRITO"/>
+						<TLCPerson eId="cmpnts__cmp_2__eperez" href="/ontology/person/akn/uy/estaban.perez" showAs="ESTEBAN PÉREZ"/>
+						<TLCPerson eId="cmpnts__cmp_2__ppgonzales" href="/ontology/person/akn/uy/pablo.perez.gonzalez" showAs="PABLO PÉREZ GONZÁLEZ"/>
+						<TLCPerson eId="cmpnts__cmp_2__mperrachon" href="/ontology/person/akn/uy/mario.perrachon" showAs="MARIO PERRACHÓN"/>
+						<TLCPerson eId="cmpnts__cmp_2__jpozzi" href="/ontology/person/akn/uy/jorge.pozzi" showAs="JORGE POZZI"/>
+						<TLCPerson eId="cmpnts__cmp_2__lpuig" href="/ontology/person/akn/uy/luis.puig" showAs="LUIS PUIG"/>
+						<TLCPerson eId="cmpnts__cmp_2__erodriguez" href="/ontology/person/akn/uy/eduardo.rodriguez" showAs="EDGARDO RODRÍGUEZ"/>
+						<TLCPerson eId="cmpnts__cmp_2__grombys" href="/ontology/person/akn/uy/gustavo.robys" showAs="GUSTAVO ROMBYS"/>
+						<TLCPerson eId="cmpnts__cmp_2__ssabini" href="/ontology/person/akn/uy/sebastian.sabini" showAs="SEBASTIÁN SABINI"/>
+						<TLCPerson eId="cmpnts__cmp_2__asanchez" href="/ontology/person/akn/uy/alejandro.sanchez" showAs="ALEJANDRO SÁNCHEZ"/>
+						<TLCPerson eId="cmpnts__cmp_2__bsanseverino" href="/ontology/person/akn/uy/berta.sanseverino" showAs="BERTA SANSEVERINO"/>
+						<TLCPerson eId="cmpnts__cmp_2__vsemproni" href="/ontology/person/akn/uy/victor.semproni" showAs="VÍCTOR SEMPRONI"/>
+						<TLCPerson eId="cmpnts__cmp_2__jcsouza" href="/ontology/person/akn/uy/juan.c.souza" showAs="JUAN C. SOUZA"/>
+						<TLCPerson eId="cmpnts__cmp_2__mtierno" href="/ontology/person/akn/uy/martin.tierno" showAs="MARTÍN TIERNO"/>
+						<TLCPerson eId="cmpnts__cmp_2__htantunez" href="/ontology/person/akn/uy/hermes.toledo.antunez" showAs="HERMES TOLEDO ANTÚNEZ"/>
+						<TLCPerson eId="cmpnts__cmp_2__dtourne" href="/ontology/person/akn/uy/daisy.tourne" showAs="DAISY TOURNÉ"/>
+						<TLCPerson eId="cmpnts__cmp_2__cvnestier" href="/ontology/person/akn/uy/carlos.varela.nestier" showAs="CARLOS VARELA NESTIER"/>
+						<TLCPerson eId="cmpnts__cmp_2__avllanes" href="/ontology/person/akn/uy/alvaro.vega.llanes" showAs="ÁLVARO VEGA LLANES"/>
+						<TLCPerson eId="cmpnts__cmp_2__dvivian" href="/ontology/person/akn/uy/dionisio.vivian" showAs="DIONISIO VIVIAN"/>
+						<TLCPerson eId="cmpnts__cmp_2__hyanes" href="/ontology/person/akn/uy/horacio.yanes" showAs="HORACIO YANES"/>
+						<TLCPerson eId="cmpnts__cmp_2__hbousses" href="/ontology/person/akn/uy/heber.bousses" showAs="HEBER BOUSSES"/>
+						<TLCRole eId="cmpnts__cmp_2__rpar" href="/ontology/roles/akn/uy/representanteArtigas" showAs="Representante por Artigas"/>
+						<TLCRole eId="cmpnts__cmp_2__rpca" href="/ontology/roles/akn/uy/representanteCanelones" showAs="Representante por Canelones"/>
+						<TLCRole eId="cmpnts__cmp_2__rpcl" href="/ontology/roles/akn/uy/representanteCerroLargo" showAs="Representante por Cerro Largo"/>
+						<TLCRole eId="cmpnts__cmp_2__rpco" href="/ontology/roles/akn/uy/representanteColonia" showAs="Representante por Colonia"/>
+						<TLCRole eId="cmpnts__cmp_2__rpdu" href="/ontology/roles/akn/uy/representanteDurazno" showAs="Representante por Durazno"/>
+						<TLCRole eId="cmpnts__cmp_2__rpfl" href="/ontology/roles/akn/uy/representanteFlores" showAs="Representante por Flores"/>
+						<TLCRole eId="cmpnts__cmp_2__rpfi" href="/ontology/roles/akn/uy/representanteFloreIda" showAs="Representante por FloreIda"/>
+						<TLCRole eId="cmpnts__cmp_2__rpma" href="/ontology/roles/akn/uy/representanteMaldonado" showAs="Representante por Maldonado"/>
+						<TLCRole eId="cmpnts__cmp_2__rpmo" href="/ontology/roles/akn/uy/representanteMonteveIdeo" showAs="Representante por MonteveIdeo"/>
+						<TLCRole eId="cmpnts__cmp_2__rpla" href="/ontology/roles/akn/uy/representanteLavalleja" showAs="Representante por Lavalleja"/>
+						<TLCRole eId="cmpnts__cmp_2__rppa" href="/ontology/roles/akn/uy/representantePaysandu" showAs="Representante por Paysandú"/>
+						<TLCRole eId="cmpnts__cmp_2__rprn" href="/ontology/roles/akn/uy/representanteRioNegro" showAs="Representante por Río Negro"/>
+						<TLCRole eId="cmpnts__cmp_2__rpri" href="/ontology/roles/akn/uy/representanteRivera" showAs="rpriRepresentante por Rivera"/>
+						<TLCRole eId="cmpnts__cmp_2__rpro" href="/ontology/roles/akn/uy/representanteRocha" showAs="Representante por Rocha"/>
+						<TLCRole eId="cmpnts__cmp_2__rpsa" href="/ontology/roles/akn/uy/representanteSalto" showAs="Representante por Salto"/>
+						<TLCRole eId="cmpnts__cmp_2__rpso" href="/ontology/roles/akn/uy/representanteSoriano" showAs="Representante por Soriano"/>
+						<TLCRole eId="cmpnts__cmp_2__rpsj" href="/ontology/roles/akn/uy/representanteSanJose" showAs="Representante por San José"/>
+						<TLCRole eId="cmpnts__cmp_2__rpta" href="/ontology/roles/akn/uy/representanteTacuarembo" showAs="Representante por Tacuarembó"/>
+						<TLCRole eId="cmpnts__cmp_2__rptt" href="/ontology/roles/akn/uy/representanteTreintaYTres" showAs="Representante por Treinta y Tres"/>
+					</references>
+				</meta>
+				<preface>
+					<p>
+						<docTitle>EXPOSICIÓN DE MOTIVOS</docTitle>
+					</p>
+				</preface>
+				<mainBody>
+					<paragraph eId="cmpnts__cmp_2__para_1">
+						<content eId="cmpnts__cmp_2__para_1__content">
+							<p>Los legisladores firmantes del proyecto de ley que se presenta a la Cámara de Representantes tienen el honor 
+								de darle estado parlamentario a esta iniciativa que reconoce el rango constitucional de normas internacionales 
+								de protección de derechos humanos y de derecho internacional humanitario.
+								A su vez como una consecuencia obvia, directa y automática deja sin efecto por resultar inaplicables, los  								
+								<mref eId="cmpnts__cmp_2__mref_1">
+									<ref eId="cmpnts__cmp_2__mref_1__ref_1" href="/akn/uy/act/1986-12-22/15848/!main#art_1">artículos 1º</ref>, 			
+									<ref eId="cmpnts__cmp_2__mref_1__ref_2" href="/akn/uy/act/1986-12-22/15848/!main#art_3">3º</ref> y 					
+									<ref eId="cmpnts__cmp_2__mref_1__ref_3" href="/akn/uy/act/1986-12-22/15848/!main#art_4">4º de la Ley Nº 15.848, de 22 de diciembre de 1986</ref>
+										
+								</mref>
+								, denominada Ley de Caducidad de la Pretensión Punitiva del Estado.	</p>
+						</content>
+					</paragraph>
+					<paragraph eId="cmpnts__cmp_2__para_2">
+						<intro eId="cmpnts__cmp_2__para_2__intro_1">
+							<p>El proyecto que se presenta tiene una profusa fundamentación jurídica en sus aspectos generales y al mismo 
+								tiempo un claro e inequívoco sentido de ratificar el compromiso de la República con la plena vigencia de los 
+								derechos humanos en nuestro país. Por ello directamente y sin ambages dilucida la inaplicabilidad de los 
+								<mref eId="cmpnts__cmp_2__mref_2">
+									<ref eId="cmpnts__cmp_2__mref_2__ref_1" href="/akn/uy/act/1986-12-22/15848/!main#art_1">artículos 1º</ref>, 		
+									<ref eId="cmpnts__cmp_2__mref_2__ref_2" href="/akn/uy/act/1986-12-22/15848/!main#art_3">3º</ref> y 					
+									<ref eId="cmpnts__cmp_2__mref_2__ref_3" href="/akn/uy/act/1986-12-22/15848/!main#art_4">4º de la mencionada Ley Nº 15.848</ref>
+							</mref>
+								 en virtud de las consideraciones generales así como particulares que se exponen:</p>
+						</intro>
+						<division eId="cmpnts__cmp_2__para_2__division_I">
+							<num>I.</num>
+							<heading eId="cmpnts__cmp_2__para_2__division_I__heading">- Reconocimiento del rango constitucional de normas internacionales de protección de derechos humanos y de derecho internacional humanitario.</heading>
+							<content eId="cmpnts__cmp_2__para_2__division_I__content">
+								<p>Desde la aprobación de la 
+									
+									   <ref eId="cmpnts__cmp_2__ref_1" href="/akn/uy/statment/1948-12/declddhh/!main">Declaración Universal<!-- A.S.T.  ref added.    -->
+									
+									
+									de los Derechos Humanos en diciembre de 1948</ref>, por la Asamblea General de las Naciones Unidas, el Derecho Internacional de Protección de los Derechos Humanos ha representado la máxima garantía de los derechos de la persona humana, "sin distinción alguna de raza, color, sexo, idioma, religión, opinión política, o de cualquier otra índole, origen nacional o social, posición económica, nacimiento o cualquier otra condición".</p>
+								<p>Las disposiciones establecidas en ella, así como las posteriormente incorporadas en los diversos tratados de derechos humanos y derecho humanitario constituyen la base fundacional de toda la sociedad humana y representan condiciones imprescindibles de la existencia de todo Estado de Derecho.</p>
+								<p>En tal sentido, la legislación, la doctrina y la jurisprudencia internacional y doméstica han tenido un continuo y manifiesto avance en el sentido de reconocer el predominio de esas normas por sobre toda otra de carácter interno de los Estados, inclusive, respecto de las normas constitucionales.</p>
+								<p>El proceso de reconocimiento de la prevalencia del derecho internacional de los derechos humanos, ha llevado a los diversos ordenamientos nacionales y regionales a reconocer la validez de estas normas como un estándar mínimo indispensable, que constituye un bloque inexpugnable, frente al cual ceden las normas internas, aún las de rango constitucional.</p>
+								<p>Así lo ha expresado claramente la Jurisprudencia constitucional de Costa Rica hace ya más de quince años al señalar: "como lo ha reconocido la jurisprudencia de esta Sala, los instrumentos de derechos humanos vigentes en Costa Rica, tienen no solamente un valor similar a la Constitución Política, sino que en la medida en que otorguen mayores derechos o garantías a las personas priman sobre la Constitución (<span eId="cmpnts__cmp_2__span_1" refersTo="#cmpnts__cmp_2__refer_1">Sentencia 2313-95, de 9 de mayo de 1995, 3435/92</span>)". (Sentencia 2313-95, de 9 de mayo de 1995. Considerando VI Citado por Rodolfo Piza Escalante en Liber Amicorum Hector Fix-Zamudio Secretaría de la Corte Interamericana de Derechos Humanos San José, Costa Rica, 1998). En nuestro país, la reciente <span eId="cmpnts__cmp_2__span_2" refersTo="#cmpnts__cmp_2__refer_2">sentencia Nº 365/09</span> "Sabalsagary Curutchet, Blanca Stella. Denuncia. Excepción de Inconstitucionalidad artículos 
+									
+									<mref eId="cmpnts__cmp_2__mref_3">
+										<ref eId="cmpnts__cmp_2__mref_3__ref_1" href="/akn/uy/act/1986-12-22/15848/!main#art_1">artículos 1º</ref>, 
+										<ref eId="cmpnts__cmp_2__mref_3-ref2" href="/akn/uy/act/1986-12-22/15848/!main#art_3">3º</ref> y 					
+										<ref eId="cmpnts__cmp_2__mref_3-ref3" href="/akn/uy/act/1986-12-22/15848/!main#art_4">4º</ref>
+										<ref eId="cmpnts__cmp_2__mref_3-ref_4" href="/akn/uy/act/1986-12-22/15848/!main">Ley Nº 15.848
+									, Ficha 97-397/2004</ref>
+									</mref>
+									 ) dictada por la Suprema Corte de Justicia, recoge esta jurisprudencia, al analizar la constitucionalidad de la 
+									
+									<ref eId="cmpnts__cmp_2__ref_2" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref>
+									
+									, declarando la inconstitucionalidad de varios artículos por oponerse no solamente a la Constitución Nacional, sino a los principios y normas de derecho internacional, que constituyen un todo con la parte dogmática de nuestra Constitución y deben considerarse incorporadas a ésta de acuerdo con el artículo 72 de la Carta. "…no puede ahora invocarse la teoría clásica de la soberanía para defender la potestad estatal de limitar la protección jurídica de los derechos humanos" así como que "... la regulación actual de los derechos humanos no se basa en la posición soberana de los Estados, sino en la persona en tanto titular, por su condición de tal, de los derechos esenciales no pueden ser desconocidos con base en el ejercicio del poder constituyente, ni originario ni derivado". (<span eId="spn3" refersTo="#refer3">Sentencia Nº 365/2009 SCJ, párrafo 6º, punto III.8</span>).</p>
+								<p>En tal sentido ha establecido claramente que las garantías genéricas esenciales del Estado de Derecho tales como el derecho a la justicia, y la separación de poderes entre otros, constituyen principios universales básicos, que no pueden ser derogados ni aún por mayorías circunstanciales, ya sean de carácter popular o parlamentarias.</p>
+								<p>Si bien la declaración de inconstitucionalidad de la ley solo tiene efecto para el caso concreto en que se ha dictado sentencia, resulta claro que el reconocimiento constante de la inconstitucionalidad de una norma, obliga a los Jueces a considerar la desaplicación de la misma en virtud de los principios generales del derecho. Así por ejemplo, ningún Juez de la República ha dudado en la desaplicación del <ref eId="cmpnts__cmp_2__ref_3" href="/akn/uy/act/1985/codicoPenal/!main#art165">artículo 165 del Código Penal </ref>-Abandono colectivo de funciones, es decir huelga del funcionario público-, pese a que no existe registro de que el mismo haya sido derogado expresamente por norma alguna.</p>
+								<p>De esta suerte, el principio de jerarquía de la norma impone al tribunal, aplicar la norma de mayor jerarquía, y, por tanto resulta hoy, un principio general la aplicación de la norma internacional de derechos humanos, en virtud de su incorporación a través del 
+									
+									<ref eId="cmpnts__cmp_2__ref_4" href="/akn/uy/act/1967/Constitucion/!main#art_72">,artículo 72
+									
+									de la Constitución</ref>, por tratarse de una norma superior a cualquier ley nacional.</p>
+								<p>Por último, la 
+									
+									<ref eId="cmpnts__cmp_2__ref_5" href="/akn/uy/pact/1969-11-22/SanJoseCostaRica/!main">Convención
+									
+									Americana de Derechos Humanos fue aprobada por Ley Nº 15.737, de 22 de marzo de 1985</ref>, en su 
+									
+									<ref eId="cmpnts__cmp_2__ref_6" href="/akn/uy/act/1985-03-22/15737/!main#art_15">artículo 15</ref>
+									
+									y su texto forma parte de esa ley, habiendo sido ratificada debidamente por Uruguay en abril de 1985. Por tanto, sus normas, en tanto reconoce derechos inherentes a la persona humana se incorporaron de pleno derecho, en el <ref eId="cmpnts__cmp_2__ref_7" href="/akn/uy/act/1967/Constitucion/!main#art_72">artículo 72</ref> por lo que resulta claro que una ley posterior no puede derogar derechos constitucionalmente garantidos.</p>
+							</content>
+						</division>
+						<division eId="cmpnts__cmp_2__para_2__division_II">
+							<num>II</num>
+							<heading eId="cmpnts__cmp_2__para_2__division_II__heading_3">- Inaplicabilidad de los artículos 
+									<mref eId="cmpnts__cmp_2__mref_4">
+									<ref eId="cmpnts__cmp_2__mref_4-ref1" href="/akn/uy/act/1986-12-22/15848/!main#art_1">artículos 1º</ref>, 			
+									<ref eId="cmpnts__cmp_2__mref_4-ref2" href="/akn/uy/act/1986-12-22/15848/!main#art_3">3º</ref> y 					
+									<ref eId="cmpnts__cmp_2__mref_4-ref3" href="/akn/uy/act/1986-12-22/15848/!main#art_4">4º</ref>
+								</mref>
+								 de la Ley Nº 15.848.</heading>
+							<content eId="cmpnts__cmp_2__para_2__division_II__content">
+								<p>
+									<ref eId="cmpnts__cmp_2__ref_8" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref>
+									   ha sido una de las más controvertidas y repudiadas en la historia de nuestro país. Más allá de intenciones, su aplicación e interpretación hasta marzo del 2005 permitió durante años garantizar la impunidad más absoluta para los autores de los delitos y crímenes más oprobiosos que recuerde la historia nacional utilizando todo el aparato estatal para la consecución de tales crímenes como la ejecución extrajudicial, la desaparición forzada de personas dentro y fuera de fronteras, el secuestro de niños y niñas y la tortura sistemática -incluida la violencia sexual- entre otras prácticas aberrantes cumplidas en forma sistemática, en el marco del terrorismo de estado que asoló la República entre 1973 y 1985.</p>
+								<p>Asimismo, se ha impugnado la norma a través de varias acciones de inconstitucionalidad, con fallos controvertidos en el pasado, pero con una clara y contundente sentencia el año pasado que establece claramente que la propia existencia de la norma vulnera principios fundamentales de nuestro ordenamiento jurídico-constitucional. La declaración de inconstitucionalidad fue además objeto de análisis del Fiscal de Corte y Procurador General de la Nación que dictaminó que era una norma incompatible con la Constitución Nacional, y de expresos pronunciamientos del Poder Ejecutivo como de la Asamblea General, máximo órgano del Poder Legislativo.</p>
+								<p>A nivel de la movilización ciudadana, la norma que este proyecto promueve dejar sin efecto en nuestro sistema normativo, ha sido un factor de constante movilización en su repudio, pues los supuestos factores que le dieron origen y justificaban su vigencia, hoy son anacrónicos, y en cambio perduran los efectos más nocivos de la impunidad que impide a las víctimas y sus familiares acceder al amparo del Estado para la salvaguarda de sus derechos y el ejercicio de los mismos a través de los cometidos constitucionalmente asignados al Poder Judicial de ser salvaguarda última de los derechos inherentes a la persona humana.</p>
+								<p>En el ámbito internacional, estos artículos de la mencionada norma han sido objeto de análisis por parte de los más prestigiosos organismos intergubernamentales de protección y supervisión de los derechos humanos, entre ellos la Comisión Interamericana de Derechos Humanos y el Comité de Derechos Humanos del Pacto Internacional de Derechos Civiles y Políticos y su protocolo facultativo, cuya competencia ha aceptado soberana y expresamente la República. Además de consideraciones generales sobre la incompatibilidad de la norma mencionada con los instrumentos fundantes de la protección del ser humano como la 
+									<ref eId="cmpnts__cmp_2__ref_9" href="/akn/uy/statment/1948-12-10/declddhh/!main">Declaración Universal
+									de Derechos Humanos</ref> y la 
+									<ref eId="cmpnts__cmp_2__ref_10" href="/akn/uy/statment/1948-04-30/declamericanaddhh/!main">Declaración Americana
+									de Derechos y Deberes del Hombre</ref>, se deben tener presente la Resolución 29/92 de la Comisión Interamericana y el caso Rodríguez contra Uruguay en el Comité de Derechos Humanos del 
+									<ref eId="cmpnts__cmp_2__ref_11" href="/akn/uy/pact/1976-03-23/declddhhcivilesypoliticos/!main">Pacto
+									Internacional de Derechos Civiles y Políticos</ref> que expresa y explícitamente han condenado a nuestro país en virtud de los artículos propuestos para ser dejados sin efecto.</p>
+								<p>Por otra parte es público y notorio que ha sido presentada una acción contra nuestro país ante la Corte Interamericana de Derechos Humanos por parte de la Comisión Interamericana de Derechos Humanos buscando el amparo por parte del máximo órgano jurisdiccional en la materia, en representación de García Iruretagoyena de Gelman. Toda la jurisprudencia de la Corte, especialmente en el caso Velásquez Rodríguez c/ Honduras y el caso Barrios Altos c/ Perú, así como la pacíficamente aceptada doctrina de la Comisión Interamericana, indican que nuestro país será condenado por hechos que nuestra sociedad repugna, pero que los artículos de la norma mencionadas la 
+									<ref eId="cmpnts__cmp_2__ref_12" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref>
+									, protegen a autores materiales, cómplices y coautores, impidiendo además el conocimiento de la verdad judicial. La condena será por obligaciones que nuestro país ha asumido soberana y voluntariamente en la materia.</p>
+								<p>A su vez en todas y cada una de las expresiones de los soportes de los órganos de protección de los derechos humanos como es el caso del Alto Comisionado de Derechos Humanos o los relatores especiales en materias específicas, como es el caso del Relator Especial en materia de Tortura, la referencia a la incompatibilidad de la "ley de caducidad" es constante y unánime como uno de los mecanismos más perversos de impunidad.</p>
+								<p>Así lo entendió claramente en octubre de 1992 la Comisión Interamericana de Derechos Humanos, al señalar que la 
+									<ref eId="cmpnts__cmp_2__ref_13" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref>
+									es incompatible con el artículo XVIII (Derecho a la Justicia) de la 
+									<ref eId="cmpnts__cmp_2__ref12" href="/akn/uy/statment/1948-04-30/declamericanaddhh/!main">Declaración Americana
+									de los Derechos y Deberes del Hombre</ref> y los artículos 
+									<ref eId="cmpnts__cmp_2__ref_14" href="/akn/uy/pact/1969-11-22/SanJoseCostaRica/!main#art_1">1</ref>
+									<ref eId="cmpnts__cmp_2__ref_15" href="/akn/uy/pact/1969-11-22/SanJoseCostaRica/!main#art_8">,8</ref> y                    
+									<ref eId="cmpnts__cmp_2__ref_16" href="/akn/uy/pact/1969-11-22/SanJoseCostaRica/!main#art_25">25
+									Convención Americana de Derechos Humanos</ref>, en su resolución 29/92 en ocasión de los casos 10.029 -Hugo Leonardo de De los Santos Mendoza-; 10.036 -Álvaro Balbi-; 10.145 -Enrique Rodríguez Larreta Pieri-; 10.305 -Noris Alejandra Menotti Cobas, Luis Alberto Estradet, Josefina Mirta Detta Paolino, Rita Ibarburu, Federico Martínez, Jorge Burgell, William Torres Ramírez, Guillermo Francisco Stoll, Osiris Elías Musso Casalas, Clarel de los Santos Flores-; 10.372 -Juan Manuel Brieba-; 10.373 -Félix Sebastián Ortiz-; 10.374 -Amelia Sanjurjo Casal- y 10.375 -Antonio Omar Paitta-.</p>
+								<p>Asimismo en el caso García Iruretagoyena de Gelman Nº 12.607 que se demanda al estado uruguayo por no respetar entre otros, el derecho a las garantías judiciales, a la protección judicial, el derecho a la vida, la libertad personal y la integridad personal (objeto de la demanda, párrafo 5), y con su petitorio pide que se adopten "…las medidas legislativas y de otra índole para que de acuerdo con sus procesos constitucionales y las disposiciones de la Convención Americana, quede sin efecto la 
+									<ref eId="cmpnts__cmp_2__ref_17" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848
+									o Ley de Caducidad</ref>" (párrafo 144.b, textual -subrayado de los firmantes de este proyecto-) para reparar la situación, permitiendo la investigación de la justicia.</p>
+								<p>Debe destacarse que esta es la interpretación ya adoptada por el Poder Ejecutivo con fecha 23 de junio de 2005, en relación a la aplicación de la referida ley -la cual fue comunicada al Poder Judicial en su momento y se mantiene hasta el presente- que ha sido reafirmada en nueva integración.</p>
+								<p>Situación similar ha ocurrido en el Poder Legislativo, en ocasión de ser consultado por la Suprema Corte de Justicia en autos "Sabalsagaray Curutchet, Blanca Estela. Denuncia. Excepción de inconstitucionalidad artículos 
+									<mref eId="cmpnts__cmp_2__mref_5">
+										<ref eId="cmpnts__cmp_2__mref_5-ref1" href="/akn/uy/act/1986-12-22/15848/!main#art_1">artículos 1º</ref>, 			
+										<ref eId="cmpnts__cmp_2__mref_5-ref2" href="/akn/uy/act/1986-12-22/15848/!main#art_3">3º</ref> y 					
+										<ref eId="cmpnts__cmp_2__mref_5-ref3" href="/akn/uy/act/1986-12-22/15848/!main#art_4">4º</ref>
+									</mref> de la Ley Nº 15.848" Ficha 97- 397/2004.</p>
+								<p>Asimismo en dichos autos, la Suprema Corte de Justicia declaró "inconstitucionales e inaplicables" los artículos
+									<mref eId="cmpnts__cmp_2__mref_6">
+										<ref eId="cmpnts__cmp_2__mref_6-ref1" href="/akn/uy/act/1986-12-22/15848/!main#art_1">artículos 1º</ref>, 			
+										<ref eId="cmpnts__cmp_2__mref_6-ref2" href="/akn/uy/act/1986-12-22/15848/!main#art_3">3º</ref> y 					
+										<ref eId="cmpnts__cmp_2__mref_6-ref3" href="/akn/uy/act/1986-12-22/15848/!main#art_4">4º</ref>de la <ref eId="mref_6-ref4" href="/akn/uy/act/1986-12-22/15848/!main">Ley Nº 15.848 </ref>
+									</mref> 
+									y a su vez, comunicó dicho fallo a la Asamblea General. No escapa a los firmantes que el fallo de la Suprema Corte de Justicia refiere exclusivamente al caso concreto y tiene efecto en el procedimiento en el cual se ha pronunciado (
+									<ref eId="cmpnts__cmp_2__ref_18" href="/akn/uy/act/1967/Constitucion/!main#art_259">artículo 259</ref> de la Constitución de la República)		 
+									, no obstante lo cual el mismo implica, necesariamente, la declaración de la inconsistencia entre una norma contenida en una ley formal con la norma de mayor eficacia formal, en el ordenamiento jurídico nacional, es decir la 
+									<ref eId="cmpnts__cmp_2__ref_19" href="/akn/uy/act/1967/Constitucion/!main">Constitución de la República.</ref>
+									Por ello el artículo 522 del Código General del Proceso impone la obligación de comunicar toda sentencia de inconstitucionalidad de la ley al Poder Legislativo.</p>
+								<p>El proyecto de ley puesto a vuestra consideración no desconoce el resultado del referéndum contra la 
+									<ref eId="cmpnts__cmp_2__ref_20" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref>
+									realizado en el año 1989 ni del proyecto de agregado a la 
+									<ref eId="cmpnts__cmp_2__ref_21" href="/akn/uy/act/1967/Constitucion/!main">Constitución de la República.</ref>
+									plebiscitado el 25 de octubre del año 2009, para su anulación. Por una parte dichos pronunciamientos no invalidan el ejercicio de los cometidos irrenunciables e indelegables asignados al Poder Legislativo. Tampoco impiden bregar por un país en el que impere la justicia y por ello este proyecto es el resultado de un análisis tendiente a adecuar el sistema jurídico nacional a la 
+									<ref eId="cmpnts__cmp_2__ref_22" href="/akn/uy/act/1967/Constitucion/!main">Constitución de la República.</ref>
+									y a las normas internacionales de las cuales el país es parte.</p>
+								<p>No escapa a los promotores de esta iniciativa que la interpretación y aplicación de la norma que se busca su inaplicabilidad, ha sido, a partir del 1º de marzo de 2005 en el gobierno del doctor Tabaré Vázquez, de una forma que ha permitido la intervención del Poder Judicial. Así es que efectivamente algunos de los más reconocidos criminales de lesa humanidad han sido objeto de procesamientos y algunos incluso ya han sido condenados.</p>
+								<p>La norma propuesta recoge este principio de jerarquía de la norma internacional, y su incorporación al bloque constitucional de derechos, efectuando un reconocimiento legal de esta situación, con el objetivo de unificar la jurisprudencia al respecto.</p>
+								<p>Cumple además con el objetivo de dar satisfacción al reclamo planteado por la Comisión Interamericana de Derechos Humanos ante la Corte Interamericana y de esta forma evitarle al Estado una condena segura, exponiendo a nuestro país a figurar en la nómina de los países sancionados por negarse a dar cumplimiento a las normas vinculantes de la Convención Americana de Derechos Humanos.</p>
+								<p>Los proponentes entienden que es imposible para los Poderes del Estado, tanto el Poder Ejecutivo como el Poder Legislativo, reconocer la existencia de una norma inconstitucional y no actuar para dejarla sin efecto alguno. Citando al jurista Kelsen, Sánchez Carnelli señala "la declaración de inconstitucionalidad de una ley supone la violación del derecho por el legislador. Así, el acto legislativo, colocado en el ámbito de un orden inferior, en cuanto está limitado por el orden supremo -Constitución- está sometido al contralor jurisdiccional. Este contralor ha sido confiado a la Suprema Corte de Justicia, como órgano superior del Poder Judicial" (Declaración de inconstitucionalidad de los actos legislativos, página 139, FCU, Montevideo, 2005).</p>
+								<p>Reconociendo esta situación el legislador debe actuar para darle efectos generales evitando de esta forma la discriminación que puede surgir de la aplicación desigual de las leyes violentando en los hechos el 
+									<ref eId="cmpnts__cmp_2__ref_23" href="/akn/uy/act/1967/Constitucion/!main#art_8">artículo 8º de la Constitución.</ref>
+								</p>
+								<p>La norma en cuestión propone la aplicación directa de la norma internacional por parte de los Jueces. Es obvio, pero es necesario dejarlo a texto expreso que los magistrados que entiendan que hubiera obstáculos de índole constitucional pueden recurrir al mecanismo de inconstitucionalidad establecido en la Carta Magna por el tercer inciso del 
+									<ref eId="cmpnts__cmp_2__ref_24" href="/akn/uy/act/1967/Constitucion/!main#art_258">artículo 258</ref>
+								</p>
+								<p>Ya oportunamente la sentencia 22/93 de la Suprema Corte de Justicia, señalaba que "la interpretación de la Constitución no es monopolio exclusivo de la Suprema Corte de Justicia: ninguna norma de derecho positivo consagra una tal exclusividad… y tanto la Justicia ordinaria como el Tribunal de lo Contencioso Administrativo, la Corte Electoral, el Tribunal de Cuentas, y en general, todo órgano público deben interpretar la Constitución para y a la luz de sus disposiciones, aplicar los textos legales y reglamentarios… no es por cierto la de que se le haya sido atribuida en forma exclusiva la custodia de la Constitución: todos los órganos públicos, en especial los Jueces, deben velar por la primacía del texto constitucional frente a normas jurídicas de menor jerarquía…".</p>
+								<p>Al respecto señala Sánchez Carnelli comentando esta sentencia "En el futuro el Juez de la causa, puede opinar compartiendo la tesis. Su independencia técnica lo habilita. Puede entender que tiene competencia para resolver los casos de existencia de derogación de la ley anterior a la Constitución por esta última. Por lo cual serían muchos… los casos que no llegarían a la Corte, siempre y cuando no alcance el conocimiento de la litis por la vía de interposición de Recurso de Casación, que es otra posibilidad muy reducida. Solamente se elevarían los casos en que el Juez de la causa no compartiera la tesis de la derogación. Pensamos entonces que la situación podría fácilmente llegar a ser definitiva. Se agilitará considerablemente la Administración de Justicia, por la inmediatez del procedimiento". (Sánchez Carnelli Lorenzo, Declaración de inconstitucionalidad de los actos legislativos, página 145, FCU, Montevideo, 2005).</p>
+								<p>Enseñaba el ilustre Justino Jiménez de Aréchaga en la Defensa jurídica de la Constitución, "Hemos visto ya que la Constitución se integra con dos partes distintas, la dogmática o sustantiva, en la cual se declaran y salvaguardan los derechos de los ciudadanos y personas jurídicas, y la parte orgánica, en la que se fijan las normas para la estructuración del Estado y sus diversas actividades… El individuo dentro del Estado puede hacer todo lo que no se encuentre prohibido por el orden jurídico: el Estado puede hacer solamente lo que en forma expresa le está permitido realizar. Esto nos da un nuevo criterio afirmativo, que nos faculta para rechazar en términos absolutos la posibilidad de que una costumbre o una ley que no se sujete a los requisitos constitucionalmente prescriptos corrija la competencia atribuida al Estado, facultándolo a hacer lo que por el texto le era cometido. Debe recordarse además y es consecuencia de lo que ya hemos dicho, que el Estado, además de ser un sistema de normas, implica una idea moral" (Teoría del Gobierno, Tomo II, FCU, 1977, página 134).</p>
+								<p>En el mismo trabajo cita al Juez Marshall, cuando señala que "o admitimos que la Constitución anula cualquier medida legislativa que la contraríe, o consentimos en que la legislatura pueda alterarla por medidas ordinarias. O la Constitución es una ley superior, soberana, irreformable por medios comunes o se nivela con los actos de legislación usual, convirtiéndose en reformable al sabor de la legislatura. Si la primera proposición es verdadera, entonces el acto legislativo, contrario a la Constitución, no será ley, si es verdadera la segunda, entonces las Constituciones escritas son absurdos esfuerzos del pueblo para limitar un poder por su naturaleza ilimitada. Todos los que han sancionado constituciones escritas, lo hicieron siempre con el intento de establecer la ley fundamental y suprema de la nación, y por consiguiente la teoría de tales gobiernos debe ser que cualquier acto de la legislatura ofensivo a la Constitución es nulo. Esta doctrina está esencialmente ligada a las Constituciones escritas y por tanto se debe observar como uno de los principales fundamentos de la sociedad" (página 131).</p>
+								<p>Asimismo y refiriéndose a los efectos de la declaración de inconstitucionalidad dice Jiménez de Aréchaga "Vulgarmente se afirma -y no es exacto- que es ésta una facultad privativa de la Suprema Corte: cualquier Juez puede decretar la inconstitucionalidad de una ley. Pero la decisión sobre inconstitucionalidad, en cualquier caso, no aprovecha sino a las partes…". Y más adelante señala "En la Constitución de los Estados Unidos de Norte América, rige el mismo principio (que la nuestra) y por ello puede afirmarse que en ella y en nuestro país, y en todos los demás que adoptan el principio del juicio particular, la ley inconstitucional en principio es nula; pero la justicia no declara su nulidad, no la deroga. La declara inaplicable en el litigio en que se promueve su declaración y esa declaración sólo tiene fuerza ejecutoria en el caso debatido" (página 135).</p>
+								<p>A su vez Martín Risso cita entre las posiciones afirmativas a la posibilidad de desaplicar las normas legales claramente inconstitucionales sin necesidad de recurrir previamente a la Suprema Corte de Justicia, al Fiscal de Gobierno de Primer Turno que consideraba "Si el Poder Ejecutivo tiene la obligación de cumplir la Constitución, de cuyo cometido es responsable, civil y políticamente, el Presidente de la República 
+									<mref eId="cmpnts__cmp_2__mref_7">
+										<ref eId="cmpnts__cmp_2__mref_7__ref_1" href="/akn/uy/act/1967/!main#art_1">-artículos 24,</ref>, 
+										<ref eId="cmpnts__cmp_2__mref_7__ref_2" href="/akn/uy/act/1967/!main#art_3">84,</ref>
+										<ref eId="cmpnts__cmp_2__mref_7__ref_3" href="/akn/uy/act/1967/!main#art_4">160-</ref>
+									</mref> 									
+									no sería lógico ni sensato, cercenarle la facultad de juicio para apreciar, íntegramente, los elementos de sus actos, precisamente de aquellos que una vez realizado son violatorios de la Constitución".</p>
+								<p>Juan Andrés Ramírez concluyó en que tanto los particulares como los órganos públicos (incluyendo al Poder Ejecutivo), están habilitados para no aplicar una ley que consideran inconstitucional, quedando la cuestión librada a la resolución definitiva de la Suprema Corte de Justicia.</p>
+								<p>Cassinelli Muñoz, en "La Defensa Jurídica de la Constitución" sostuvo que como defensa de la misma, es posible que tanto los particulares como los órganos estatales, dejen de aplicar una disposición legal que consideran inconstitucional, y en la medida que estén convencidos de que tendrán éxito en sede jurisdiccional, apliquen directamente la Constitución con prescindencia de la norma de jerarquía inferior contraria a Derecho. El fundamento estaría en la solución de principio de que frente al conflicto entre dos normas la que debe aplicarse es la de mayor jerarquía salvo que medie excepción expresa.</p>
+								<p>Martín Risso señala refiriéndose a las potestades de interpretación constitucional de la Asamblea General (numeral 20 del 
+									<ref eId="cmpnts__cmp_2__ref_25" href="/akn/uy/act/1967/!main#art_85">-artículo 85,</ref>, 			<!-- A.S.T.  ref added.    -->
+									) que la interpretación constitucional realizada por una norma de inferior jerarquía a la norma interpretada, tendrá la eficacia de cualquier ley, agregando que como enseñaba Jiménez de Aréchaga, esa interpretación será generalmente obligatoria como cualquier ley. Más adelante señala inclusive que, fuera de la función jurisdiccional, en materia de interpretación constitucional y legal, regirán los principios generales, y el interesado aplicará la totalidad del ordenamiento jurídico (y no sólo la ley), resolviendo las contradicciones de acuerdo a los principios ya enunciados (jerarquía y temporalidad) (Derecho Constitucional, páginas 226 y siguientes, FCU, Montevideo, 2006).</p>
+								<p>Asimismo en otra obra, Risso expresa "el intérprete no tiene libertad ni discrecionalidad para buscar los principios sino que éstos le son dados, a veces en forma expresa (por ejemplo los 
+									artículos 7º y 8º 
+									<mref eId="cmpnts__cmp_2__mref_8">
+										<ref eId="cmpnts__cmp_2__mref_8__ref_1" href="/akn/uy/act/1967/!main#art_7">-artículos 7</ref> y 			
+										<ref eId="cmpnts__cmp_2__mref_8__ref_2" href="/akn/uy/act/1967/!main#art_8">8</ref>
+									</mref> 	
+									de la Constitución), otras en forma implícita y otras por la vía del artículo 72 de la Carta. Y es dentro de estos principios que se mueve dicha discrecionalidad o margen de la decisión del Juez. Pero además debe tenerse presente que esos principios generales son en definitiva la formulación jurídica de los valores superiores de la comunidad nacional (plasmados en la Constitución) y de la comunidad internacional (plasmados en el Derecho Internacional de los Derechos Humanos). O sea que son estos valores los que enmarcan la labor judicial". (Algunas Garantías Básicas de los Derechos Humanos, Risso Ferrand, FCU, Montevideo, 2008).</p>
+								<p>De esta forma entonces, este proyecto permite incorporar con carácter general normas de reconocimiento de derechos humanos por la vía de la interpretación, con carácter general y por tanto con pleno valor legal. Al mismo tiempo, permite que los Jueces apliquen directamente la Constitución, al declararlas inaplicables. Ello no impide por supuesto que ante la duda el Juez pueda recurrir, como ya se ha expresado a las disposiciones del 
+									<ref eId="cmpnts__cmp_2__ref_26" href="/akn/uy/act/1967/!main#art_256">-artículo 256,</ref>
+									y siguientes.</p>
+								<p>Pero en todo caso una norma inconstitucional y violatoria de la Convención Americana así como de otros tratados internacionales y normas consuetudinarias de derecho humanitario, como la 
+									<ref eId="cmpnts__cmp_2__ref_27" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref>
+									, dejará de tener todo valor por cuanto, la presente ley, ordena su desaplicación, le quita todo efecto jurídico y fija el criterio de interpretación, ordenando la aplicación de las normas de derecho internacional de los derechos humanos, en forma directa.</p>
+								<p>Debe destacarse que esta norma propuesta no hace más que reconocer y dar cumplimiento con carácter general, en aplicación del artículo 12 del Código Civil, cosa que corresponde al Poder Legislativo, de lo decidido unánimemente por la Sentencia de la Suprema Corte de Justicia (conforme a lo dispuesto por el Código General del Proceso) y de la Comisión Interamericana de Derechos Humanos, en el caso 12.607.</p>
+								<p>El proyecto además tiene como clara consecuencia la imprescriptibilidad de los delitos que puedan ser considerados de lesa humanidad o contrarios al derecho humanitario, conforme a las disposiciones internacionales, estableciendo al mismo tiempo una suspensión del plazo, durante el cual inclusive aquellos delitos que pudieran ser objeto de prescripción, no pudieron ser objeto de investigación, juzgamiento y castigo, por estar en vigencia la 
+									<ref eId="cmpnts__cmp_2__ref_28" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref> .</p>
+								<p>Finalmente, al recogerse las normas internacionales, así como la sentencia de inconstitucionalidad dictada por unanimidad de los miembros de la Suprema Corte de Justicia, queda claro que en lo que refiere específicamente a la 
+									<ref eId="cmpnts__cmp_2__ref_29" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref>
+									, resultarán inaplicables, los artículos 1º, 3º y 4º de la misma, estableciéndose en particular que los actos administrativos que hayan motivado el archivo de acciones judiciales no causan estado y por tanto las mismas podrán continuarse a solicitud de parte o del Ministerio Público.</p>
+								<p>Debe considerarse que las decisiones de carácter administrativo adoptadas por el Poder Ejecutivo, además de violentar el principio de separación de Poderes, que es la base del sistema democrático republicano de gobierno, tuvieron por efecto impedir la investigación en la etapa del Presumario. Por tanto las resoluciones de archivo adoptadas por el Poder Judicial en función de la vigencia de las disposiciones de la 
+									<ref eId="cmpnts__cmp_2__ref_30" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref>
+									, no generaron una sentencia o una decisión que pasara en autoridad de cosa juzgada. Al removerse el obstáculo administrativo el Poder Judicial recupera sus facultades de investigación respecto de los hechos y las pruebas aportadas, así como sus competencias de juzgar y castigar en los casos sometidos a su jurisdicción.</p>
+							</content>
+						</division>
+						<division eId="cmpnts__cmp_2__para_2__division_III">
+							<num>III</num>
+							<heading eId="cmpnts__cmp_2__para_2__division_III__heading"> – Consideraciones finales.</heading>
+							<content eId="cmpnts__cmp_2__para_2__division_III__content">
+								<p>La norma proyectada, de ser sancionada tendría además un claro objetivo simbólico: restablecer plenamente la dignidad de la República ante el pueblo uruguayo y la comunidad internacional, en tanto declara la inaplicabilidad absoluta de los artículos 
+									<mref eId="cmpnts__cmp_2__mref_9">
+										<ref eId="cmpnts__cmp_2__mref_9-ref_1" href="/akn/uy/act/1986-12-22/15848/!main#art_1">artículos 1º</ref>, 			
+										<ref eId="cmpnts__cmp_2__mref_9-ref_2" href="/akn/uy/act/1986-12-22/15848/!main#art_3">3º</ref> y 					
+										<ref eId="cmpnts__cmp_2__mref_9-ref_3" href="/akn/uy/act/1986-12-22/15848/!main#art_4">4º</ref>de la Ley Nº 15.848 
+									</mref> 
+									
+									por incompatibilidad absoluta con la 
+									<ref eId="cmpnts__cmp_2__ref_31" href="/akn/uy/act/1967/Constitucion/!main">Constitución de la República.</ref>
+									y los instrumentos internacionales de protección de los derechos humanos que nuestro país reconoce y en su caso, ha ratificado.</p>
+								<p>Resulta claro que la norma proyectada cumple con el deber de protección asignado por el artículo 7º de la Carta. Por otra parte debe señalarse que la 
+									<ref eId="cmpnts__cmp_2__ref_32" href="/akn/uy/act/1986-12-22/15848/!main"> Ley Nº 15.848</ref>
+									nunca pudo interpretarse válidamente como una amnistía, o indulto, como lo ha señalado claramente la Suprema Corte de Justicia en la Sentencia 365/09 ya mencionada.</p>
+								<p>Al solo efecto de dejar constancia, el proyecto de ley no vulnera ningún artículo de la 
+									<ref eId="cmpnts__cmp_2__ref_33" href="/akn/uy/act/1967/Constitucion/!main">Constitución de la República.</ref>
+									, ni su espíritu garantista de los derechos inherentes a la personalidad humana como reza el 
+									<ref eId="cmpnts__cmp_2__ref_34" href="/akn/uy/act/1967/Constitucion/!main#art_72">artículo 72	 de la Constitución de la República</ref>
+								, sino por el contrario lo adecua al declarar inaplicable la norma más indigna de nuestro ordenamiento jurídico. Tampoco se vulnera principio alguno del derecho penal garantista, pues no hay retroactividad de la ley penal, pues los delitos existían a nivel internacional y a nivel nacional cuando se cometieron y las penas que aplicarán los Jueces son aquéllas y no unas más severas.</p>
+								<p>Los firmantes entendemos que mantener en nuestro ordenamiento jurídico una norma con tal contenido e inconsistencia compromete nuestro prestigio internacional como país respetuoso de los derechos de las personas y de los principios más caros al sistema democrático representativo de gobierno. Es por eso que la aprobación de la norma propuesta resulta de especial consideración y urgencia en la instancia.</p>
+								<p>Los proponentes, aspiramos que este proyecto sea acompañado por la mayor cantidad de legisladores que vean en su sanción un paso a la verdadera reconciliación de los orientales, que puede y debe hacerse sobre la base de la verdad, la memoria, la justicia, la reparación y el reconocimiento de la honorabilidad de las víctimas del terrorismo de Estado. Será una forma para continuar el camino de afianzamiento de las instituciones democráticas, sobre la base de la igualdad ante la ley y el repudio a conductas incompatibles con los derechos humanos y con la identidad nacional. La búsqueda de un país de primera, debe necesariamente superar nuestro pasado, asumiéndolo, erradicando los obstáculos del presente incluidos los jurídicos, que no nos permiten ver ni construir un porvenir de esperanza donde las conductas que configuren crímenes de lesa humanidad, nunca más sean realizadas y menos aún toleradas, justificadas o aceptadas.	</p>
+							</content>
+						</division>
+					</paragraph>
+				</mainBody>
+				<conclusions eId="cmpnts__cmp_2__conclusions">
+					<p>
+						<location eId="cmpnts__cmp_2__location_1" refersTo="#cmpnts__cmp_2__montevideo">Montevideo</location>, <docDate eId="data1" date="2010-09-27">27 de setiembre de 2010</docDate>.
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_1" refersTo="#cmpnts__cmp_2__rarregui">ROQUE ARREGUI</person>
+							<role eId="cmpnts__cmp_2__role_1" refersTo="#cmpnts__cmp_2__rpso">Representante por Soriano</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_2" refersTo="#cmpnts__cmp_2__aasti">ALFREDO ASTI</person>
+							<role eId="cmpnts__cmp_2__role_2" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_3" refersTo="#cmpnts__cmp_2__jbango">JULIO BANGO</person>
+							<role eId="cmpnts__cmp_2__role_3" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_4" refersTo="#cmpnts__cmp_2__jbattistoni">JULIO BATTISTONI</person>
+							<role eId="cmpnts__cmp_2__role_4" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_5" refersTo="#cmpnts__cmp_2__jbayardi">JOSÉ BAYARDI</person>
+							<role eId="cmpnts__cmp_2__role_5" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_6" refersTo="#cmpnts__cmp_2__gbernini">GUSTAVO BERNINI</person>
+							<role eId="cmpnts__cmp_2__role_6" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_7" refersTo="#cmpnts__cmp_2__gcaceres">GRACIELA CÁCERES</person>
+							<role eId="cmpnts__cmp_2__role_7" refersTo="#cmpnts__cmp_2__rpri">Representante por Rivera</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_8" refersTo="#cmpnts__cmp_2__fcarballo">FELIPE CARBALLO</person>
+							<role eId="cmpnts__cmp_2__role_8" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_9" refersTo="#cmpnts__cmp_2__hdavila">HUGO DÁVILA</person>
+							<role eId="cmpnts__cmp_2__role_9" refersTo="#cmpnts__cmp_2__rpar">Representante por Artigas</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_10" refersTo="#cmpnts__cmp_2__wdeleon">WALTER DE LEÓN</person>
+							<role eId="cmpnts__cmp_2__role_10" refersTo="#cmpnts__cmp_2__rpsj">Representante por San Jose</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_11" refersTo="#cmpnts__cmp_2__gdetoro">GONZALO DE TORO</person>
+							<role eId="cmpnts__cmp_2__role_11" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_12" refersTo="#cmpnts__cmp_2__rfrachia">ROBERTO FRACHIA</person>
+							<role eId="cmpnts__cmp_2__role_12" refersTo="#cmpnts__cmp_2__rpla">Representante por Lavalleja</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_13" refersTo="#cmpnts__cmp_2__jcfernandez">JULIO CÉSAR FERNÁNDEZ</person>
+							<role eId="cmpnts__cmp_2__role_13" refersTo="#cmpnts__cmp_2__rpri">Representante por Rivera</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_14" refersTo="#cmpnts__cmp_2__cgamou">CARLOS GAMOU</person>
+							<role eId="cmpnts__cmp_2__role_14" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_15" refersTo="#cmpnts__cmp_2__ogroba">OSCAR GROBA</person>
+							<role eId="cmpnts__cmp_2__role_15" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_16" refersTo="#cmpnts__cmp_2__djibarra">DOREEN JAVIER IBARRA</person>
+							<role eId="cmpnts__cmp_2__role_16" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_17" refersTo="#cmpnts__cmp_2__melaurnaga">MARÍA ELENA LAURNAGA</person>
+							<role eId="cmpnts__cmp_2__role_17" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_18" refersTo="#cmpnts__cmp_2__alima">ANDRÉS LIMA</person>
+							<role eId="cmpnts__cmp_2__role_18" refersTo="#cmpnts__cmp_2__rpsa">Representante por San Jose</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_19" refersTo="#cmpnts__cmp_2__jcmahia">JOSÉ CARLOS MAHÍA</person>
+							<role eId="cmpnts__cmp_2__role_19" refersTo="#cmpnts__cmp_2__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_20" refersTo="#rmhuelmo">RUBÉN MARTÍNEZ HUELMO</person>
+							<role eId="cmpnts__cmp_2__role_20" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_21" refersTo="#cmpnts__cmp_2__fmichelini">FELIPE MICHELINI</person>
+							<role eId="cmpnts__cmp_2__role_21" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_22" refersTo="#cmpnts__cmp_2__gmujica">GONZALO MUJICA</person>
+							<role eId="cmpnts__cmp_2__role_22" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_23" refersTo="#cmpnts__cmp_2__rolivera">RAÚL OLIVERA</person>
+							<role eId="cmpnts__cmp_2__role_23" refersTo="#cmpnts__cmp_2__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_24" refersTo="#cmpnts__cmp_2__jorrico">JORGE ORRICO</person>
+							<role eId="cmpnts__cmp_2__role_24" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_25" refersTo="#cmpnts__cmp_2__ypardinas">YERÚ PARDIÑAS</person>
+							<role eId="cmpnts__cmp_2__role_25" refersTo="#cmpnts__cmp_2__rpcl">Representante por Cerro Largo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_26" refersTo="#cmpnts__cmp_2__ipassada">IVONNE PASSADA</person>
+							<role eId="cmpnts__cmp_2__role_26" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_27" refersTo="#cmpnts__cmp_2__dpaysse">DANIELA PAYSSÉ</person>
+							<role eId="cmpnts__cmp_2__role_27" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_28" refersTo="#cmpnts__cmp_2__gpedreira">GUZMÁN PEDREIRA</person>
+							<role eId="cmpnts__cmp_2__role_28" refersTo="#cmpnts__cmp_2__rpfl">Representante por Flores</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_29" refersTo="#cmpnts__cmp_2__apereyra">ANÍBAL PEREYRA</person>
+							<role eId="cmpnts__cmp_2__role_29" refersTo="#cmpnts__cmp_2__rpro">Representante por Rocha</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_30" refersTo="#cmpnts__cmp_2__dpbrito">DARÍO PÉREZ BRITO</person>
+							<role eId="cmpnts__cmp_2__role_30" refersTo="#cmpnts__cmp_2__rpma">Representante por Maldonado</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_31" refersTo="#cmpnts__cmp_2__eperez">ESTEBAN PÉREZ</person>
+							<role eId="cmpnts__cmp_2__role_31" refersTo="#cmpnts__cmp_2__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_32" refersTo="#ppgonzales">PABLO PÉREZ GONZÁLEZ</person>
+							<role eId="cmpnts__cmp_2__role_32" refersTo="#cmpnts__cmp_2__rpma">Representante por Maldonado</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_33" refersTo="#cmpnts__cmp_2__mperrachon">MARIO PERRACHÓN</person>
+							<role eId="cmpnts__cmp_2__role_33" refersTo="#cmpnts__cmp_2__rpco">Representante por Colonia</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_34" refersTo="#cmpnts__cmp_2__jpozzi">JORGE POZZI</person>
+							<role eId="cmpnts__cmp_2__role_34" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_35" refersTo="#cmpnts__cmp_2__lpuig">LUIS PUIG</person>
+							<role eId="cmpnts__cmp_2__role_35" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_36" refersTo="#cmpnts__cmp_2__erodriguez">EDGARDO RODRÍGUEZ</person>
+							<role eId="cmpnts__cmp_2__role_36" refersTo="#cmpnts__cmp_2__rpta">Representante por Tacuarembó</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_37" refersTo="#cmpnts__cmp_2__grombys">GUSTAVO ROMBYS</person>
+							<role eId="cmpnts__cmp_2__role_37" refersTo="#cmpnts__cmp_2__rppa">Representante por Paysandú</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_38" refersTo="#cmpnts__cmp_2__ssabini">SEBASTIÁN SABINI</person>
+							<role eId="cmpnts__cmp_2__role_38" refersTo="#cmpnts__cmp_2__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_39" refersTo="#cmpnts__cmp_2__asanchez">ALEJANDRO SÁNCHEZ</person>
+							<role eId="cmpnts__cmp_2__role_39" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_40" refersTo="#cmpnts__cmp_2__bsanseverino">BERTA SANSEVERINO</person>
+							<role eId="cmpnts__cmp_2__role_40" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_41" refersTo="#cmpnts__cmp_2__vsemproni">VÍCTOR SEMPRONI</person>
+							<role eId="cmpnts__cmp_2__role_41" refersTo="#cmpnts__cmp_2__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_42" refersTo="#cmpnts__cmp_2__jcsouza">JUAN C. SOUZA</person>
+							<role eId="cmpnts__cmp_2__role_42" refersTo="#cmpnts__cmp_2__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_43" refersTo="#cmpnts__cmp_2__mtierno">MARTÍN TIERNO</person>
+							<role eId="cmpnts__cmp_2__role_43" refersTo="#cmpnts__cmp_2__rpdu">Representante por Durazno</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_44" refersTo="#cmpnts__cmp_2__htantunez">HERMES TOLEDO ANTÚNEZ</person>
+							<role eId="cmpnts__cmp_2__role_44" refersTo="#cmpnts__cmp_2__rptt">Representante por Treinta y Tres</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_45" refersTo="#cmpnts__cmp_2__dtourne">DAISY TOURNÉ</person>
+							<role eId="cmpnts__cmp_2__role_45" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_46" refersTo="#cmpnts__cmp_2__cvnestier">CARLOS VARELA NESTIER</person>
+							<role eId="cmpnts__cmp_2__role_46" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_47" refersTo="#cmpnts__cmp_2__avllanes">ÁLVARO VEGA LLANES</person>
+							<role eId="cmpnts__cmp_2__role_47" refersTo="#cmpnts__cmp_2__rpfi">Representante por Florida</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_48" refersTo="#cmpnts__cmp_2__dvivian">DIONISIO VIVIAN</person>
+							<role eId="cmpnts__cmp_2__role_48" refersTo="#cmpnts__cmp_2__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_49" refersTo="#cmpnts__cmp_2__hyanes">HORACIO YANES</person>
+							<role eId="cmpnts__cmp_2__role_49" refersTo="#cmpnts__cmp_2__cmpnts__cmp_2__rpca">Representante por Canelones</role>
+						</signature>
+						<signature>
+							<person eId="cmpnts__cmp_2__prs_50" refersTo="#cmpnts__cmp_2__hbousses">HEBER BOUSSES</person>
+							<role eId="cmpnts__cmp_2__role_50" refersTo="#cmpnts__cmp_2__rpmo">Representante por Montevideo</role>
+						</signature>
+					</p>
+				</conclusions>
+			</doc>
+		</component>
+	</components>
+</akomaNtoso>

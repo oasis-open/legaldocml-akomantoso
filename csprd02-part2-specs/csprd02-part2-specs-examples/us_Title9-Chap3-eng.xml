@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd">
+	<!-- Level 5 of compliance  -->
+    <portion includedIn="/akn/us/act/title_9">
+        <meta>
+            <identification source="#vergottini">
+                <FRBRWork>
+                    <FRBRthis value="/akn/us/usc/title_9/!main"/>
+                    <FRBRuri value="/akn/us/usc/title_9"/>
+                    <FRBRdate date="1947-07-30" name="Title 9"/>
+                    <FRBRauthor href="#olrc" as="#author"/>
+                    <FRBRcountry value="us"/>
+                    <FRBRsubtype value="title"/>
+                    <FRBRnumber value="title_9"/>                    
+                    <FRBRname value="title"/>
+                    <FRBRprescriptive value="false"/>
+                    <FRBRauthoritative value="true"/>
+                </FRBRWork>
+                <FRBRExpression>
+                    <FRBRthis value="/akn/us/usc/title_9/eng@2013-07-26/!main"/>
+                    <FRBRuri value="/akn/us/usc/title_9/eng@2013-07-26"/>
+                    <FRBRdate date="2013-07-26" name="Chapter 3 of Title 9 (July 26, 2013)"/>
+                    <FRBRauthor href="#olrc" as="#editor"/>
+                    <FRBRlanguage language="eng"/>
+                </FRBRExpression>
+                <FRBRManifestation>
+                    <FRBRthis value="/akn/us/usc/title_9/eng@2013-07-26~chp_3/!main.xml"/>
+                    <FRBRuri value="/akn/us/usc/title_9/eng@2013-07-26~chp_3/!main.akn"/>
+                    <FRBRdate date="2014-10-07" name="Chapter 3 of Title 9 (July 26, 2013) -- XML Markup"/>
+                    <FRBRauthor href="#vergottini" as="generator"/>
+                    <FRBRportion  from="#chp_3"/>
+                </FRBRManifestation>
+            </identification>
+            <references source="#vergottini">
+                <original eId="title_9" href="/akn/us/usc/title_9" showAs="Title 9"/>
+                <TLCRole eId="sevretaryOfState" href="/akn/us/ontology/role/secretaryOfState" showAs="Secretary of State"/>
+                <TLCRole eId="drafter" href="/akn/us/ontology/role/drafter" showAs="Drafter"/>
+                <TLCRole eId="editor" href="/akn/us/ontology/role/editor" showAs="Editor"/>
+                <TLCRole eId="generator" href="/akn/us/ontology/role/generator" showAs="Generator"/>
+                <TLCOrganization href="/akn/us/ontology/organization/interAmericanCommercialArbitationCommission" showAs="Inter-American Commercial Arbitration Commission"/>
+                <TLCOrganization eId="house" href="/akn/us/ontology/organization/house" showAs="U.S. House of Representatives"/>
+                <TLCOrganization eId="olrc" href="/akn/us/ontology/organization/olrc" showAs="Office of the Law Revision Counsel"/>
+                <TLCPerson eId="vergottini" href="/akn/us/ontology/person/somebody" showAs="Grant Vergottini"/>
+            </references>
+        </meta>
+        <portionBody>
+            <chapter GUID="idd1d2ae15-f639-11e2-8470-abc29ba29c4d" eId="chp_3">
+                <num>CHAPTER 3—</num>
+                <heading>INTER-AMERICAN CONVENTION ON INTERNATIONAL COMMERCIAL ARBITRATION</heading>
+                <intro>
+                    <toc>
+                        <tocItem href="" level="1">
+                            <span>Sec.</span>
+                        </tocItem>
+                        <tocItem href="#sec_301" level="1">
+                            <span>301.</span>
+                            <span>Enforcement of Convention.</span>
+                        </tocItem>
+                        <tocItem href="#sec_302" level="1">
+                            <span>302.</span>
+                            <span>Incorporation by reference.</span>
+                        </tocItem>
+                        <tocItem href="#sec_303" level="1">
+                            <span>303.</span>
+                            <span>Order to compel arbitration; appointment of arbitrators; locale.</span>
+                        </tocItem>
+                        <tocItem href="#sec_304" level="1">
+                            <span>304.</span>
+                            <span>Recognition and enforcement of foreign arbitral decisions and awards; reciprocity.</span>
+                        </tocItem>
+                        <tocItem href="#sec_305" level="1">
+                            <span>305.</span>
+                            <span> Relationship between the <ref href="/akn/oas/act/1975__b_35/eng@1975-01-30">Inter-American Convention</ref> and the  <ref href="/akn/un/act/1958NYConvention/eng@1958-06-10">Convention on the Recognition and Enforcement of Foreign Arbitral Awards of June 10, 1958</ref>. </span>
+                        </tocItem>
+                        <tocItem href="#sec_306" level="1">
+                            <span>306.</span>
+                            <span>Applicable rules of <organization refersTo="#interAmericanCommercialArbitationCommission">Inter-American Commercial Arbitration Commission</organization>.</span>
+                        </tocItem>
+                        <tocItem href="#sec_307" level="1">
+                            <span>307.</span>
+                            <span>Chapter 1; residual application.</span>
+                        </tocItem>
+                    </toc>
+                </intro>
+                <section GUID="idd1d2d527-f639-11e2-8470-abc29ba29c4d" eId="sec_301">
+                    <num>§ 301.</num>
+                    <heading> Enforcement of Convention</heading>
+                    <content>
+                        <p> The <ref href="/akn/oas/act/1975__b_35/eng@1975-01-30">Inter-American Convention on International Commercial Arbitration of January 30, 1975</ref>, shall be enforced in United States courts in accordance with this
+                            <ref href="#chp_3">chapter</ref>. </p>
+                        <block name="sourceCredit">(Added <ref href="/akn/us/act/pl_101/369/eng@1990-08-15#sec_1">Pub. L. 101–369, § 1 , Aug.
+                            15, 1990</ref> , <ref href="/akn/us/act/stat_104/448">104 Stat. 448</ref> .) </block>
+                    </content>
+                </section>
+                <section GUID="idd1d2d52a-f639-11e2-8470-abc29ba29c4d" eId="sec_302">
+                    <num>§ 302.</num>
+                    <heading> Incorporation by reference</heading>
+                    <content>
+                        <p><mref>Sections <ref href="/akn/us/act/title_9#sec_202">202</ref>, <ref href="/akn/us/act/title_9#sec_203">203</ref>, <ref href="/akn/us/act/title_9#sec_204">204</ref>, <ref href="/akn/us/act/title_9#sec_205">205</ref>, and <ref href="/akn/us/act/title_9#sec_207">207</ref> of this title</mref> shall apply to this chapter as if specifically set forth herein, except that for the purposes of this chapter “the Convention” shall mean the Inter-American
+                            Convention.</p>
+                        <block name="sourceCredit"> (Added <ref href="/akn/us/act/pl_101/369/eng@1990-08-15#sec_1">Pub. L. 101–369, § 1 , Aug.
+                            15, 1990</ref> , <ref href="/akn/us/act/stat_104/448">104 Stat. 448</ref> .) </block>
+                    </content>
+                </section>
+                <section GUID="idd1d2fc3c-f639-11e2-8470-abc29ba29c4d" eId="sec_303">
+                    <num>§ 303.</num>
+                    <heading> Order to compel arbitration; appointment of arbitrators; locale</heading>
+                    <subsection GUID="idd1d2fc3d-f639-11e2-8470-abc29ba29c4d" eId="sec_303__subsec_a">
+                        <num >(a)</num>
+                        <content>
+                            <p> A court having jurisdiction under this chapter may direct that arbitration be held in accordance with the agreement at any place therein provided for, whether that place is within or without the United States. The court may also appoint
+                                arbitrators in accordance with the provisions of the agreement.</p>
+                        </content>
+                    </subsection>
+                    <subsection GUID="idd1d2fc3e-f639-11e2-8470-abc29ba29c4d" eId="sec_303__subsec_b">
+                        <num >(b)</num>
+                        <content>
+
+                            <p> In the event the agreement does not make provision for the place of arbitration or the appointment of arbitrators, the court shall direct that the arbitration shall be held and the arbitrators be appointed in accordance with <ref href="/akn/oas/act/1975__b_35/eng@1975-01-30#art_3">Article 3 of the
+                                Inter-American Convention</ref>.</p>
+                        </content>
+                    </subsection>
+                </section>
+                <section GUID="idd1d2fc40-f639-11e2-8470-abc29ba29c4d" eId="sec_304">
+                    <num>§ 304.</num>
+                    <heading> Recognition and enforcement of foreign arbitral decisions and awards; reciprocity</heading>
+                    <content>
+                        <p>Arbitral decisions or awards made in the territory of a foreign State shall, on the basis of reciprocity, be recognized and enforced under this chapter only if that State has ratified or acceded to the
+                            <ref href="/akn/oas/act/1975__b_35/eng@1975-01-30">Inter-American Convention</ref>.</p>
+                        <block name="sourceCredit"> (Added <ref  href="/akn/us/act/pl_101/369/eng@1990-08-15#sec_1">Pub. L. 101–369, § 1 , Aug.
+                            15, 1990</ref> , <ref href="/akn/us/act/stat_104/449">104 Stat. 449</ref> .) </block>
+                    </content>
+                </section>
+                <section GUID="idd1d32352-f639-11e2-8470-abc29ba29c4d" eId="sec_305">
+                    <num>§ 305.</num>
+                    <heading>Relationship between the <ref href="/akn/oas/act/1975__b_35/eng@1975-01-30">Inter-American Convention</ref> and the  <ref href="/akn/un/act/1958NYConvention/eng@1958-06-10">Convention on the Recognition and Enforcement of Foreign Arbitral Awards of June 10, 1958</ref>
+                    </heading>
+                    <intro>
+                        <p> When the requirements for application of both the <ref href="/akn/oas/act/1975__b_35/eng@1975-01-30">Inter-American Convention</ref> and the  <ref href="/akn/un/act/1958NYConvention/eng@1958-06-10">Convention on the Recognition and Enforcement of Foreign Arbitral Awards of June 10, 1958</ref>, are met,
+                            determination as to which Convention applies shall, unless otherwise expressly agreed, be made as follows: </p>
+                    </intro>
+                    <paragraph GUID="idd1d32353-f639-11e2-8470-abc29ba29c4d" eId="sec_305__para_1">
+                        <num>(1)</num>
+                        <content>
+                            <p> If a majority of the parties to the arbitration agreement are citizens of a State or States that have ratified or acceded to the Inter-American Convention and are member States of the Organization of American States, the Inter-American
+                                Convention shall apply.</p>
+                        </content>
+                    </paragraph>
+                    <paragraph GUID="idd1d32354-f639-11e2-8470-abc29ba29c4d" eId="sec_305__para_2">
+                        <num>(2)</num>
+                        <content>
+                            <p> In all other cases the <ref href="/akn/un/act/1958NYConvention/eng@1958-06-10">Convention on the Recognition and Enforcement of Foreign Arbitral Awards of June 10, 1958</ref>, shall apply. </p>
+                        </content>
+                    </paragraph>
+                </section>
+                <section GUID="idd1d32356-f639-11e2-8470-abc29ba29c4d" eId="sec_306">
+                    <num>§ 306.</num>
+                    <heading> Applicable rules of <organization refersTo="#interAmericanCommercialArbitationCommission">Inter-American Commercial Arbitration Commission</organization></heading>
+                    <subsection GUID="idd1d34a67-f639-11e2-8470-abc29ba29c4d" eId="sec_306__subsec_a">
+                        <num >(a)</num>
+                        <content>
+                            <p> For the purposes of this <ref href="#chp_3">chapter</ref> the rules of procedure of the  <organization refersTo="#interAmericanCommercialArbitationCommission">Inter-American Commercial Arbitration Commission</organization> referred to in <ref href="/akn/oas/act/1975__b_35#art_3">Article 3 of the Inter-American Convention</ref> shall, subject to <ref href="#sec_306__subsec_b">subsection (b) of this section</ref>, be those rules as
+                                promulgated by the <organization refersTo="#interAmericanCommercialArbitationCommission">Commission</organization> on <date date="1988-07-01">July 1, 1988</date> . </p>
+                        </content>
+                    </subsection>
+                    <subsection GUID="idd1d34a68-f639-11e2-8470-abc29ba29c4d" eId="sec_306__subsec_b">
+                        <num >(b)</num>
+                        <content>
+                            <p> In the event the rules of procedure of the  <organization refersTo="#interAmericanCommercialArbitationCommission">Inter-American Commercial Arbitration Commission</organization> are modified or amended in accordance with the procedures for amendment of the rules of that Commission, the <role refersTo="#secretaryOfState">Secretary of State</role>, by regulation in
+                                accordance with <ref href="/akn/us/act/title_5#sec_553">section 553 of title 5</ref>, consistent with the aims and purposes of this Convention, may prescribe that such modifications or amendments shall be effective for purposes of this <ref href="#chp_3">chapter</ref>. </p>
+                        </content>
+                    </subsection>
+                </section>
+                <section GUID="idd1d34a6a-f639-11e2-8470-abc29ba29c4d" eId="sec_307">
+                    <num>§ 307.</num>
+                    <heading> <ref href="/akn/us/act/title_9#chp_1">Chapter 1</ref>; residual application</heading>
+                    <content>
+                        <p><ref href="/akn/us/act/title_9#chp_1">Chapter 1</ref> applies to actions and proceedings brought under this <ref href="/akn/us/act/title_9#chp_3">chapter</ref> to the extent <ref href="/akn/us/act/title_9#chp_1">chapter 1</ref> is not in conflict with this <ref href="/akn/us/act/title_9#chp_3">chapter</ref> or the <ref href="/akn/oas/act/1975__b_35/eng@1975-01-30">Inter-American Convention</ref> as ratified by the United States.</p>
+                        <block name="sourceCredit"> (Added <ref href="/akn/us/act/pl_101/369/eng@1990-08-15#sec_1">Pub. L. 101–369, § 1 , Aug.
+                            15, 1990</ref>, <ref href="/akn/us/act/stat_104/449">104 Stat. 449</ref> .) </block>
+                    </content>
+                </section>
+            </chapter>
+        </portionBody>
+    </portion>
+</akomaNtoso>

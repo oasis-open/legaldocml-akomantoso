@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<an:akomaNtoso xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:an="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17" xsi:schemaLocation="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/WD17 ../schemas/akomantoso30.xsd">
+<!-- Level 5 of compliance -->
+	<an:bill contains="originalVersion" name="ddl">
+		<an:meta>
+			<an:identification xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD02" source="#redattore">
+				<an:FRBRWork>
+					<an:FRBRthis value="/akn/it/bill/Ddl/2013-03-29/356/!main"/>
+					<an:FRBRuri value="/akn/it/bill/Ddl/2013-03-29/356"/>
+					<an:FRBRdate date="2013-03-29" name="presentazione"/>
+					<an:FRBRauthor href="#senato"/>
+					<an:FRBRcountry value="ita"/>
+					<an:FRBRsubtype value="DDLPRES"/>
+					<an:FRBRnumber value="356"/>
+				</an:FRBRWork>
+				<an:FRBRExpression>
+					<an:FRBRthis value="/akn/it//bill/Ddl/2013-03-29/356/ita@2013-03-29/!main"/>
+					<an:FRBRuri value="/akn/it//bill/Ddl/2013-03-29/356/ita@2013-03-29"/>
+					<an:FRBRdate date="2013-03-29" name="presentazione"/>
+					<an:FRBRauthor href=""/>
+					<an:FRBRlanguage language="it"/>
+				</an:FRBRExpression>
+				<an:FRBRManifestation>
+					<an:FRBRthis value="/akn/it//bill/Ddl/2013-03-29/356/ita@2013-03-29/!main.xml"/>
+					<an:FRBRuri value="/akn/it//bill/Ddl/2013-03-29/356/ita@2013-03-29.akn"/>
+					<an:FRBRdate date="2013-03-29" name="presentazione"/>
+					<an:FRBRauthor href="#redattore"/>
+				</an:FRBRManifestation>
+			</an:identification>
+			<an:workflow source="#redattore">
+				<an:step eId="step1" date="2013-03-29" outcome="Presentazione" by="#senato"/>
+			</an:workflow>
+			<an:references source="#redattore">
+				<an:TLCOrganization eId="redattore" showAs="Servizio Informatica del Senato della Repubblica" href="/dati.senato./akn/it/osr/Senato/Servizio Informatica"/>
+				<an:TLCOrganization eId="senato" showAs="Senato della Repubblica" href="/dati.senato./akn/it/osr/Senato"/>
+				<an:TLCOrganization eId="camera" showAs="Camera dei Deputati" href="/dati.senato./akn/it/osr/Camera"/>
+				<an:TLCRole eId="role_1" href="http://dati.senato./akn/it/osr/Senatore" showAs="Senatore"/>
+				<an:TLCPerson eId="person_1" href="http://dati.senato./akn/it/osr/Persona" showAs="FINOCCHIARO"/>
+				<an:TLCPerson eId="person_2" href="http://dati.senato./akn/it/osr/Persona" showAs="ZANDA"/>
+			</an:references>
+		</an:meta>
+		<an:coverPage>
+			<an:p>SENATO DELLA REPUBBLICA</an:p>
+			<an:p>
+				<an:docType>DISEGNO DI LEGGE</an:docType>
+			</an:p>
+			<an:p>
+				<an:docNumber>N. 356</an:docNumber>
+			</an:p>
+			<an:p>
+				<an:docTitle>Modifiche al testo unico di cui al decreto del Presidente della Repubblica 30 marzo 1957, n. 361, in materia di elezione della Camera dei deputati, e al testo unico di cui al decreto legislativo 20 dicembre 1993, n. 533, in materia di elezione del Senato della Repubblica, nonché delega al Governo per la determinazione dei collegi uninominali</an:docTitle>
+			</an:p>
+			<an:p>d’iniziativa del senatori <an:docProponent refersTo="#person_1" as="#role_1">FINOCCHIARO</an:docProponent> e <an:docProponent refersTo="#person_2" as="#role_1">ZANDA</an:docProponent>
+			</an:p>
+			<an:p>
+				<an:b>COMUNICATO ALLA PRESIDENZA IL 29 MARZO 2013</an:b>
+			</an:p>
+		</an:coverPage>
+		<an:body title="DISEGNO DI LEGGE">
+			<an:article eId="art_1">
+				<an:num>Art. 1.</an:num>
+				<an:heading eId="w1ab1ab3b1b1">
+					<an:i>(Modifiche al sistema elettorale della<an:eol/>Camera dei deputati)</an:i>
+				</an:heading>
+				<an:paragraph eId="art_1__para_1">
+					<an:num>1. </an:num>
+					<an:list eId="art_1__para_1__list_1">
+						<an:intro eId="art_1__para_1__list_1__intro">
+							<an:p>Al testo unico delle leggi recanti norme per la elezione della Camera dei deputati, di cui al decreto del Presidente della Repubblica 30 marzo 1957, n. 361, sono apportate le seguenti modificazioni:</an:p>
+						</an:intro>
+						<an:point eId="art_1__para_1__list_1__point_a">
+							<an:num>
+								<an:i>a)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_a__content">
+								<an:p>l'articolo 1 è sostituito dal seguente:
+								<an:mod eId="mod_1">
+										<an:quotedStructure>
+											<an:article eId="mod_1__art_1">
+												<an:content>
+													<an:p>«Art. 1. -- <an:i>1.</an:i> La Camera dei deputati è eletta a suffragio universale, con voto diretto ed uguale, libero e segreto, espresso in favore di candidati in collegi uninominali, collegati a liste concorrenti nelle circoscrizioni.
+									<an:i>2.</an:i> Il territorio nazionale è diviso nelle circoscrizioni elettorali indicate nella tabella A allegata al presente testo unico. In queste circoscrizioni i seggi sono attribuiti, con metodo maggioritario ed eventuale secondo turno di votazione, a candidati concorrenti nei collegi uninominali e, in ragione proporzionale, a candidati concorrenti in liste circoscrizionali e nel collegio unico nazionale»;</an:p>
+												</an:content>
+											</an:article>
+										</an:quotedStructure>
+									</an:mod>
+								</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_b">
+							<an:num>
+								<an:i>b)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_b__content">
+								<an:p>l'articolo 3 è sostituito dal seguente:
+								<an:mod eId="mod_2">
+										<an:quotedStructure>
+											<an:article eId="mod_2__art_3">
+												<an:content>
+													<an:p>«Art. 3. -- <an:i>1. </an:i>L'assegnazione del numero dei seggi alle singole circoscrizioni, di cui alla tabella A allegata al presente testo unico, è effettuata, sulla base dei risultati dell'ultimo censimento generale della popolazione, riportati dalla più recente pubblicazione ufficiale dell'Istituto nazionale di statistica, con decreto del Presidente della Repubblica, su proposta del Ministro dell'interno, da emanare contemporaneamente al decreto di convocazione dei comizi.
+									<an:i>2.</an:i> Con il medesimo decreto di cui al comma 1 è determinato per ciascuna circoscrizione il numero di seggi che sono attribuiti nei collegi uninominali ed il numero di seggi da assegnare a candidati concorrenti in liste circoscrizionali.
+									<an:i>3.</an:i> Salvo quanto disposto dall'articolo 2, nell'ambito di ciascuna circoscrizione sono istituiti collegi uninominali in numero pari al 70 per cento, con arrotondamento all'unità superiore, del complesso dei seggi assegnati alla circoscrizione. I restanti seggi sono assegnati nella circoscrizione a candidati concorrenti nelle liste circoscrizionali, fatta salva una quota di 12 seggi che è assegnata in un collegio unico nazionale.
+									<an:i>4.</an:i> Alla assegnazione dei seggi nelle circoscrizioni concorrono soltanto le liste che ottengono una cifra elettorale circoscrizionale almeno pari al 5 per cento del totale dei voti validi espressi a livello circoscrizionale, calcolata secondo le modalità stabilite dall'articolo 77, comma 1, numeri 2) e 4)»;</an:p>
+												</an:content>
+											</an:article>
+										</an:quotedStructure>
+									</an:mod>
+								</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_c">
+							<an:num>
+								<an:i>c)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_c__content">
+								<an:p>il comma 2 dell'articolo 4 è sostituito dal seguente:</an:p>
+								<an:p>
+								
+								«<an:i>2.</an:i> Ogni elettore dispone di un voto per l'elezione del candidato nel collegio uninominale, che vale anche per la lista circoscrizionale cui è collegato il candidato uninominale prescelto»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_d">
+							<an:num>
+								<an:i>d)</an:i>
+							</an:num>
+							<an:list eId="art_1__para_1__list_1__point_d__list_1">
+								<an:intro eId="art_1__para_1__list_1__point_d__list_1_intro">
+									<an:p>all'articolo 14:</an:p>
+								</an:intro>
+								<an:point eId="art_1__para_1__list_1__point_d__list_1__point_1">
+									<an:num>1)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_d__list_1__point_1__content">
+										<an:p> al primo comma, primo periodo, sono aggiunte in fine le seguenti parole: «e le candidature nei collegi uninominali che ad esse si collegano, secondo quanto disposto dall'articolo 17-<an:i>bis</an:i>»;</an:p>
+									</an:content>
+								</an:point>
+								<an:point eId="art_1__para_1__list_1__point_d__list_1__point_2">
+									<an:num>2)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_d__list_1__point_2__content">
+										<an:p> dopo il quarto comma è inserito il seguente:</an:p>
+										<an:p>«Non è ammessa la presentazione di contrassegni che riproducono in qualsiasi loro parte e composizione il nome, il cognome o il nome di notorietà di uno o più candidati presenti nelle liste o di uno o più candidati nei collegi uninominali collegati al partito o gruppo politico organizzato che presenta il contrassegno»;</an:p>
+									</an:content>
+								</an:point>
+							</an:list>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_e">
+							<an:num>
+								<an:i>e)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_e__content">
+								<an:p>l'articolo 14-<an:i>bis</an:i> è abrogato;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_f">
+							<an:num>
+								<an:i>f)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_f__content">
+								<an:p>dopo l'articolo 17 è inserito il seguente:</an:p>
+								<an:p>«Art. 17<an:i>-bis. -- 1.</an:i> La presentazione delle candidature nei collegi uninominali è fatta per singoli candidati i quali si collegano a liste di cui all'articolo 1, comma 1, alle quali gli stessi aderiscono con l'accettazione della candidatura. La dichiarazione di collegamento deve essere accompagnata dall'accettazione scritta del rappresentante, di cui all'articolo 17, incaricato di effettuare il deposito della lista a cui il candidato nel collegio uninominale si collega. Nessun candidato può dichiarare il collegamento con più di una lista circoscrizionale, né accettare la candidatura in più di un collegio, anche se di circoscrizioni diverse. La candidatura della stessa persona in più di un collegio è nulla. È altresì nulla la candidatura nei collegi uninominali qualora nella medesima circoscrizione non sia presentata, ovvero sia ricusata, la lista circoscrizionale alla quale il candidato ha dichiarato di collegarsi.</an:p>
+								<an:p>
+									<an:i>2. </an:i>Per ogni candidato nei collegi uninominali devono essere indicati il nome, il cognome, il luogo e la data di nascita, il collegio uninominale per il quale viene presentato e, salvo quanto stabilito al comma 1, il contrassegno della lista circoscrizionale cui egli è collegato. Il contrassegno, tra quelli depositati presso il Ministero dell'interno, è il medesimo che contraddistingue nella circoscrizione la lista alla quale il candidato è collegato. Per le candidate donne può essere indicato il solo cognome o può essere aggiunto il cognome del marito.</an:p>
+								<an:p>
+									<an:i>3. </an:i>La dichiarazione di presentazione dei candidati nei collegi uninominali deve contenere l'indicazione dei nominativi di due delegati effettivi e di due supplenti.</an:p>
+								<an:p>
+									<an:i>4.</an:i> La dichiarazione di presentazione dei singoli candidati nei collegi uninominali deve essere sottoscritta da non meno di 750 e da non più di 1.500 elettori iscritti nelle liste elettorali di comuni compresi nel collegio o, in caso di collegi ricompresi in un unico comune, iscritti alle sezioni elettorali di tali collegi. In caso di scioglimento della Camera dei deputati che ne anticipi la scadenza di oltre centoventi giorni, il numero delle sottoscrizioni è ridotto alla metà. Le sottoscrizioni devono essere autenticate da uno dei soggetti di cui all'articolo 14 della legge 21 marzo 1990, n. 53, e successive modificazioni. Si applicano anche alle candidature nei collegi uninominali le disposizioni di cui al comma 2 dell'articolo 18-<an:i>bis.</an:i>
+								</an:p>
+								<an:p>
+									<an:i>5.</an:i> La candidatura deve essere accettata con dichiarazione firmata ed autenticata da un sindaco, da un notaio o da uno dei soggetti di cui all'articolo 14 della citata legge n. 53 del 1990. Per i cittadini residenti all'estero l'autenticazione della firma deve essere richiesta ad un ufficio diplomatico o consolare.</an:p>
+								<an:p>
+									<an:i>6.</an:i> L'accettazione della candidatura deve essere accompagnata da apposita dichiarazione dalla quale risulti che il candidato non ha accettato candidature in altri collegi»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_g">
+							<an:num>
+								<an:i>g)</an:i>
+							</an:num>
+							<an:list eId="art_1__para_1__list_1__point_g__list_1">
+								<an:intro eId="art_1__para_1__list_1__point_g__list_1__intro">
+									<an:p>all'articolo 18-<an:i>bis</an:i>:</an:p>
+								</an:intro>
+								<an:point eId="art_1__para_1__list_1__point_g__list_1__point_1">
+									<an:num>1)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_g__list_1__point_1__content">
+										<an:p> al comma 2, le parole: «abbiano effettuato le dichiarazioni di collegamento ai sensi dell'articolo 14-<an:i>bis</an:i>, comma 1, con almeno due partiti o gruppi politici di cui al primo periodo e» sono soppresse;</an:p>
+									</an:content>
+								</an:point>
+								<an:point eId="art_1__para_1__list_1__point_g__list_1__point_2">
+									<an:num>2)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_g__list_1__point_2__content">
+										<an:p> il comma 3 è sostituito dai seguenti:</an:p>
+										<an:p>«<an:i>3.</an:i> Ogni lista circoscrizionale, all'atto della presentazione, è composta da un elenco di candidati che concorrono ai seggi da assegnare nella circoscrizione. I candidati nelle liste circoscrizionali sono elencati in ordine alternato di genere. Il numero dei candidati concorrenti nella circoscrizione non può essere superiore alla metà dei seggi da distribuire su scala circoscrizionale, con arrotondamento all'unità superiore. Pena la nullità della candidatura, nessuno può essere presente nell'elenco dei candidati nella medesima lista in più di una circoscrizione, né può candidarsi in più di un collegio uninominale. Il numero minimo e massimo delle candidature è ridotto ad un quinto, con arrotondamento all'unità inferiore, per i partiti o gruppi politici rappresentativi di minoranze linguistiche.</an:p>
+										<an:p>
+											<an:i>3-</an:i>bis. Ogni lista nazionale, all'atto della presentazione, è composta da un elenco di candidati che concorrono ai seggi da assegnare nel collegio unico nazionale. I candidati nelle liste nazionali sono elencati in ordine alternato di genere e in ciascuna lista nessuno dei due generi può essere rappresentato in misura superiore al cinquanta per cento, con arrotondamento alla unità superiore»;</an:p>
+									</an:content>
+								</an:point>
+							</an:list>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_h">
+							<an:num>
+								<an:i>h)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_h__content">
+								<an:p>dopo l'articolo 18<an:i>-bis</an:i> è inserito il seguente:</an:p>
+								<an:p>«Art. 18<an:i>-ter.</an:i> -- <an:i>1. </an:i>A pena di inammissibilità, nel totale delle candidature presentate nei collegi uninominali e dei candidati inseriti nell'elenco che compone la lista circoscrizionale cui esse sono collegate nessuno dei due generi può essere rappresentato in misura superiore al cinquanta per cento, con arrotondamento alla unità superiore»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_i">
+							<an:num>
+								<an:i>i)</an:i>
+							</an:num>
+							<an:list eId="art_1__para_1__list_1__point_i__list_1">
+								<an:intro eId="art_1__para_1__list_1__point_i__list_1__intro">
+									<an:p>all'articolo 22:</an:p>
+								</an:intro>
+								<an:point eId="art_1__para_1__list_1__point_i__list_1__point_1">
+									<an:num>1)</an:num>
+									<an:content eId="w1ab1ab3b1b2c10b2b1">
+										<an:p> al primo comma, numero 3), le parole: «al comma 2 dell'articolo 18-<an:i>bis</an:i>» sono sostituite dalle seguenti: «al comma 3 dell'articolo 18-<an:i>bis</an:i>»;</an:p>
+									</an:content>
+								</an:point>
+								<an:point eId="art_1__para_1__list_1__point_i__list_1__point_2">
+									<an:num>2)</an:num>
+									<an:content eId="w1ab1ab3b1b2c10b3b1">
+										<an:p> al primo comma, dopo il numero 6) sono aggiunti i seguenti:</an:p>
+										<an:p>«6<an:i>-bis)</an:i> dichiara nulle le candidature nei collegi uninominali di candidati già presentatisi in altro collegio;</an:p>
+										<an:p>6<an:i>-ter)</an:i> dichiara nulle le candidature nei collegi uninominali di candidati che abbiano dichiarato il collegamento con più di una lista circoscrizionale e dichiara nulle le candidature uninominali di candidati che non risultino collegate ad una lista circoscrizionale validamente presentata»;</an:p>
+									</an:content>
+								</an:point>
+							</an:list>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_l">
+							<an:num>
+								<an:i>l)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_l__content">
+								<an:p>l'articolo 24 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 24. --<an:i> 1. </an:i>L'ufficio centrale circoscrizionale, appena scaduto il termine stabilito per la presentazione dei ricorsi, o, nel caso in cui sia stato presentato ricorso, appena ricevuta la comunicazione della decisione dell'Ufficio centrale nazionale, compie le seguenti operazioni:</an:p>
+								<an:p>1) stabilisce, per ciascun collegio, mediante sorteggio da effettuare alla presenza dei delegati dei candidati nei collegi uninominali e delle liste, appositamente convocati, il numero d'ordine da assegnare a ciascun candidato nel rispettivo collegio. I candidati nei collegi uninominali sono riportati sulle schede e sul manifesto del relativo collegio secondo l'ordine risultato dal sorteggio; il contrassegno di ogni candidato è riportato sulle schede di votazione e sui manifesti, accanto al nominativo del candidato stesso;</an:p>
+								<an:p>2) comunica ai delegati delle liste dei candidati nei collegi uninominali le definitive determinazioni adottate;</an:p>
+								<an:p>3) trasmette immediatamente alla prefettura capoluogo della circoscrizione i nominativi dei candidati nei collegi uninominali e le liste ammessi, con i relativi contrassegni, i quali devono essere riprodotti sulle schede di votazione con i colori del contrassegno depositato presso il Ministero dell'interno ai sensi dell'articolo 14, per la stampa delle schede medesime e per l'adempimento di cui al numero 4);</an:p>
+								<an:p>4) provvede, per mezzo della prefettura capoluogo della circoscrizione, alla stampa, su distinti manifesti riproducenti i rispettivi contrassegni, dei nominativi dei candidati nei singoli collegi uninominali e delle liste nonché alla trasmissione di essi ai sindaci dei comuni del collegio per la pubblicazione nell'albo pretorio ed in altri luoghi pubblici entro il quindicesimo giorno precedente la data delle elezioni. Tre copie di ciascun manifesto devono essere consegnate ai presidenti dei singoli uffici elettorali di sezione, una a disposizione dell'ufficio e le altre per l'affissione nella sala della votazione»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_m">
+							<an:num>
+								<an:i>m)</an:i>
+							</an:num>
+							<an:list eId="art_1__para_1__list_1__point_m__list_1">
+								<an:intro eId="art_1__para_1__list_1__point_m__list_1__intro">
+									<an:p>all'articolo 25:</an:p>
+								</an:intro>
+								<an:point eId="art_1__para_1__list_1__point_m__list_1__point_1">
+									<an:num>1)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_m__list_1__point_1__content">
+										<an:p> al primo comma, le parole: «di cui all'articolo 20» sono sostituite dalle seguenti: «di cui agli articoli 17-<an:i>bis</an:i> e 20» e le parole: «due rappresentanti della lista» sono sostituite dalle seguenti: «due rappresentanti del candidato nel collegio uninominale o della lista»;</an:p>
+									</an:content>
+								</an:point>
+								<an:point eId="art_1__para_1__list_1__point_m__list_1__point_3">
+									<an:num>3)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_m__list_1__point_3__content">
+										<an:p> al terzo comma, nel primo periodo, le parole: «i delegati di lista» sono sostituite dalle seguenti: «i delegati dei candidati nei collegi uninominali e di lista» e le parole: «del deposito delle liste dei candidati» sono sostituite dalle seguenti: «del deposito delle candidature nei collegi uninominali e delle liste di candidati»; nel secondo periodo, le parole: «del deposito delle liste» sono sostituite dalle seguenti: «del deposito delle candidature nei collegi uninominali e delle liste»;</an:p>
+									</an:content>
+								</an:point>
+							</an:list>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_n">
+							<an:num>
+								<an:i>n)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_n__content">
+								<an:p>all'articolo 26, primo comma, le parole: «Il rappresentante di ogni lista di candidati» sono sostituite dalle seguenti: «Il rappresentante di ogni candidato nel collegio uninominale e di ogni lista di candidati»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_o">
+							<an:num>
+								<an:i>o)</an:i>
+							</an:num>
+							<an:list eId="art_1__para_1__list_1__point_o__list_1">
+								<an:intro eId="art_1__para_1__list_1__point_o__list_1__intro">
+									<an:p>all'articolo 30:</an:p>
+								</an:intro>
+								<an:point eId="art_1__para_1__list_1__point_o__list_1__point_1">
+									<an:num>1)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_o__list_1__point_1__content">
+										<an:p> al numero 4), alle parole: «tre copie del manifesto» sono premesse le seguenti: «tre copie del manifesto contenente i nominativi dei candidati nei collegi uninominali e»;</an:p>
+									</an:content>
+								</an:point>
+								<an:point eId="art_1__para_1__list_1__point_o__list_1__point_2">
+									<an:num>2)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_o__list_1__point_2__content">
+										<an:p> al numero 6), le parole: «di lista» sono sostituite dalle seguenti: «dei candidati nei collegi uninominali e di lista»;</an:p>
+									</an:content>
+								</an:point>
+							</an:list>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_p">
+							<an:num>
+								<an:i>p)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_p__content">
+								<an:p>l'articolo 31 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 31. -- <an:i>1. </an:i>Le schede sono di carta consistente, sono fornite a cura del Ministero dell'interno con le caratteristiche essenziali del modello descritto nelle tabelle B e C allegate al presente testo unico e riproducono in facsimile i contrassegni di tutte le candidature nei collegi uninominali e di tutte le liste regolarmente presentate nella circoscrizione, secondo le disposizioni di cui all'articolo 24. Le schede riportano in successione, secondo l'ordine del sorteggio, il cognome ed il nome di ciascun candidato nel collegio uninominale con accanto il rispettivo contrassegno e, accanto a questo, il contrassegno della lista collegata al candidato ed i nomi dei candidati in essa riportati. I contrassegni devono essere riprodotti sulle schede con il diametro di centimetri tre. Qualora per l'assegnazione del seggio nei collegi uninominali debba procedersi ad un secondo turno di votazione, nella scheda, con le medesime caratteristiche del modello di cui alla tabella B, sono riportati soltanto i nomi ed i contrassegni dei candidati i quali, nel primo turno elettorale, abbiano ottenuto il voto di almeno il 10 per cento degli elettori iscritti nelle liste elettorali del collegio e che non abbiano presentato espressa rinuncia secondo i termini previsti dall'articolo 77, comma 1, numero 1)»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_q">
+							<an:num>
+								<an:i>q)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_q__content">
+								<an:p>all'articolo 42, settimo comma, le parole: «del manifesto contenente le liste dei candidati» sono sostituite dalle seguenti: «dei manifesti contenenti l'elenco delle candidature uninominali e le liste dei candidati circoscrizionali e nazionali»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_r">
+							<an:num>
+								<an:i>r)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_r__content">
+								<an:p>all'articolo 58, il secondo e il terzo comma sono sostituiti dai seguenti:</an:p>
+								<an:p>«L'elettore si reca ad una delle apposite cabine e, senza che sia avvicinato da alcuno, vota tracciando, con la matita, sulla scheda un solo segno, comunque apposto, nel rettangolo contenente il cognome e nome del candidato prescelto ed il contrassegno relativo. Sono vietati altri segni o indicazioni. L'elettore piega poi la scheda secondo le linee in essa tracciate e la chiude inumidendone la parte gommata. Di queste operazioni il presidente fornisce preventive istruzioni, astenendosi da ogni esemplificazione.</an:p>
+								<an:p>Compiuta l'operazione di voto, l'elettore consegna al presidente la scheda chiusa e la matita. Il presidente constata la chiusura della scheda e, ove questa non sia chiusa, invita l'elettore a chiuderla, facendolo rientrare in cabina; ne verifica l'identità esaminando la firma e il bollo, e confrontando il numero scritto sull'appendice con quello scritto sulla lista; ne distacca l'appendice seguendo la linea tratteggiata e pone la scheda stessa nell'urna»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_s">
+							<an:num>
+								<an:i>s)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_s__content">
+								<an:p>all'articolo 67, primo comma, al numero 2), terzo periodo, dopo le parole: «nonché i rappresentanti» sono inserite le seguenti: «dei candidati nei collegi uninominali e»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_t__content">
+							<an:num>
+								<an:i>t)</an:i>
+							</an:num>
+							<an:list eId="art_1__para_1__list_1__point_t__list_1">
+								<an:intro eId="art_1__para_1__list_1__point_t__list_1__intro">
+									<an:p>all'articolo 68:</an:p>
+								</an:intro>
+								<an:point eId="art_1__para_1__list_1__point_t__list_1__point_1">
+									<an:num>1)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_t__list_1__point_1__content">
+										<an:p> i commi 1 e 2 riacquistano efficacia nel testo vigente prima della data di entrata in vigore della legge 21 dicembre 2005, n. 270;</an:p>
+									</an:content>
+								</an:point>
+								<an:point eId="art_1__para_1__list_1__point_t__list_1__point_2">
+									<an:num>2)</an:num>
+									<an:content eId="art_1__para_1__list_1__point_t__list_1__point_2__content">
+										<an:p> i commi 3 e 3-<an:i>bis</an:i> sono abrogati;</an:p>
+									</an:content>
+								</an:point>
+							</an:list>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_u">
+							<an:num>
+								<an:i>u)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_u__content">
+								<an:p>all'articolo 72, secondo comma, alle parole: «di lista presenti» sono premesse le seguenti: «dei candidati nel collegio uninominale e»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_v">
+							<an:num>
+								<an:i>v)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_v__content">
+								<an:p>il terzo comma dell'articolo 73 è sostituito dal seguente:</an:p>
+								<an:p>«Alla cassetta, all'urna ed al plico devono apporsi le indicazioni del collegio e della sezione, il sigillo col bollo dell'ufficio e quello dei rappresentanti dei candidati nel collegio uninominale e di lista che vogliano aggiungere il proprio, nonché le firme del presidente e di almeno due scrutatori»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_z">
+							<an:num>
+								<an:i>z)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_z__content">
+								<an:p>all'articolo 75, primo comma, secondo periodo, dopo le parole: «dai rappresentanti» sono inserite le seguenti: «dei candidati nel collegio uninominale e»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_aa">
+							<an:num>
+								<an:i>aa)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_aa__content">
+								<an:p>l'articolo 77 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 77. -- <an:i>1.</an:i> L'ufficio centrale circoscrizionale, compiute le operazioni di cui all'articolo 76, facendosi assistere, ove lo ritenga opportuno, da uno o più esperti scelti dal presidente:</an:p>
+								<an:p>1) determina il totale dei voti validi ottenuti da ciascun candidato nei collegi uninominali e, in conformità ai risultati accertati, proclama eletto in ciascun collegio uninominale il candidato che ha ottenuto un numero di voti validi almeno pari alla metà più uno, con arrotondamento all'unità superiore, del totale dei voti validi espressi nel collegio. Qualora nessun candidato abbia ottenuto tale risultato, si procede nella seconda domenica successiva ad un secondo turno di votazione al quale sono ammessi i candidati che nel primo turno elettorale abbiano ottenuto voti in numero pari ad almeno il 10 per cento degli elettori iscritti nelle liste elettorali del collegio e che non abbiano presentato espressa rinuncia all'ufficio centrale circoscrizionale entro il primo venerdì successivo allo svolgimento del primo turno elettorale. Nel secondo turno elettorale risulta eletto il candidato che ottiene il maggior numero di voti validi. In caso di parità l'ufficio elettorale circoscrizionale proclama eletto tra essi il candidato che al primo turno elettorale ha ottenuto il maggior numero di voti;</an:p>
+								<an:p>2) determina la cifra elettorale circoscrizionale teorica di ogni lista. Tale cifra è data dalla somma dei voti conseguiti nel primo turno elettorale dai candidati dei collegi uninominali collegati alla lista; sono escluse dal riparto al livello circoscrizionale le liste che non abbiano ottenuto una cifra teorica pari almeno al 5 per cento del totale dei voti validamente espressi;</an:p>
+								<an:p>3) determina il quoziente elettorale circoscrizionale; a tal fine aumenta di una unità il numero dei seggi da assegnare nella circoscrizione ai sensi dell'articolo 3, e divide per tale numero il totale dei voti validi espressi per tutti i candidati nei collegi uninominali della circoscrizione nel primo turno elettorale; la parte intera di tale risultato costituisce il quoziente elettorale circoscrizionale;</an:p>
+								<an:p>4) al termine delle operazioni del secondo turno elettorale, calcola la cifra elettorale circoscrizionale effettiva di ciascuna lista ammessa sottraendo alla cifra elettorale circoscrizionale teorica di ciascuna lista, determinata ai sensi del numero 2), i voti ottenuti nel primo turno elettorale dai candidati nei collegi uninominali ad essa collegati che siano risultati eletti;</an:p>
+								<an:p>5) divide la cifra elettorale circoscrizionale effettiva di ciascuna lista calcolata ai sensi del numero 4) per il quoziente elettorale circoscrizionale determinato ai sensi del numero 3) e attribuisce a ciascuna lista un numero di seggi pari al numero di quozienti interi ottenuti da tale operazione; i seggi che residuano sono attribuiti, uno ciascuno, alle liste i cui voti residuali risultino più alti, con arrotondamento all'unità superiore; a tal fine si considerano voti residuali anche le cifre elettorali delle liste ammesse che non hanno dato luogo alla attribuzione di alcun quoziente intero;</an:p>
+								<an:p>6) determina il numero dei voti validi non utilizzati da ciascuna lista per l'attribuzione dei seggi in sede circoscrizionale;</an:p>
+								<an:p>7) al termine delle operazioni relative al secondo turno di votazione comunica all'Ufficio centrale nazionale, a mezzo di estratto del verbale, il totale dei voti validi ottenuti da ciascuna lista, non utilizzati per l'attribuzione di seggi alle liste circoscrizionali.</an:p>
+								<an:p>
+									<an:i>2.</an:i> Al termine delle operazioni di cui al comma 1, il presidente dell'ufficio centrale circoscrizionale proclama eletti i candidati nei collegi uninominali secondo le risultanze delle attribuzioni di cui al comma 1, numero 1), e successivamente proclama eletti i candidati compresi nell'elenco di ciascuna lista circoscrizionale alla quale l'ufficio ha attribuito seggi ai sensi del comma 1, numero 5), procedendo secondo l'ordine in cui i candidati sono collocati nella lista e fino a concorrenza del numero dei seggi ai quali ciascuna lista ha diritto. Qualora il numero di seggi da assegnare risulti superiore al numero dei candidati contenuti nella lista circoscrizionale, i seggi ulteriori vengono assegnati ai candidati nei collegi uninominali collegati alla medesima lista che abbiano ottenuto la maggiore cifra elettorale. Parimenti, il presidente dell'ufficio centrale circoscrizionale procede alla proclamazione dei candidati eletti nei collegi uninominali secondo l'attribuzione dei seggi effettuata a seguito del secondo turno di votazione»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_bb">
+							<an:num>
+								<an:i>bb)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_bb__content">
+								<an:p>all'articolo 79, ai commi quinto e sesto, alle parole: «delle liste dei candidati» sono premesse le seguenti: «dei candidati nei collegi uninominali e»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_cc">
+							<an:num>
+								<an:i>cc)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_cc__content">
+								<an:p>l'articolo 83 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 83. -- <an:i>1.</an:i> Al termine delle operazioni degli uffici centrali circoscrizionali relative al secondo turno di votazione, l'Ufficio centrale nazionale, ricevuti gli estratti dei verbali da tutti gli uffici centrali circoscrizionali, facendosi assistere, ove lo ritenga opportuno, da uno o più esperti scelti dal presidente:</an:p>
+								<an:p>1) determina:</an:p>
+								<an:p>
+									<an:i>a)</an:i> il totale nazionale dei voti attribuiti ai candidati nei collegi uninominali che non siano stati eletti e le cui liste circoscrizionali collegate non abbiano conseguito seggi nel riparto proporzionale circoscrizionale;</an:p>
+								<an:p>
+									<an:i>b)</an:i> le liste che abbiano ottenuto una quota dei voti di cui alla lettera <an:i>a)</an:i> che si siano presentate con il medesimo contrassegno in almeno cinque circoscrizioni;</an:p>
+								<an:p>
+									<an:i>c)</an:i> il totale nazionale dei voti di cui alla lettera <an:i>a)</an:i> spettante a ciascuna lista di cui alla lettera <an:i>b)</an:i>;</an:p>
+								<an:p>2) divide la cifra elettorale di ciascuna lista ammessa alla attribuzione dei seggi successivamente per 1, 2, 3, 4, ... sino a concorrenza del numero dei seggi da attribuire e quindi sceglie, tra i quozienti così ottenuti, i più alti, in numero eguale a quello dei seggi da attribuire, disponendoli in graduatoria decrescente. Ciascuna lista ottiene tanti seggi quanti sono i quozienti compresi nella graduatoria. A parità di quoziente, nelle cifre intere e decimali, il seggio è attribuito alla lista che ha ottenuto la maggiore cifra elettorale e, a parità di quest'ultima, per sorteggio»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_dd">
+							<an:num>
+								<an:i>dd)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_dd__content">
+								<an:p>l'articolo 84 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 84. -- <an:i>1.</an:i> Compiute le operazioni di cui all'articolo 83 l'Ufficio centrale nazionale procede ad assegnare i seggi attribuiti a ciascuna lista a seguito delle operazioni di cui al comma 1, numero 2), del medesimo articolo, secondo l'ordine di presentazione dei candidati.</an:p>
+								<an:p>
+									<an:i>2.</an:i> Di tutte le operazioni dell'Ufficio centrale nazionale viene redatto, in duplice esemplare, apposito verbale; un esemplare è rimesso alla Segreteria generale della Camera dei deputati la quale ne rilascia ricevuta; l'altro esemplare è depositato presso la cancelleria della Corte di cassazione»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_ee">
+							<an:num>
+								<an:i>ee)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_ee__content">
+								<an:p>l'articolo 85 è abrogato;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_1__para_1__list_1__point_ff">
+							<an:num>
+								<an:i>ff)</an:i>
+							</an:num>
+							<an:content eId="art_1__para_1__list_1__point_ff__content">
+								<an:p>all'articolo 86, i commi 1 e 2 sono sostituiti dai seguenti:</an:p>
+								<an:p>«<an:i>1.</an:i> Il seggio che rimanga vacante per qualsiasi causa anche sopravvenuta è attribuito nella medesima circoscrizione al candidato che segue nella graduatoria compilata ai sensi dell'articolo 77. Qualora cessi dalla carica il deputato proclamato nei collegi uninominali si dà luogo ad elezione suppletiva.</an:p>
+								<an:p>
+									<an:i>2. </an:i>Si applicano, quando ne ricorrono le circostanze, le disposizioni di cui all'articolo 83».</an:p>
+							</an:content>
+						</an:point>
+					</an:list>
+				</an:paragraph>
+			</an:article>
+			<an:article eId="art_2">
+				<an:num>Art. 2.</an:num>
+				<an:heading eId="w1ab1ab3b2b1">
+					<an:i>(Modifiche al sistema elettorale del<an:eol/>Senato della Repubblica)</an:i>
+				</an:heading>
+				<an:paragraph eId="art_2__para_1">
+					<an:num>1. </an:num>
+					<an:list eId="art_2__para_1__list_1">
+						<an:intro eId="art_2__para_1__list_1__intro">
+							<an:p>Al testo unico delle leggi recanti norme per l'elezione del Senato della Repubblica, di cui al decreto legislativo 20 dicembre 1993, n. 533, sono apportate le seguenti modificazioni:</an:p>
+						</an:intro>
+						<an:point eId="art_2__para_1__list_1__point_a">
+							<an:num>
+								<an:i>a)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_a__content">
+								<an:p>l'articolo 1 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 1. -- <an:i>1.</an:i> Il Senato della Repubblica è eletto su base regionale. Salvi i seggi assegnati alla circoscrizione Estero, i seggi sono ripartiti tra le regioni a norma dell'articolo 57 della Costituzione sulla base dei risultati dell'ultimo censimento generale della popolazione, riportati dalla più recente pubblicazione ufficiale dell'Istituto nazionale di statistica, con decreto del Presidente della Repubblica, da emanare, su proposta del Ministro dell'interno, previa deliberazione del Consiglio dei ministri, contemporaneamente al decreto di convocazione dei comizi.</an:p>
+								<an:p>
+									<an:i>2.</an:i> Con il medesimo decreto di cui al comma 1 è determinato per ciascuna regione il numero di seggi che sono attribuiti nei collegi uninominali ed il numero di seggi da assegnare a candidati concorrenti in liste circoscrizionali regionali.</an:p>
+								<an:p>
+									<an:i>3. </an:i>Nell'ambito di ciascuna circoscrizione regionale sono istituiti collegi uninominali in numero pari al 70 per cento, con arrotondamento all'unità superiore, del complesso dei seggi assegnati alla circoscrizione. Il restante 30 per cento dei seggi è assegnato nella circoscrizione regionale a candidati concorrenti nelle liste circoscrizionali regionali.</an:p>
+								<an:p>
+									<an:i>4.</an:i> Alla assegnazione dei seggi in ragione proporzionale nelle circoscrizioni concorrono soltanto le liste che ottengono una cifra elettorale regionale almeno pari al 5 per cento del totale dei voti validi espressi per le liste concorrenti nella circoscrizione.</an:p>
+								<an:p>
+									<an:i>5.</an:i> L'assegnazione dei seggi è effettuata, con metodo maggioritario ed eventuale secondo turno di votazione, a candidati concorrenti nei collegi uninominali e, in ragione proporzionale, a candidati concorrenti nelle liste circoscrizionali regionali, con le modalità stabilite dal titolo VI del presente testo unico.</an:p>
+								<an:p>
+									<an:i>6.</an:i> La regione Valle d'Aosta è costituita in unico collegio uninominale.</an:p>
+								<an:p>
+									<an:i>7.</an:i> La regione Trentino-Alto Adige è costituita in sei collegi uninominali definiti ai sensi della legge 30 dicembre 1991, n. 422. La restante quota di seggi spettanti alla regione è attribuita con il metodo del recupero proporzionale»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_b">
+							<an:num>
+								<an:i>b)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_b__content">
+								<an:p>all'articolo 2, comma 1, le parole: «sulla base dei voti espressi nelle circoscrizioni regionali» sono sostituite dalle seguenti: «espresso in favore di candidati in collegi uninominali, collegati a liste concorrenti nelle circoscrizioni regionali»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_c">
+							<an:num>
+								<an:i>c)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_c__content">
+								<an:p>l'articolo 8 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 8. <an:i>-- 1. </an:i>Coloro che intendono presentare candidature per l'elezione del Senato della Repubblica debbono depositare presso il Ministero dell'interno il contrassegno con il quale dichiarano di volere distinguere le candidature medesime, con l'osservanza delle norme di cui agli articoli 14, 15, 16 e 17 del testo unico delle leggi recanti norme per la elezione della Camera dei deputati, di cui al decreto del Presidente della Repubblica 30 marzo 1957, n. 361, e successive modificazioni»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_d">
+							<an:num>
+								<an:i>d)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_d__content">
+								<an:p>l'articolo 9 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 9. -- <an:i>1. </an:i>La presentazione delle candidature nei collegi uninominali è fatta per singoli candidati, che si collegano a liste circoscrizionali regionali alle quali gli stessi aderiscono con l'accettazione della candidatura. La dichiarazione di collegamento deve essere accompagnata dall'accettazione scritta del rappresentante incaricato di effettuare il deposito della lista a cui il candidato nel collegio uninominale si collega. Nessun candidato può dichiarare il collegamento con più di una lista circoscrizionale, né accettare la candidatura in più di un collegio, anche se di circoscrizioni diverse. La candidatura della stessa persona in più di un collegio è nulla. È altresì nulla la candidatura nei collegi uninominali qualora nella medesima circoscrizione regionale non sia presentata, ovvero venga ricusata, la lista circoscrizionale regionale alla quale il candidato ha dichiarato di collegarsi.</an:p>
+								<an:p>
+									<an:i>2.</an:i> Per ogni candidato nei collegi uninominali devono essere indicati il nome, il cognome, il luogo e la data di nascita, il collegio uninominale per il quale viene presentato e il contrassegno della lista circoscrizionale alla quale egli è collegato. Il contrassegno, tra quelli depositati presso il Ministero dell'interno, è il medesimo che contraddistingue nella circoscrizione regionale la lista cui il candidato è collegato. Per le candidate donne può essere indicato il solo cognome o può essere aggiunto il cognome del marito.</an:p>
+								<an:p>
+									<an:i>3.</an:i> La dichiarazione di presentazione dei candidati nei collegi uninominali deve contenere l'indicazione dei nominativi di due delegati effettivi e di due supplenti.</an:p>
+								<an:p>
+									<an:i>4.</an:i> La dichiarazione di presentazione dei singoli candidati nei collegi uninominali deve essere sottoscritta da non meno di 750 e da non più di 1.500 elettori iscritti nelle liste elettorali di comuni compresi nel collegio o, in caso di collegi ricompresi in un unico comune, iscritti alle sezioni elettorali di tali collegi. In caso di scioglimento del Senato della Repubblica che ne anticipi la scadenza di oltre centoventi giorni, il numero delle sottoscrizioni è ridotto alla metà. Le sottoscrizioni devono essere autenticate da uno dei soggetti di cui all'articolo 14 della legge 21 marzo 1990, n. 53, e successive modificazioni.</an:p>
+								<an:p>
+									<an:i>5.</an:i> La candidatura deve essere accettata con dichiarazione firmata ed autenticata da un sindaco, da un notaio o da uno dei soggetti di cui all'articolo 14 della legge 21 marzo 1990, n. 53, e successive modificazioni. Per i cittadini residenti all'estero l'autenticazione della firma deve essere richiesta ad un ufficio diplomatico o consolare.</an:p>
+								<an:p>
+									<an:i>6.</an:i> L'accettazione della candidatura deve essere accompagnata da apposita dichiarazione dalla quale risulti che il candidato non ha accettato candidature in altri collegi.</an:p>
+								<an:p>
+									<an:i>7.</an:i> Ogni lista, all'atto della presentazione, è composta da un elenco di candidati che concorrono ai seggi da assegnare nella circoscrizione regionale. I candidati nelle liste regionali sono elencati in ordine alternato di genere. Il numero dei candidati concorrenti nella circoscrizione regionale non può essere superiore alla metà dei seggi da distribuire su base regionale, con arrotondamento all'unità superiore. Il numero minimo e massimo delle candidature è ridotto, rispettivamente, ad un quinto e ad un terzo, con arrotondamento all'unità inferiore, per i partiti o gruppi politici rappresentativi di minoranze linguistiche. Pena la nullità della candidatura, nessuno può essere presente nell'elenco dei candidati nella medesima lista in più di una regione né può candidarsi in più di un collegio uninominale.</an:p>
+								<an:p>
+									<an:i>8.</an:i> A pena di inammissibilità, nel totale delle candidature presentate nei collegi uninominali e dei candidati inseriti nell'elenco che compone la lista circoscrizionale regionale cui esse sono collegate nessuno dei due generi può essere rappresentato in misura superiore al 50 per cento, con arrotondamento alla unità superiore.</an:p>
+								<an:p>
+									<an:i>9.</an:i> Le candidature nei collegi uninominali, le liste dei candidati e la relativa documentazione sono presentate per ciascuna regione alla cancelleria della corte d'appello o del tribunale sede dell'ufficio elettorale regionale, con l'osservanza delle norme di cui agli articoli 18-<an:i>bis</an:i>, 19, 20 e 21 del testo unico delle leggi recanti norme per la elezione della Camera dei deputati, di cui al decreto del Presidente della Repubblica 30 marzo 1957, n. 361, e successive modificazioni»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_e">
+							<an:num>
+								<an:i>e)</an:i>
+							</an:num>
+							<an:list eId="art_2__para_1__list_1__point_e__list_1">
+								<an:intro eId="art_2__para_1__list_1__point_e__list_1__intro">
+									<an:p>all'articolo 10:</an:p>
+								</an:intro>
+								<an:point eId="art_2__para_1__list_1__point_e__list_1__point_1">
+									<an:num>1)</an:num>
+									<an:content eId="art_2__para_1__list_1__point_e__list_1__point_1__content">
+										<an:p> al comma 1 sono aggiunte, in fine, le seguenti parole: «secondo quanto stabilito dagli articoli 8 e 9»;</an:p>
+									</an:content>
+								</an:point>
+								<an:point eId="art_2__para_1__list_1__point_e__list_1__point_2">
+									<an:num>2)</an:num>
+									<an:content eId="art_2__para_1__list_1__point_e__list_1__point_2__content">
+										<an:p> al comma 2, le parole: «delle liste di candidati» sono soppresse;</an:p>
+									</an:content>
+								</an:point>
+								<an:point eId="art_2__para_1__list_1__point_e__list_1__point_3">
+									<an:num>3)</an:num>
+									<an:content eId="art_2__para_1__list_1__point_e__list_1__point_3__content">
+										<an:p> al comma 5, dopo le parole: «delle liste di candidati» sono inserite le seguenti: «o di singoli candidati»;</an:p>
+									</an:content>
+								</an:point>
+							</an:list>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_f">
+							<an:num>
+								<an:i>f)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_f__content">
+								<an:p>l'articolo 11 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 11. --<an:i> 1.</an:i> L'ufficio elettorale regionale, appena scaduto il termine stabilito per la presentazione dei ricorsi, o, nel caso in cui sia stato presentato ricorso, appena ricevuta la comunicazione della decisione dell'Ufficio centrale nazionale, compie le seguenti operazioni:</an:p>
+								<an:p>
+									<an:i>a)</an:i> stabilisce, per ciascun collegio, mediante sorteggio da effettuare alla presenza dei delegati dei candidati nei collegi uninominali e delle liste, appositamente convocati, il numero d'ordine da assegnare a ciascun candidato nel rispettivo collegio. I candidati nei collegi uninominali sono riportati sulle schede e sul manifesto del relativo collegio secondo l'ordine risultato dal sorteggio; il contrassegno di ogni candidato è riportato sulle schede di votazione e sui manifesti, accanto al nominativo del candidato stesso;</an:p>
+								<an:p>
+									<an:i>b)</an:i> comunica ai delegati delle liste e dei candidati nei collegi uninominali le definitive determinazioni adottate;</an:p>
+								<an:p>
+									<an:i>c)</an:i> trasmette immediatamente alla prefettura capoluogo della regione i nominativi dei candidati nei collegi uninominali e le liste ammessi, con i relativi contrassegni, i quali devono essere riprodotti sulle schede di votazione con i colori del contrassegno depositato presso il Ministero dell'interno ai sensi dell'articolo 8, per la stampa delle schede medesime e per l'adempimento di cui alla lettera <an:i>d);</an:i>
+								</an:p>
+								<an:p>
+									<an:i>d)</an:i> provvede, per mezzo della prefettura capoluogo della circoscrizione regionale, alla stampa su distinti manifesti, riproducenti i rispettivi contrassegni, dei nominativi dei candidati nei singoli collegi uninominali e delle liste nonché alla trasmissione di essi ai sindaci dei comuni del collegio per la pubblicazione nell'albo pretorio ed in altri luoghi pubblici entro il quindicesimo giorno precedente la data delle elezioni. Tre copie di ciascun manifesto devono essere consegnate ai presidenti dei singoli uffici elettorali di sezione; una a disposizione dell'ufficio e le altre per l'affissione nella sala della votazione;</an:p>
+								<an:p>
+									<an:i>e)</an:i> provvede alla stampa delle schede di votazione, recanti il contrassegno di ogni candidato accanto al nominativo del candidato stesso. Le schede sono di carta consistente e sono fornite a cura del Ministero del'interno con le caratteristiche essenziali del modello descritto nelle tabelle D e E, allegate al presente testo unico, e riproducono in fac-simile i contrassegni di tutte le candidature nei collegi uninominali e di tutte le liste regolarmente presentate nella circoscrizione regionale. Le schede riportano in successione, secondo l'ordine del sorteggio, il cognome ed il nome di ciascun candidato nel collegio uninominale con accanto il rispettivo contrassegno e, accanto a questo, il contrassegno della lista collegata al candidato ed i nomi dei candidati in essa riportati. I contrassegni devono essere riprodotti sulle schede con il diametro di centimetri tre. Qualora per l'assegnazione del seggio nei collegi uninominali debba procedersi ad un secondo turno di votazione, nella scheda, con le medesime caratteristiche del modello di cui alla tabella D, sono riportati soltanto i nomi ed i contrassegni dei candidati i quali, nel primo turno elettorale, abbiano ottenuto il voto di almeno il 10 per cento degli elettori iscritti nelle liste elettorali del collegio e che non abbiano presentato richiesta di rinuncia secondo i termini previsti dall'articolo 16, comma 1, lettera <an:i>a)</an:i>.</an:p>
+								<an:p>
+									<an:i>2.</an:i> Le schede devono pervenire agli uffici elettorali debitamente piegate.</an:p>
+								<an:p>
+									<an:i>3.</an:i> La scheda elettorale per l'elezione uninominale nel collegio della Valle d'Aosta deve recare doppie diciture in lingua italiana ed in lingua francese»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_g">
+							<an:num>
+								<an:i>g)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_g__content">
+								<an:p>all'articolo 12, comma 1, le parole: «delle liste di candidati» sono soppresse;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_h">
+							<an:num>
+								<an:i>h)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_h__content">
+								<an:p>l'articolo 14 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 14. -- <an:i>1. </an:i>Ogni elettore traccia con la matita sulla scheda un solo segno, comunque apposto, nel rettangolo contenente il cognome e nome del candidato prescelto ed il contrassegno relativo. Sono vietati altri segni o indicazioni»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_i">
+							<an:num>
+								<an:i>i)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_i__content">
+								<an:p>l'articolo 16 è sostituito dal seguente:</an:p>
+								<an:p>«Art. 16. -- <an:i>1. </an:i>L'ufficio elettorale regionale, facendosi assistere, ove lo ritenga opportuno, da uno o più esperti scelti dal presidente:</an:p>
+								<an:p>
+									<an:i>a)</an:i> determina il totale dei voti validi ottenuti da ciascun candidato nei collegi uninominali e, in conformità ai risultati accertati, proclama eletto in ciascun collegio uninominale il candidato che ha ottenuto un numero di voti validi almeno pari alla metà più uno, con arrotondamento all'unità superiore, del totale dei voti validi espressi nel collegio. Qualora nessun candidato abbia ottenuto tale risultato, si procede nella seconda domenica successiva ad un secondo turno di votazione al quale sono ammessi i candidati che nel primo turno elettorale abbiano ottenuto voti in numero pari ad almeno il 10 per cento degli elettori iscritti nelle liste elettorali del collegio e che non abbiano presentato espressa rinuncia all'ufficio elettorale regionale entro il primo venerdì successivo allo svolgimento del primo turno elettorale. Nel secondo turno elettorale risulta eletto il candidato che ottiene il maggior numero di voti validi. In caso di parità l'ufficio elettorale regionale proclama eletto tra essi il candidato che al primo turno elettorale ha ottenuto il maggior numero di voti;</an:p>
+								<an:p>
+									<an:i>b)</an:i> determina la cifra elettorale regionale teorica di ogni lista. Tale cifra è data dalla somma dei voti conseguiti nel primo turno elettorale dai candidati dei collegi uninominali collegati alla lista stessa; sono escluse dal riparto al livello circoscrizionale le liste che non abbiamo ottenuto una quota almeno pari al 5 per cento del totale dei voti validamente espressi;</an:p>
+								<an:p>
+									<an:i>c)</an:i> determina il quoziente elettorale regionale; a tal fine aumenta di una unità il numero dei seggi da assegnare nella circoscrizione regionale ai sensi dell'articolo 1, comma 3, e divide per tale numero il totale dei voti validi espressi per tutti i candidati nei collegi uninominali della circoscrizione regionale nel primo turno elettorale; la parte intera di tale risultato costituisce il quoziente elettorale regionale;</an:p>
+								<an:p>
+									<an:i>d)</an:i> al termine delle operazioni del secondo turno elettorale, calcola la cifra elettorale regionale effettiva di ciascuna lista ammessa, sottraendo alla cifra elettorale regionale teorica, determinata ai sensi della lettera <an:i>b)</an:i>, i voti ottenuti nel primo turno elettorale dai candidati nei collegi uninominali ad essa collegati, che siano risultati eletti;</an:p>
+								<an:p>
+									<an:i>e)</an:i> divide la cifra elettorale regionale effettiva di ciascuna lista, di cui alla lettera <an:i>d)</an:i>, per il quoziente elettorale circoscrizionale determinato ai sensi della lettera <an:i>c)</an:i> e attribuisce a ciascuna lista un numero di seggi pari al numero di quozienti interi ottenuti da tale operazione; i seggi che residuano sono attribuiti, uno ciascuno, alle liste i cui voti residuali risultino più alti; a tal fine si considerano voti residuali anche le cifre elettorali delle liste ammesse che non hanno dato luogo alla attribuzione di alcun quoziente intero.</an:p>
+								<an:p>
+									<an:i>2.</an:i> Al termine delle operazioni di cui al comma 1, il presidente dell'ufficio elettorale regionale proclama eletti i candidati nei collegi uninominali secondo le risultanze delle attribuzioni di cui al comma 1, lettera <an:i>a)</an:i>, e successivamente proclama eletti i candidati compresi nell'elenco di candidati di ciascuna lista regionale alla quale l'ufficio ha attribuito seggi ai sensi del comma 1, lettera <an:i>e)</an:i>, procedendo secondo l'ordine in cui i candidati sono collocati nella lista e fino a concorrenza del numero dei seggi ai quali ciascuna lista ha diritto. Parimenti, il presidente dell'ufficio elettorale regionale procede alla proclamazione dei candidati eletti nei collegi uninominali secondo l'attribuzione dei seggi effettuata a seguito del secondo turno di votazione»;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_l">
+							<an:num>
+								<an:i>l)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_l__content">
+								<an:p>l'articolo 17 è abrogato;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_2__para_1__list_1__point_m">
+							<an:num>
+								<an:i>m)</an:i>
+							</an:num>
+							<an:content eId="art_2__para_1__list_1__point_m__content">
+								<an:p>all'articolo 19, comma 1, le parole da: «al candidato che» fino alla fine del comma sono sostituite dalle seguenti: «secondo le modalità di cui all'articolo 16. Qualora cessi dalla carica il deputato proclamato nei collegi uninominali si dà luogo ad elezione suppletiva».</an:p>
+							</an:content>
+						</an:point>
+					</an:list>
+				</an:paragraph>
+			</an:article>
+			<an:article eId="art_3">
+				<an:num>Art. 3.</an:num>
+				<an:heading eId="art_3__heading">
+					<an:i>(Delega al Governo per la determinazione dei collegi uninominali)</an:i>
+				</an:heading>
+				<an:paragraph eId="art_3__para_1">
+					<an:num>1. </an:num>
+					<an:list eId="art_3__para_1__list_1">
+						<an:intro eId="art_3__para_1__list_1__intro">
+							<an:p>Il Governo è delegato ad adottare, entro quattro mesi dalla data di entrata in vigore della presente legge, ai sensi dell'articolo 14 della legge 23 agosto 1988, n. 400, un decreto legislativo per la determinazione dei collegi uninominali per l'elezione della Camera dei deputati e del Senato della Repubblica, nell'ambito di ciascuna circoscrizione, sulla base dei seguenti princìpi e criteri direttivi:</an:p>
+						</an:intro>
+						<an:point eId="art_3__para_1__list_1__point_a">
+							<an:num>
+								<an:i>a)</an:i>
+							</an:num>
+							<an:content eId="art_3__para_1__list_1__point_a__content">
+								<an:p>i collegi sono costituiti garantendo la coerenza del relativo bacino territoriale e, di norma, la sua omogeneità economico-sociale e le sue caratteristiche storico-culturali; essi hanno un territorio continuo, salvo il caso in cui il territorio comprenda porzioni insulari. I collegi, di norma, non possono includere il territorio di comuni appartenenti a province diverse, né dividere il territorio comunale, salvo il caso dei comuni che, per le loro dimensioni demografiche, comprendano al loro interno più collegi. In quest'ultimo caso, ove possibile, il comune deve essere suddiviso in collegi formati nell'ambito del comune medesimo o della medesima città metropolitana istituita ai sensi dell'articolo 23 del testo unico delle leggi sull'ordinamento degli enti locali, di cui al decreto legislativo 18 agosto 2000, n. 267. La circoscrizione dei collegi tenderà a conformarsi, per quanto possibile, ad unità multiple delle circoscrizioni dei collegi uninominali disposti per l'elezione dei consigli provinciali. Nelle zone in cui siano presenti minoranze linguistiche riconosciute, la delimitazione dei collegi, anche in deroga ai princìpi ed ai criteri direttivi indicati nella presente lettera, deve tener conto dell'esigenza di agevolare la loro inclusione nel minor numero possibile di collegi;</an:p>
+							</an:content>
+						</an:point>
+						<an:point eId="art_3__para_1__list_1__point_b">
+							<an:num>
+								<an:i>b)</an:i>
+							</an:num>
+							<an:content eId="art_3__para_1__list_1__point_b__content">
+								<an:p>la popolazione di ciascun collegio può scostarsi dalla media della popolazione dei collegi della circoscrizione in misura non superiore al 10 per cento, in eccesso o in difetto. Tale media si ottiene dividendo la cifra della popolazione della circoscrizione, quale risulta dall'ultimo censimento generale, per il numero dei collegi uninominali compresi nella circoscrizione. Allo scopo di dare attuazione a quanto previsto nella lettera <an:i>a), </an:i>per le zone in cui siano presenti minoranze linguistiche riconosciute, gli scarti dalla media circoscrizionale della popolazione sono giustificati in misura non superiore al 15 per cento, in eccesso o in difetto. Successivamente alla prima determinazione dei collegi uninominali, si procede alla revisione delle loro circoscrizioni per variazioni del parametro della popolazione soltanto quando lo scarto dalla media circoscrizionale supera in eccesso o in difetto il 25 per cento. Il numero dei collegi uninominali compresi in ogni circoscrizione è determinato arrotondando all'unità inferiore il quoziente ottenuto dividendo per 2 il numero dei seggi assegnati alla circoscrizione.</an:p>
+							</an:content>
+						</an:point>
+					</an:list>
+				</an:paragraph>
+				<an:paragraph eId="art_3__para_2">
+					<an:num>2. </an:num>
+					<an:content eId="art_3__para_2__content">
+						<an:p>Il Governo predispone lo schema del decreto legislativo di cui al comma 1 sulla base delle indicazioni formulate, entro due mesi dalla data di entrata in vigore della presente legge, dalla Commissione di cui all'articolo 7, comma 6, della legge 4 agosto 1993, n. 277. Lo schema è predisposto entro due mesi dalla data dell'insediamento quando i Presidenti delle Camere procedono al rinnovo della Commissione.</an:p>
+					</an:content>
+				</an:paragraph>
+				<an:paragraph eId="art_3__para_3">
+					<an:num>3. </an:num>
+					<an:content eId="art_3__para_3__content">
+						<an:p>Lo schema del decreto legislativo di cui al comma 1, corredato dei pareri espressi, entro quindici giorni dall'invio, dai consigli regionali e da quelli delle province autonome di Trento e di Bolzano sulle indicazioni della Commissione di cui al comma 2, prima della sua approvazione da parte del Consiglio dei ministri, è trasmesso alle Camere, ai fini dell'espressione del parere da parte delle Commissioni parlamentari competenti per materia. Qalora lo schema si discosti dalle proposte della Commissione, il Governo deve indicarne i motivi alle Camere. Il parere parlamentare è espresso entro venti giorni dalla ricezione dello schema. Qualora il decreto non fosse conforme al parere parlamentare, il Governo, contemporaneamente alla pubblicazione del decreto, invia alle Camere una relazione contenente adeguata motivazione.</an:p>
+					</an:content>
+				</an:paragraph>
+				<an:paragraph eId="art_3__para_4">
+					<an:num>4. </an:num>
+					<an:content eId="art_3__para_4__content">
+						<an:p>Si prescinde dai pareri di cui al comma 3 qualora gli stessi non siano espressi entro i termini ivi assegnati.</an:p>
+					</an:content>
+				</an:paragraph>
+			</an:article>
+			<an:article eId="art_4">
+				<an:num>Art. 4.</an:num>
+				<an:heading eId="art_4__heading">
+					<an:i>(Regolamento di attuazione)</an:i>
+				</an:heading>
+				<an:paragraph eId="art_4__para_1">
+					<an:num>1. </an:num>
+					<an:content eId="art_4__para_1__content">
+						<an:p>Entro quattro mesi dalla data di entrata in vigore della presente legge, il Governo, con regolamento ai sensi dell'articolo 17, comma 1, lettera <an:i>b)</an:i>, della legge 23 agosto 1988, n. 400, provvede a modificare il regolamento di cui al decreto del Presidente della Repubblica 5 gennaio 1994, n. 14, al fine di adeguarlo a quanto disposto dalla presente legge.</an:p>
+					</an:content>
+				</an:paragraph>
+			</an:article>
+			<an:article eId="art_5">
+				<an:num>Art. 5.</an:num>
+				<an:heading eId="art_5__heading">
+					<an:i>(Disciplina transitoria)</an:i>
+				</an:heading>
+				<an:paragraph eId="art_5__para_1">
+					<an:num>1. </an:num>
+					<an:content eId="art_5__para_1__content">
+						<an:p>Fino alla data di entrata in vigore del decreto legislativo di cui all'articolo 3, comma 1, della presente legge continua ad applicarsi la disciplina per le elezioni della Camera dei deputati prevista dal testo unico delle leggi recanti norme per la elezione della Camera dei deputati, di cui al decreto del Presidente della Repubblica 30 marzo 1957, n. 361, e la disciplina per le elezioni del Senato della Repubblica prevista dal testo unico delle leggi recanti norme per l'elezione del Senato della Repubblica, di cui al decreto legislativo 20 dicembre 1993, n. 533, nel testo vigente prima della data di entrata in vigore della presente legge.</an:p>
+					</an:content>
+				</an:paragraph>
+			</an:article>
+			<an:article eId="art_6">
+				<an:num>Art. 6.</an:num>
+				<an:heading eId="art_6__heading">
+					<an:i>(Entrata in vigore)</an:i>
+				</an:heading>
+				<an:paragraph eId="art_6__para_1">
+					<an:num>1. </an:num>
+					<an:content eId="art_6__para_1__content">
+						<an:p>La presente legge entra in vigore il giorno successivo a quello della sua pubblicazione nella <an:i>Gazzetta Ufficiale.</an:i>
+						</an:p>
+					</an:content>
+				</an:paragraph>
+			</an:article>
+		</an:body>
+		<an:attachments>
+			<an:attachment>
+				<an:doc name="RelPres">
+					<an:meta>
+						<an:identification xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0/CSD02" source="#redattore">
+							<an:FRBRWork>
+								<an:FRBRthis value="/akn/it/bill/Ddl/2013-03-29/356/!main/allegato"/>
+								<an:FRBRuri value="/akn/it/bill/Ddl/2013-03-29/356"/>
+								<an:FRBRdate date="2013-03-29" name="presentazione"/>
+								<an:FRBRauthor href=""/>
+								<an:FRBRcountry value="ita"/>
+								<an:FRBRsubtype value="allegato/RelPres"/>
+								<an:FRBRnumber value="356"/>
+							</an:FRBRWork>
+							<an:FRBRExpression>
+								<an:FRBRthis value="/akn/it//bill/Ddl/2013-03-29/356/ita@2013-03-29/!main/allegato"/>
+								<an:FRBRuri value="/akn/it//bill/Ddl/2013-03-29/356/ita@2013-03-29"/>
+								<an:FRBRdate date="2013-03-29" name="presentazione"/>
+								<an:FRBRauthor href=""/>
+								<an:FRBRlanguage language="it"/>
+							</an:FRBRExpression>
+							<an:FRBRManifestation>
+								<an:FRBRthis value="/akn/it//bill/Ddl/2013-03-29/356/ita@2013-03-29.akn"/>
+								<an:FRBRuri value="/akn/it//bill/Ddl/2013-03-29/356/ita@2013-03-29/!main/allegato.xml"/>
+								<an:FRBRdate date="2013-03-29" name="presentazione"/>
+								<an:FRBRauthor href="#redattore"/>
+							</an:FRBRManifestation>
+						</an:identification>
+					</an:meta>
+					<an:mainBody>
+						<an:p>
+							<an:span style="font-variant:small-caps;">Onorevoli Senatori. -- </an:span>Il presente disegno di legge riproduce, nella relazione e nell'articolato, la proposta di riforma del sistema di elezione della Camera dei deputati e del Senato della Repubblica già presentata nella scorsa legislatura -- in entrambi i rami del Parlamento -- dai Gruppi del Partito Democratico (XVI Legislatura -- A.C. n. 4545, Bersani e altri; A.S. n. 2846, Finocchiaro e altri).</an:p>
+						<an:p style="text-align:center;">* * *</an:p>
+						<an:p>Nel corso degli ultimi anni, la forma di governo delineata dalla Costituzione ha subìto (di fatto) una trasformazione profonda e il Parlamento ha progressivamente perso sia il potere di indirizzo politico e l'influenza sull'azione del Governo, sia la fiducia di molti cittadini.</an:p>
+						<an:p>L'abuso della decretazione d'urgenza e del ricorso all'istituto della questione di fiducia, ad esempio, sono ormai ben più che un campanello d'allarme o il segnale di un momento di difficoltà nel rapporto tra Parlamento e Governo.</an:p>
+						<an:p>I fenomeni di disaffezione dell'opinione pubblica e di progressiva sfiducia e ripulsa verso ogni forma di organizzazione e di mediazione politica sono davanti agli occhi di tutti, così come i rischi di una sempre più marcata involuzione populista: il crescente astensionismo nelle ultime elezioni ne è una conferma, così come la tendenza alla semplificazione del confronto politico in un confronto tra singoli<an:i> leader</an:i>.</an:p>
+						<an:p>All'origine di questa trasformazione (e di questa concentrazione del potere nell'organo esecutivo) vi è una trasformazione profonda della realtà politica, economica e sociale, nel cui ambito si è consumata una crisi dei partiti e della rappresentanza che le ultime modifiche dei sistemi elettorali (legge 21 dicembre 2005, n. 270), anziché contrastare, hanno ulteriormente e significativamente acuito.</an:p>
+						<an:p>Il sistema elettorale risultato dalla legge n. 270 del 2005 è stato, fin dall'inizio, oggetto di numerosi rilievi critici, tanto in sede scientifica quanto in sede di confronto politico-parlamentare.</an:p>
+						<an:p>In particolare, le perplessità e le critiche sollevate durante il dibattito parlamentare dall'allora minoranza di centrosinistra hanno trovato in larga misura conferma dopo l'applicazione della nuova disciplina, in particolare alle elezioni politiche del 2006.</an:p>
+						<an:p>Alla sua prima prova, il nuovo sistema elettorale si è prima di tutto dimostrato inidoneo a garantire la governabilità, a causa dell'inefficienza (e della sostanziale irrazionalità) del meccanismo dei premi di maggioranza regionali per l'elezione del Senato della Repubblica.</an:p>
+						<an:p>Il sistema non è infatti strutturalmente capace di assicurare alla coalizione più votata la maggioranza assoluta dei seggi al Senato della Repubblica, per effetto della possibile neutralizzazione reciproca dei premi di maggioranza regionali. Questo meccanismo, laddove non annulli o addirittura ribalti -- in termini di seggi -- i risultati elettorali conseguiti dalle coalizioni in termini di voti, produce comunque una irrazionale distorsione della rappresentanza, con esiti del tutto casuali sotto il profilo della composizione delle maggioranze.</an:p>
+						<an:p>In tal senso, per come configurato, il sistema elettorale vigente sembra contraddire la stessa <an:i>ratio</an:i> dell'introduzione di un premio di maggioranza, non riuscendo a contemperare efficacemente l'esigenza di garantire un saldo rapporto fiduciario tra Governo e Parlamento, valido anche per il Senato della Repubblica, con la garanzia di un sufficiente grado di rappresentatività del sistema.</an:p>
+						<an:p>Peraltro, oltre a non assicurare la governabilità, il sistema elettorale vigente potrebbe risultare eccessivamente lesivo del principio di rappresentatività, il quale, pur bilanciabile con altri princìpi costituzionali come la necessità di garantire la stabilità, di certo non può essere compresso in maniera troppo netta. Infatti, non essendo prevista una soglia di consenso minima per l'assegnazione del premio di maggioranza, potrebbe determinarsi un forte squilibrio nel rapporto tra voti conseguiti e seggi ottenuti fino a consentire a liste del tutto minoritarie di avvantaggiarsi -- almeno alla Camera dei deputati-- in maniera del tutto sproporzionata grazie al premio di maggioranza.</an:p>
+						<an:p>Inoltre, l'effetto congiunto del meccanismo delle liste bloccate, della sostituzione dei collegi uninominali con circoscrizioni elettorali di grandi dimensioni e della possibilità di candidature plurime, ha fatto crescere il peso degli apparati centrali di partito nella composizione delle liste e ha fortemente indebolito il rapporto dei parlamentari con i territori di cui sono espressione.</an:p>
+						<an:p>In particolare, l'ampiezza delle circoscrizioni e la conseguente estensione delle liste bloccate hanno compresso significativamente la riconoscibilità dei candidati da parte dell'elettore, facendo aumentare la distanza tra la base elettorale e la sua rappresentanza parlamentare.</an:p>
+						<an:p>Tutto ciò -- è importante osservare -- non produce peraltro alcuno sviluppo economico. La concentrazione del potere e la progressiva destrutturazione dei corpi intermedi non aumentano l'efficienza prestazionale delle istituzioni politiche, né accrescono la competitività del «sistema Paese».</an:p>
+						<an:p>Questa situazione concorre solo ad aumentare le disuguaglianze, le divisioni e i conflitti sociali. Il problema dell'unità e della coesione sociale è oggi nuovamente un problema serissimo del nostro Paese.</an:p>
+						<an:p>Per contrastare la progressiva lacerazione del tessuto sociale e la crescente perdita di capacità regolativa delle istituzioni occorre dunque procedere a una solida rilegittimazione delle istituzioni democratico-rappresentative e del sistema politico.</an:p>
+						<an:p>In questo contesto, una riforma del sistema elettorale deve in primo luogo perseguire alcuni obiettivi di fondo, da collocare nell'attuale fase storica e nel presente contesto politico. In secondo luogo, essa deve scegliere i mezzi più adeguati a perseguire tali obiettivi.</an:p>
+						<an:p>Gli obiettivi di fondo della riforma elettorale devono al tempo stesso saldarsi con la stagione riformatrice della prima metà degli anni Novanta e tentare di apprendere le lezioni che alcuni fallimenti subiti durante quel percorso hanno impartito.</an:p>
+						<an:p>Un buon sistema elettorale non può eludere gli obiettivi di una legittimazione popolare delle maggioranze di governo, che deve consentire in linea di massima all'elettore di scegliere, in quest'ordine, un programma, una coalizione e un candidato <an:i>premier.</an:i> La personalizzazione della politica costituisce un dato irreversibile dell'attuale stagione delle democrazie pluraliste: essa si impone in via di fatto quali che siano le forme di governo e i contenuti ideologici. La personalizzazione deve tuttavia essere razionalizzata e inquadrata, trasformandola da guscio vuoto in veicolo sintetico e simbolico di una proposta politica: su di essa deve essere possibile l'espressione di una indicazione popolare. Quest'ultima, al tempo stesso, sarebbe illusoria se non fosse accompagnata da dispositivi, anzitutto politici, finalizzati a proteggere la stabilità della triade programma-coalizione-<an:i>premier</an:i> oggetto di indicazione popolare: non certo con irrigidimenti eccessivi ed irrealistici, che verrebbero superati rapidamente dal cambiamento delle condizioni di contesto, ma rilegittimando soggettività collettive capaci di porsi come punto di coagulo del consenso popolare.</an:p>
+						<an:p>La legittimazione popolare e la stabilità devono essere perseguite non tanto con dispositivi volti a realizzare la preposizione diretta da parte dell'elettorato alle cariche politiche di vertice, quanto attraverso gli strumenti del governo parlamentare di partito. Personalizzazione della politica e soggettività collettiva devono essere perseguite spezzando la spirale perversa dei «partiti personali» per veicolare in partiti stabilmente organizzati e strutturati e, al tempo stesso, aperti alla partecipazione. La scelta deve dunque orientarsi verso un sistema che persegua legittimazione democratica e stabilità di governo promuovendo e non svuotando i partiti politici organizzati.</an:p>
+						<an:p>Un terzo obiettivo deve muovere da un dato reale del sistema partitico italiano attuale, per accompagnarne l'evoluzione virtuosa, senza né ignorarlo, né tendere illusoriamente a sopprimerlo: il pluralismo delle coalizioni e nelle coalizioni. Una razionalizzazione dell'offerta politica deve favorire il superamento delle formazioni politiche «artificiali», ma non semplicemente espellere dalla rappresentanza pezzi significativi della cultura politica italiana.</an:p>
+						<an:p>È in questo già complesso quadro di obiettivi che va inserita l'esigenza di superare, o quantomeno di attenuare, il <an:i>deficit</an:i> democratico che caratterizza l'attuale sistema elettorale. Il rilancio del ruolo dei partiti in un'ottica di legittimazione delle coalizioni e di stabilità dell'azione di governo (e di quella di opposizione) non deve condurre ad accettare un sistema elettorale come quello attuale, che riduce il voto ad un plebiscito sul Presidente del Consiglio dei ministri. Le esperienze democratiche più avanzate in Europa (ad esempio Gran Bretagna e Germania) dimostrano che esistono strumenti e tecniche per coniugare la democrazia dei partiti con la legittimazione e con la stabilità dei Governi e con il controllo democratico degli elettori sui candidati di partito. Ciò significa ridare senso al voto come atto di scelta dei deputati non contro, ma dentro i partiti.</an:p>
+						<an:p>È in questa prospettiva che va presa in esame l'ipotesi di democratizzare il sistema elettorale mediante la reintroduzione del voto di preferenza. Questa opzione ha senza dubbio il merito di restituire all'elettore un controllo sulle candidature deliberate dalle segreterie di partito, ma essa presenta non pochi inconvenienti. In un contesto di organizzazioni di partito relativamente fragili e da ricostruire e di accentuata personalizzazione politica, le preferenze rischiano di produrre un doppio effetto negativo: quello di scatenare la competizione intrapartitica -- già ben visibile nelle elezioni regionali -- riducendo la già scarsa coesione delle formazioni politiche e quello di far lievitare enormemente le spese delle campagne elettorali e quindi i costi (nascosti, dunque intrinsecamente illeciti) della politica. Per questo motivo pare preferibile riprendere il modello alternativo di valorizzazione del ruolo dell'elettore: il collegio uninominale. A questo sistema la democrazia italiana si andava gradualmente acclimatando quando -- nel 2005 -- le relative dinamiche sono state interrotte dalla legge elettorale vigente. Il collegio uninominale è invece il luogo nel quale il partito assume il volto concreto di un candidato, che diventa la «faccia» della coalizione e del programma in uno specifico contesto. Un volto «visibile» che l'elettore è chiamato a giudicare insieme alla proposta politica di scala nazionale e al suo contenuto.</an:p>
+						<an:p>Un sistema elettorale basato solo su collegi uninominali maggioritari -- sia a turno unico che a doppio turno -- se presenta il vantaggio della semplicità e della semplificazione della rappresentanza e del rapporto, che esso crea, tra gli elettori e il deputato del loro territorio, presenta peraltro non pochi svantaggi. Il principale di questi è il rilevante effetto distorsivo che esso produce riguardo alla configurazione della rappresentanza. Nell'attuale fase storica esso presenta inoltre il rischio -- ben noto in Canada ed in India -- dell'eccessiva localizzazione della rappresentanza, al punto che esso potrebbe produrre un Parlamento di partiti politici territoriali (magari con una corposa Lega Sud accanto alla già esistente Lega Nord) e un Parlamento in cui i partiti non maggioritari in una data parte del Paese (si pensi al Partito Democratico in Sicilia o al Popolo della Libertà in Emilia-Romagna) potrebbero essere privati della rappresentanza di essa.</an:p>
+						<an:p>Occorre allora combinare le candidature di collegio con quelle di partito, in modo da rafforzare il rapporto tra eletti ed elettori ma senza correre il rischio di localizzare troppo la rappresentanza stessa.</an:p>
+						<an:p>Il sistema elettorale che si intende introdurre con il presente disegno di legge combina, per raggiungere gli obiettivi esposti, una percentuale di seggi attribuiti mediante tre diversi «canali», per quanto riguarda il sistema elettorale della Camera dei deputati:</an:p>
+						<an:p>
+							<an:i>a)</an:i> collegi uninominali;</an:p>
+						<an:p>
+							<an:i>b)</an:i> una quota proporzionale distribuita su base circoscrizionale;</an:p>
+						<an:p>
+							<an:i>c)</an:i> una quota nazionale di compensazione.</an:p>
+						<an:p>L'elettore dispone di una sola scheda, su cui vota solo per un candidato (di partito) in collegi uninominali e, dunque, automaticamente anche per la lista circoscrizionale presentata dal medesimo partito.</an:p>
+						<an:p>Il 70 per cento dei 618 seggi da distribuire in Italia (pari, pertanto, a 433) è eletto in collegi uninominali maggioritari. Nei collegi uninominali sono presentate candidature individuali. È eletto al primo turno il candidato che ottiene la metà più uno dei voti validamente espressi, altrimenti si dà luogo a un secondo turno aperto a tutti i candidati che abbiano ottenuto almeno il 10 per cento dei voti degli aventi diritto al primo turno. Nel secondo turno è eletto il candidato che ottiene il maggior numero di voti.</an:p>
+						<an:p>Il 28 per cento dei seggi -- pari a 173 seggi -- è invece attribuito con metodo proporzionale su base circoscrizionale, secondo le attuali 26 circoscrizioni regionali o pluriprovinciali. In ogni circoscrizione, ciascun partito ha un numero di voti pari al totale dei voti ottenuti dal candidato di quel partito nel collegio uninominale, sulla base del primo turno elettorale. Da tale somma sono detratti, per ciascun partito, i voti ottenuti al primo turno dai candidati eletti nei collegi uninominali, sia che l'elezione abbia avuto luogo al primo turno, sia che abbia avuto luogo al secondo turno. Il riparto dei seggi avviene in ragione proporzionale, esclusivamente su base circoscrizionale, con metodo del quoziente corretto a +1 (variante Droop o Hagenbach-Bishoff)</an:p>
+						<an:p>I restanti seggi (circa il 2 per cento, pari cioè a 12) più gli eventuali seggi non attribuiti a livello circoscrizionale sono attribuiti mediante una quota nazionale di compensazione, composta da una lista di nominativi in ordine alternato e con parità di genere. I voti delle liste nazionali sono calcolati sommando i voti ottenuti dai candidati nei collegi uninominali al primo turno, alla condizione che non siano stati eletti e che i voti non siano stati impiegati per l'elezione di candidati nei collegi circoscrizionali.</an:p>
+						<an:p>Per quanto riguarda il sistema elettorale per l'elezione dei membri del Senato della Repubblica si è ritenuto più rispondente alla lettera e allo spirito dell'articolo 57 della Costituzione, il quale stabilisce che i suoi membri vengano eletti «su base regionale», prevedere solamente due canali: quello uninominale, per l'elezione del 70 per cento del totale dei suoi membri (pari cioè a 216) e quello di lista regionale, per il restante 30 per cento (93 candidati).</an:p>
+						<an:p>Al fine di permettere una tutela della pari opportunità tra i generi, considerato il notevole squilibrio che si registra nelle nostre Assembleee rappresentative e la necessità di dar attuazione anche a livello nazionale all'articolo 51 della Costituzione, modificato nel 2003, ma al contempo rispettare i recenti orientamenti della giurisprudenza costituzionale, si propone l'introduzione di due misure specifiche.</an:p>
+						<an:p>Da un lato è previsto che, a pena di inammissibilità, nel totale dato dalla somma dei candidati nei collegi uninominali e dei candidati contenuti nell'elenco che compone la lista circoscrizionale cui sono collegati nessuno dei due generi possa essere rappresentato in misura superiore al 50 per cento.</an:p>
+						<an:p>Accanto a ciò, per evitare che i candidati del genere meno rappresentato siano collocati in posizione svantaggiosa nelle liste circoscrizionali o regionali, è previsto il meccanismo dello <an:i>zipper system</an:i>, secondo il quale gli elenchi devono presentare una presenza alternata di candidati di entrambi i generi.</an:p>
+						<an:p>Per questi motivi si auspica un sollecito esame del presente disegno di legge.</an:p>
+					</an:mainBody>
+				</an:doc>
+			</an:attachment>
+		</an:attachments>
+	</an:bill>
+</an:akomaNtoso>

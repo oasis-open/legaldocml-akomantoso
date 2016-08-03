@@ -40,11 +40,11 @@
 
 <ul>
 
-<li><a href="mailto:fabio.vitali@unibo.it">Fabio Vitali</a> (<code>fabio.vitali@unibo.it</code>); GitHub ID: <a href="https://github.com/fabio-vitali">fabio-vitali</a>; <a href="http://wwwcirsfid.unibo.it/">University of Bologna-CIRSFID</a></li>
+<li><a href="mailto:fabio@cs.unibo.it">Fabio Vitali</a> (<code>fabio@cs.unibo.it</code>); GitHub ID: <a href="https://github.com/fabio-vitali">fabio-vitali</a>; <a href="http://wwwcirsfid.unibo.it/">University of Bologna-CIRSFID</a></li>
 <!--
 Fabio Vitali
 https://github.com/fabio-vitali
-fabio@cs.unibo.it -- >> fabio.vitali@unibo.it
+fabio@cs.unibo.it changeTo fabio.vitali@unibo.it
 University of Bologna-CIRSFID
 http://wwwcirsfid.unibo.it/
 -->

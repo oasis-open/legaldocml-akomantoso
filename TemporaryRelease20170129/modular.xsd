@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="modular" type="tModular"/>
+	
+		<xs:complexType mixed="true" name="tModular">
+			<xs:choice maxOccurs="unbounded" minOccurs="0">
+				<xs:element name="combos" type="tCombos"/>
+				<xs:element name="report" type="tReport"/>
+				<xs:element name="include" type="tModular"/>
+			</xs:choice>
+			<xs:attribute name="if" type="xs:string"/>
+			<xs:attribute name="v" type="xs:string"/>
+			<xs:attribute name="label" type="xs:string"/>
+			<xs:attribute name="dependsOn" type="xs:string"/>
+			<xs:attribute name="desc" type="xs:string"/>
+		</xs:complexType>
+
+		<xs:complexType name="tReport">
+			<xs:attribute name="version" type="xs:string"/>
+		</xs:complexType>
+		<xs:complexType name="tCombos">
+			<xs:sequence maxOccurs="unbounded">
+				<xs:element name="combo" type="tCombo"/>
+			</xs:sequence>
+		</xs:complexType>
+		<xs:complexType name="tCombo">
+			<xs:attribute name="id" type="xs:ID"/>
+			<xs:attribute name="name" type="xs:string"/>
+			<xs:attribute name="content" type="xs:string"/>
+			<xs:attribute name="desc" type="xs:string"/>
+		</xs:complexType>
+</xs:schema>

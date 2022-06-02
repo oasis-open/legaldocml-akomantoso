@@ -59,9 +59,9 @@
 			</lifecycle>
 			<references source="#parisse">
 				<original eId="references_1__original_1" href="" showAs="Original"/>
-				<TLCOrganization eId="ec" href="eu.europa.europarl.codict:institution/id=10" showAs="EUROPEAN COMMISSION"/>
-				<TLCOrganization eId="cnl" href="eu.europa.europarl.codict:institution/id=11" showAs="COUNCIL"/>
-				<TLCOrganization eId="ep" href="eu.europa.europarl.codict:institution/id=27" showAs="EUROPEAN PARLIAMENT"/>
+				<TLCOrganization eId="ec" href="/ontology/organisation/europeanInstitution/EuropeanCommission" showAs="EUROPEAN COMMISSION"/>
+				<TLCOrganization eId="cnl" href="/ontology/organisation/europeanInstitution/Council" showAs="COUNCIL"/>
+				<TLCOrganization eId="ep" href="/ontology/organisation/europeanInstitution/EuropeanParliament" showAs="EUROPEAN PARLIAMENT"/>
 				<TLCProcess eId="eurLex" href="www.eurlex.com" showAs="EurLex"/>
 				<TLCPerson eId="parisse" href="/ontology/person/vparisse" showAs="Véronique Parisse"/>
 				<TLCRole eId="poc" href="/ontology/roles/proofOfConcept" showAs="Proof of concept"/>
